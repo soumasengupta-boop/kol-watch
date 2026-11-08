@@ -26,11 +26,33 @@ Repo → **Settings → Secrets and variables → Actions → New repository sec
 |---|---|
 | `ANTHROPIC_API_KEY` | console.anthropic.com → API keys |
 | `BRIGHTDATA_API_KEY` | Bright Data → Account settings → API key |
+| `SMTP_USER` | The Gmail address that sends the report |
+| `SMTP_PASSWORD` | A Gmail **App Password** for that account (see "Weekly email" below), not your normal password |
+| `REPORT_EMAIL_TO` | Where the report goes (can be the same address) |
 | `CLOUDFLARE_API_TOKEN` | Cloudflare → My Profile → API Tokens → *Create token* → template **"Edit Cloudflare Workers"** or a custom token with **Account › Cloudflare Pages › Edit** |
 | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare dashboard → right sidebar of any page (Account ID) |
 
-The Cloudflare secrets are optional. Without them the dashboard is still built and saved as a
+The email and Cloudflare secrets are optional. Without them the dashboard is still built, saved as a
 downloadable artifact on each workflow run, and archived in `data/reports/`.
+
+### Where the keys live
+- **In GitHub:** as encrypted repository secrets (above). They are write-only: once saved, nobody (including you)
+  can read them back in the GitHub UI, and they are masked in workflow logs. They are never in the code or the repo files.
+- **On your laptop (optional, for local runs):** in a `.env` file in the repo folder, copied from `.env.example`.
+  `.env` is in `.gitignore`, so it is never committed.
+- **The originals:** in each provider's console (Anthropic Console, Bright Data account settings, Google account).
+  To rotate a key: create a new one there, paste it into the GitHub secret, then revoke the old one.
+
+### Weekly email
+Each run emails a phone-friendly summary (digest, topic shares, trials, papers, top posts) with the full
+dashboard attached as an HTML file.
+
+To use Gmail: turn on 2-Step Verification for the sending account, then go to
+**myaccount.google.com/apppasswords**, create an app password named "kol-watch", and save the 16-character
+code as the `SMTP_PASSWORD` secret. Any other SMTP provider works too: set repo variables `SMTP_HOST` and `SMTP_PORT`.
+If you later host the dashboard, set a repo variable `KOLWATCH_DASHBOARD_URL` and the email will link to it.
+
+Preview the email locally without sending: `python -m kolwatch email --preview email.html`.
 
 ### 3. Create the Cloudflare Pages project (optional, for phone access)
 1. Cloudflare dashboard → **Workers & Pages → Create → Pages → Upload assets**, name it `kol-watch`
@@ -70,7 +92,8 @@ cp .env.example .env              # fill in ANTHROPIC_API_KEY and BRIGHTDATA_API
 python -m kolwatch run            # collect + tag + report -> site/index.html
 python -m kolwatch run --skip-linkedin --days 14
 python -m kolwatch report         # re-render from stored data only
-python -m kolwatch demo           # preview with fake data, no keys needed -> demo-site/index.html
+python -m kolwatch email          # email the latest report
+python -m kolwatch demo           # preview with fake data, no keys needed -> demo-site/index.html + email.html
 ```
 If you run locally and want the data kept, commit and push `data/` and `config/kols.csv`.
 

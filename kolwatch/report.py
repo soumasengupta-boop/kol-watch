@@ -272,6 +272,9 @@ def publish(stats: dict, digest: dict) -> Path:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     slug = stats["end"][:10]
     summary = {k: v for k, v in stats.items() if not k.startswith("_")}
+    ref_ids = {pid for k in digest.get("key_points", []) for pid in k.get("post_ids", [])}
+    summary["post_links"] = {p["id"]: {"kol": p["kol"], "url": p["url"]}
+                             for p in stats["_digest_posts"] if p["id"] in ref_ids}
     (REPORTS_DIR / f"{slug}.json").write_text(json.dumps({"stats": summary, "digest": digest}, indent=1))
 
     archive = []

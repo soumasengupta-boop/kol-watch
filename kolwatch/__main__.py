@@ -6,6 +6,8 @@
     python -m kolwatch collect             # just fetch posts
     python -m kolwatch report              # re-tag/re-render from stored data
     python -m kolwatch resolve [--apply]   # find missing Bluesky handles / LinkedIn URLs
+    python -m kolwatch email               # email the latest report (needs SMTP_* settings)
+    python -m kolwatch email --preview x.html  # write the email body to a file instead of sending
     python -m kolwatch demo                # offline demo with synthetic posts (no keys needed)
 """
 from __future__ import annotations
@@ -15,7 +17,7 @@ import logging
 import sys
 from datetime import timedelta
 
-from . import analyze, bluesky, digest, linkedin, report, resolve, tagger
+from . import analyze, bluesky, digest, emailer, linkedin, report, resolve, tagger
 from .config import POSTS_FILE, load_kols, read_jsonl, upsert_jsonl, utcnow
 
 log = logging.getLogger("kolwatch")
@@ -63,6 +65,13 @@ def cmd_resolve(args) -> int:
     return 0
 
 
+def cmd_email(args) -> int:
+    from pathlib import Path
+
+    ok = emailer.send(Path(args.preview) if args.preview else None)
+    return 0 if ok or not args.strict else 1
+
+
 def cmd_demo(args) -> int:
     """Build a demo dashboard in a throwaway folder (never touches your real data/)."""
     import os
@@ -90,6 +99,8 @@ def cmd_demo(args) -> int:
     if out.exists():
         shutil.rmtree(out)
     shutil.copytree(tmp / "site", out)
+    env["KOLWATCH_DEMO_CHILD"] = "1"
+    subprocess.call([sys.executable, "-m", "kolwatch", "email", "--preview", str(out / "email.html")], env=env, cwd=ROOT)
     log.info("Demo dashboard: %s", out / "index.html")
     return rc
 
@@ -109,6 +120,10 @@ def main(argv: list[str] | None = None) -> int:
         p = sub.add_parser(name)
         common(p)
         p.set_defaults(fn=fn)
+    p = sub.add_parser("email")
+    p.add_argument("--preview", help="write the email HTML to this file instead of sending")
+    p.add_argument("--strict", action="store_true", help="exit non-zero if the email could not be sent")
+    p.set_defaults(fn=cmd_email)
     p = sub.add_parser("resolve")
     p.add_argument("--apply", action="store_true", help="write high-confidence matches into kols.csv")
     p.add_argument("--platforms", default="bluesky,linkedin")
