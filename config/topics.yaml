@@ -1,0 +1,116 @@
+# Topic taxonomy used to tag every post. Edit freely: add, rename or remove topics.
+# id: short stable key (used in data files) | label: shown on the dashboard
+# description: what counts (the tagger reads this) | keywords: used only by the offline fallback tagger
+# group: dashboard grouping
+
+topics:
+  - id: lpa
+    label: "Lp(a)"
+    group: Lipids
+    description: Lipoprotein(a) testing, risk and therapies (pelacarsen, olpasiran, lepodisiran, zerlasiran, muvalaplin); Lp(a)HORIZON, OCEAN(a), ACCLAIM-Lp(a).
+    keywords: ["lp(a)", "lipoprotein(a)", "lpa", "pelacarsen", "olpasiran", "lepodisiran", "zerlasiran", "muvalaplin", "horizon", "ocean(a)"]
+  - id: ldl_nonstatin
+    label: "LDL & non-statins"
+    group: Lipids
+    description: LDL-C targets, statins, ezetimibe, PCSK9 (evolocumab, alirocumab, inclisiran, enlicitide), bempedoic acid, CETP (obicetrapib), apoB.
+    keywords: ["ldl", "statin", "pcsk9", "evolocumab", "repatha", "inclisiran", "ezetimibe", "bempedoic", "obicetrapib", "cetp", "apob", "enlicitide", "vesalius", "staree", "prevail", "broadway"]
+  - id: triglycerides
+    label: "Triglycerides & ApoC3"
+    group: Lipids
+    description: Hypertriglyceridemia, olezarsen, plozasiran, icosapent ethyl, ANGPTL3.
+    keywords: ["triglyceride", "olezarsen", "plozasiran", "apoc3", "icosapent", "angptl3"]
+  - id: incretins_obesity
+    label: "GLP-1 / obesity"
+    group: Cardiometabolic
+    description: GLP-1 and multi-agonists (semaglutide, tirzepatide, survodutide, retatrutide, orforglipron), obesity and CV outcomes (SELECT, SOUL, SURPASS-CVOT, SYNCHRONIZE).
+    keywords: ["glp-1", "glp1", "semaglutide", "tirzepatide", "survodutide", "retatrutide", "orforglipron", "obesity", "select trial", "surpass", "synchronize", "wegovy", "zepbound"]
+  - id: ckm_diabetes
+    label: "CKM, diabetes & kidney"
+    group: Cardiometabolic
+    description: Cardiovascular-kidney-metabolic syndrome, SGLT2, diabetes and CKD as CV risk drivers.
+    keywords: ["ckm", "sglt2", "diabetes", "ckd", "kidney", "empagliflozin", "dapagliflozin", "finerenone"]
+  - id: inflammation
+    label: "Inflammation"
+    group: Residual risk
+    description: hsCRP, IL-6 (ziltivekimab), colchicine, residual inflammatory risk; ZEUS, CLEAR SYNERGY, LoDoCo2.
+    keywords: ["inflammation", "hscrp", "crp", "il-6", "ziltivekimab", "colchicine", "zeus", "residual inflammatory"]
+  - id: hypertension
+    label: "Hypertension"
+    group: Risk factors
+    description: BP targets, intensive lowering, renal denervation, zilebesiran, baxdrostat, aldosterone synthase inhibitors.
+    keywords: ["hypertension", "blood pressure", "renal denervation", "zilebesiran", "baxdrostat", "lorundrostat", "aldosterone", "esprit"]
+  - id: risk_scores
+    label: "Risk prediction"
+    group: Prevention strategy
+    description: PREVENT equations, SCORE2, polygenic risk, risk enhancers, AI risk models, primary prevention decisions.
+    keywords: ["prevent equation", "score2", "risk score", "risk calculator", "polygenic", "primary prevention", "10-year risk", "lifetime risk"]
+  - id: cac_ccta
+    label: "CAC, CCTA & plaque"
+    group: Imaging
+    description: Coronary artery calcium, coronary CT angiography, plaque quantification/characterization, FFR-CT, AI plaque analysis, CT-guided prevention (SCOT-HEART, DISCHARGE, PROMISE, TRANSFORM).
+    keywords: ["cac", "calcium score", "ccta", "coronary cta", "cardiac ct", "plaque", "ffr-ct", "ffrct", "scot-heart", "cleerly", "heartflow", "discharge", "promise trial", "transform trial"]
+  - id: interventional
+    label: "Interventional & physiology"
+    group: Imaging
+    description: PCI, revascularization decisions, intravascular imaging, physiology (FFR, iFR, QFR), preventive PCI of vulnerable plaque.
+    keywords: ["pci", "stent", "revascularization", "ivus", "oct", "fractional flow", "ffr", "ifr", "qfr", "cto", "vulnerable plaque"]
+  - id: antithrombotic
+    label: "Antithrombotics"
+    group: Secondary prevention
+    description: Antiplatelets, factor XI/XIa inhibitors (asundexian, milvexian, abelacimab), DAPT duration, aspirin in prevention.
+    keywords: ["aspirin", "dapt", "clopidogrel", "ticagrelor", "factor xi", "milvexian", "asundexian", "abelacimab", "librexia", "anticoagul"]
+  - id: lifestyle
+    label: "Lifestyle & nutrition"
+    group: Prevention strategy
+    description: Diet, exercise, sleep, smoking, alcohol, Life's Essential 8, cardiac rehab.
+    keywords: ["diet", "exercise", "physical activity", "sleep", "smoking", "alcohol", "nutrition", "life's essential", "cardiac rehab", "mediterranean"]
+  - id: womens_equity
+    label: "Women's heart & equity"
+    group: Populations
+    description: Sex-specific risk, pregnancy-related risk, health equity, South Asian and other high-risk populations, access.
+    keywords: ["women", "pregnan", "preeclampsia", "equity", "disparit", "south asian", "underrepresented", "access to care"]
+  - id: global_health
+    label: "Global CV health"
+    group: Populations
+    description: LMIC prevention, polypill, WHF, population-level policy, international registries.
+    keywords: ["polypill", "global", "lmic", "world heart", "low- and middle-income", "who "]
+  - id: ai_digital
+    label: "AI & digital health"
+    group: Methods
+    description: AI/ML in cardiology, wearables, digital care models, LLMs.
+    keywords: [" ai ", "artificial intelligence", "machine learning", "deep learning", "wearable", "llm", "digital health", "algorithm"]
+  - id: trial_methods
+    label: "Evidence & trial critique"
+    group: Methods
+    description: Trial design debates, surrogate endpoints, statistics, guideline process, industry influence, evidence critique.
+    keywords: ["surrogate", "endpoint", "p-value", "non-inferiority", "underpowered", "guideline", "conflict of interest", "evidence-based"]
+  - id: heart_failure
+    label: "Heart failure"
+    group: Other cardiology
+    description: HF prevention and treatment, HFpEF, cardiomyopathy, amyloid.
+    keywords: ["heart failure", "hfpef", "hfref", "cardiomyopathy", "amyloid", "attr"]
+  - id: other
+    label: "Other"
+    group: Other cardiology
+    description: Cardiology content that fits none of the above (conferences, careers, EP, structural, etc).
+    keywords: []
+
+# Domains treated as scientific sources when ranking shared links
+paper_domains:
+  - nejm.org
+  - jamanetwork.com
+  - thelancet.com
+  - jacc.org
+  - ahajournals.org
+  - academic.oup.com
+  - escardio.org
+  - pubmed.ncbi.nlm.nih.gov
+  - ncbi.nlm.nih.gov
+  - doi.org
+  - medrxiv.org
+  - bmj.com
+  - nature.com
+  - sciencedirect.com
+  - onlinejcf.com
+  - tctmd.com
+  - acc.org

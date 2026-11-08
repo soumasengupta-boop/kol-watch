@@ -1,0 +1,87 @@
+name: kol-report
+
+on:
+  schedule:
+    - cron: "17 13 * * 1"   # Mondays 13:17 UTC (5:17 am Pacific in winter)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to run"
+        type: choice
+        options: [run, report-only, resolve-handles]
+        default: run
+      days:
+        description: "Collection window in days"
+        default: "8"
+      skip_linkedin:
+        description: "Skip LinkedIn (no Bright Data spend)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kol-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      BRIGHTDATA_API_KEY: ${{ secrets.BRIGHTDATA_API_KEY }}
+      CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CF_PROJECT: ${{ vars.CLOUDFLARE_PAGES_PROJECT || 'kol-watch' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Resolve missing handles
+        if: inputs.mode == 'resolve-handles'
+        run: python -m kolwatch resolve --apply
+
+      - name: Collect + tag + report
+        if: inputs.mode == 'run' || github.event_name == 'schedule'
+        run: |
+          ARGS="--days ${{ inputs.days || '8' }}"
+          if [ "${{ inputs.skip_linkedin }}" = "true" ]; then ARGS="$ARGS --skip-linkedin"; fi
+          python -m kolwatch run $ARGS
+
+      - name: Re-render report from stored data
+        if: inputs.mode == 'report-only'
+        run: python -m kolwatch report
+
+      - name: Commit data back to the repo
+        run: |
+          git config user.name "kol-watch-bot"
+          git config user.email "kol-watch-bot@users.noreply.github.com"
+          git add config/kols.csv data/
+          if git diff --cached --quiet; then echo "No changes"; else
+            git commit -m "Weekly KOL data $(date -u +%Y-%m-%d) [${{ inputs.mode || 'run' }}]"
+            git push
+          fi
+
+      - name: Deploy dashboard to Cloudflare Pages
+        if: env.CF_API_TOKEN != '' && hashFiles('site/index.html') != ''
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy site --project-name=${{ env.CF_PROJECT }} --branch=main
+
+      - name: Keep a downloadable copy of the dashboard
+        if: hashFiles('site/index.html') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: kol-dashboard
+          path: site/
+          retention-days: 30
