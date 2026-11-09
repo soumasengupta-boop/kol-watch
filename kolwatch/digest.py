@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 
 from .config import DIGEST_MODEL
 
@@ -79,18 +80,40 @@ def write(stats: dict) -> dict:
                                      "topics", "trials", "stance", "engagement")}
                   for p in stats["_digest_posts"]],
     }
-    try:
-        client = anthropic.Anthropic()
-        msg = client.messages.create(
-            model=DIGEST_MODEL, max_tokens=3000, system=SYSTEM,
-            tools=[TOOL], tool_choice={"type": "tool", "name": "write_digest"},
-            messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
-        )
+    client = anthropic.Anthropic()
+    content = json.dumps(payload, ensure_ascii=False)
+    # Some models reject a forced tool choice; fall back to "auto" + an explicit instruction.
+    for choice in ({"type": "tool", "name": "write_digest"}, {"type": "auto"}):
+        try:
+            msg = client.messages.create(
+                model=DIGEST_MODEL, max_tokens=4000, system=SYSTEM, tools=[TOOL], tool_choice=choice,
+                messages=[{"role": "user", "content": content +
+                           "\n\nReturn the digest by calling the write_digest tool."}],
+            )
+        except anthropic.BadRequestError as e:
+            if "tool_choice" in str(e) and choice["type"] != "auto":
+                log.info("Model rejected forced tool_choice; retrying with auto")
+                continue
+            log.warning("Digest generation failed (%s); using fallback", str(e)[:200])
+            break
+        except Exception as e:  # noqa: BLE001
+            log.warning("Digest generation failed (%s); using fallback", str(e)[:200])
+            break
         for b in msg.content:
-            if getattr(b, "type", "") == "tool_use":
+            if getattr(b, "type", "") == "tool_use" and b.input.get("headline"):
                 d = dict(b.input)
                 d["generated_by"] = DIGEST_MODEL
                 return d
-    except Exception as e:  # noqa: BLE001
-        log.warning("Digest generation failed (%s); using fallback", str(e)[:200])
+        text = "".join(getattr(b, "text", "") for b in msg.content)
+        m = re.search(r"\{.*\}", text, re.S)
+        if m:
+            try:
+                d = json.loads(m.group(0))
+                if d.get("headline"):
+                    d["generated_by"] = DIGEST_MODEL
+                    return d
+            except json.JSONDecodeError:
+                pass
+        log.warning("Digest model returned no usable digest; using fallback")
+        break
     return _fallback(stats)

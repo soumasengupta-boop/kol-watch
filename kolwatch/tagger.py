@@ -67,14 +67,28 @@ def _post_payload(p: dict) -> dict:
             "text": text + (f"\nLINKS: {links}" if links else "")}
 
 
+TOOL_CHOICE = [{"type": "tool", "name": "record_tags"}]
+
+
 def _claude_batch(client, system: str, batch: list[dict], valid_ids: set[str]) -> list[dict]:
+    try:
+        return _claude_call(client, system, batch, valid_ids)
+    except Exception as e:  # noqa: BLE001
+        if "tool_choice" in str(e) and TOOL_CHOICE[0]["type"] != "auto":
+            TOOL_CHOICE[0] = {"type": "auto"}
+            return _claude_call(client, system, batch, valid_ids)
+        raise
+
+
+def _claude_call(client, system: str, batch: list[dict], valid_ids: set[str]) -> list[dict]:
     msg = client.messages.create(
         model=TAG_MODEL,
         max_tokens=4000,
         system=system,
         tools=[TOOL],
-        tool_choice={"type": "tool", "name": "record_tags"},
-        messages=[{"role": "user", "content": json.dumps([_post_payload(p) for p in batch], ensure_ascii=False)}],
+        tool_choice=TOOL_CHOICE[0],
+        messages=[{"role": "user", "content": json.dumps([_post_payload(p) for p in batch], ensure_ascii=False)
+                   + "\n\nCall record_tags with tags for every post."}],
     )
     out = []
     for block in msg.content:
