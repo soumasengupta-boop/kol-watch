@@ -1,0 +1,259 @@
+ANTHROPIC_API_KEY: set
+BRIGHTDATA_API_KEY: set
+RESEND_API_KEY: set
+REPORT_EMAIL_TO: set
+01:11:48 INFO Resolving Bluesky handles for 91 KOLs
+01:11:48 INFO   Seth Martin                  -> icewolfowo.bsky.social
+01:11:48 INFO   Erin Michos                  -> erinmichos.bsky.social
+01:11:48 INFO   Michael Blaha                -> electproject.bsky.social
+01:11:48 INFO   Roger Blumenthal             -> rblument1.bsky.social
+01:11:48 INFO   Khurram Nasir                -> assadnasir.bsky.social
+01:11:48 INFO   Pam Taub                     -> jentaub.bsky.social
+01:11:48 INFO   Ann Marie Navar              -> joyannreid.bsky.social
+01:11:48 INFO   Sadiya Khan                  -> azmatzahra.bsky.social
+01:11:48 INFO   Donald Lloyd-Jones           -> motherjones.com
+01:11:48 INFO   Martha Gulati                -> drmarthagulati.bsky.social
+01:11:48 INFO   Paul Ridker                  -> pkrugman.bsky.social
+01:11:48 INFO   Michelle O'Donoghue          -> michelleodonoghue.bsky.social
+01:11:48 INFO   Marc Sabatine                -> marcowenjones.bsky.social
+01:11:48 INFO   Steven Nissen                -> stevenbeschloss.bsky.social
+01:11:49 INFO   Michael Shapiro              -> michaeldshapiro.bsky.social
+01:11:49 INFO   Sotirios Tsimikas            -> sotirios.bsky.social
+01:11:49 INFO   Ron Blankstein               -> wyden.senate.gov
+01:11:49 INFO   Matthew Budoff               -> mattgertz.bsky.social
+01:11:49 INFO   Amit Khera                   -> dramitkhera.bsky.social
+01:11:49 INFO   Ty Gluckman                  -> noturtlesoup17.bsky.social
+01:11:49 INFO   Laurence Sperling            -> nsperling.bsky.social
+01:11:49 INFO   Mikhail Kosiborod            -> johnmikhail.bsky.social
+01:11:49 INFO   Rohan Khera                  -> rohankhera.bsky.social
+01:11:49 INFO   Eric Topol                   -> erictopol.bsky.social
+01:11:49 INFO   Harlan Krumholz              -> hmkyale.bsky.social
+01:11:49 INFO   Deepak Bhatt                 -> dlbhattmd.bsky.social
+01:11:49 INFO   John Mandrola                -> scalzi.com
+01:11:49 INFO   David Maron                  -> dmaron01.bsky.social
+01:11:49 INFO   Fatima Rodriguez             -> particlefati.bsky.social
+01:11:49 INFO   James Min                    -> jamessouthernwood.bsky.social
+01:11:49 INFO   Udo Hoffmann                 -> studiohoffmann.bsky.social
+01:11:49 INFO   Gregg Stone                  -> rollingstone.com
+01:11:49 INFO   Jagat Narula                 -> mrsdnarula.bsky.social
+01:11:49 INFO   Amir Ahmadi                  -> xjournal.bsky.social
+01:11:49 INFO   Todd Villines                -> bridgettodd.bsky.social
+01:11:49 INFO   Michael Lu                   -> michaelluo.bsky.social
+01:11:49 INFO   Jonathon Leipsic             -> joncatlin.bsky.social
+01:11:50 INFO   Erin Bohula                  -> artcrimeprof.bsky.social
+01:11:50 INFO   Nicholas Marston             -> nachristakis.bsky.social
+01:11:50 INFO   A. Michael Lincoff           -> aoc.bsky.social
+01:11:50 INFO   Darren McGuire               -> dpmcguire.bsky.social
+01:11:50 INFO   Milton Packer                -> cliffordpacker.com
+01:11:50 INFO   Sanjit Jolly                 -> asphodelles.bsky.social
+01:11:50 INFO   Sophia Zoungas               -> sophiasgaler.bsky.social
+01:11:50 INFO   Gilles Montalescot           -> glouppe.bsky.social
+01:11:50 INFO   Borja Ibáñez                 -> borjacrespo.bsky.social
+01:11:50 INFO   Louise Bowman                -> brooke.vibe.camp
+01:11:50 INFO   Jing Li                      -> jingli-econ.bsky.social
+01:11:50 INFO   C. Michael Gibson            -> greatdismal.bsky.social
+01:11:50 INFO   Ajay Kirtane                 -> materialistjew.bsky.social
+01:11:50 INFO   Patrick Serruys              -> prchovanec.bsky.social
+01:11:50 INFO   Christie Ballantyne          -> ehunterchristie.bsky.social
+01:11:50 INFO   Ashish Sarraju               -> ashishkjha.bsky.social
+01:11:50 INFO   Mariko Harada-Shiba          -> paddedtiggy.bsky.social
+01:11:50 INFO   Adam Nelson                  -> adam-s-nelson.bsky.social
+01:11:50 INFO   John Kastelein               -> scalzi.com
+01:11:50 INFO   David Newby                  -> davidho.bsky.social
+01:11:51 INFO   Michelle Williams            -> michelleraye.bsky.social
+01:11:51 INFO   Tim Fairbairn                -> governorwalz.mn.gov
+01:11:51 INFO   George Thanassoulis          -> jsm2334.bsky.social
+01:11:51 INFO   Salim Yusuf                  -> yusufsarfati.bsky.social
+01:11:51 INFO   Kausik Ray                   -> jimray.bsky.team
+01:11:51 INFO   Riyaz Patel                  -> drkavitapatel.bsky.social
+01:11:51 INFO   Thomas Lüscher               -> ibogost.com
+01:11:51 INFO   François Mach                -> camillefrancois.bsky.social
+01:11:51 INFO   Frank Visseren               -> sbagen.bsky.social
+01:11:51 INFO   Erik Stroes                  -> erikbryn.bsky.social
+01:11:51 INFO   Børge Nordestgaard           -> asalgadoborge.bsky.social
+01:11:51 INFO   Alberico Catapano            -> petermcatapano.bsky.social
+01:11:51 INFO   Ulf Landmesser               -> antimicrobial.bsky.social
+01:11:51 INFO   Wolfgang Koenig              -> wblau.bsky.social
+01:11:51 INFO   Gabriel Steg                 -> gabrielsteg.bsky.social
+01:11:51 INFO   Valentín Fuster              -> ggf.bsky.social
+01:11:51 INFO   Fausto Pinto                 -> fpinto1960.bsky.social
+01:11:51 INFO   Stephen Nicholls             -> stephenking.bsky.social
+01:11:51 INFO   Clara Chow                   -> clarachow.bsky.social
+01:11:51 INFO   Dorairaj Prabhakaran         -> vinodkpg.bsky.social
+01:11:51 INFO   Salim Virani                 -> viraniarif.bsky.social
+01:11:52 INFO   Karen Sliwa                  -> karenattiah.bsky.social
+01:11:52 INFO   Raul Santos                  -> raulsantos1963.bsky.social
+01:11:52 INFO   ACC (American College of Cardiology) -> jerilryan.bsky.social
+01:11:52 INFO   AHA (American Heart Association) -> ahascience.bsky.social
+01:11:52 INFO   ASPC (American Society for Preventive Cardiology) -> aspca.org
+01:11:52 INFO   National Lipid Association   -> nationallipid.bsky.social
+01:11:52 INFO   ESC (European Society of Cardiology) -> bolivarescobar.bsky.social
+01:11:52 INFO   EAPC (European Association of Preventive Cardiology) -> sarah-eapc.bsky.social
+01:11:52 INFO   European Atherosclerosis Society -> eassociety.bsky.social
+01:11:52 INFO   World Heart Federation       -> worldheart.org
+01:11:52 INFO   JACC                         -> jrvosse.bsky.social
+01:11:52 INFO   European Heart Journal       -> wsj.com
+01:11:52 INFO   European Journal of Preventive Cardiology -> cpsc.gov
+01:11:52 INFO Resolving LinkedIn URLs for 80 KOLs (Claude web search)
+01:12:01 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:01 INFO   Seth Martin                  -> (not found)
+01:12:06 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:06 INFO   Erin Michos                  -> https://www.linkedin.com/in/erinmichos/ (high)
+01:12:11 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:11 INFO   Michael Blaha                -> (not found)
+01:12:16 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:16 INFO   Roger Blumenthal             -> (not found)
+01:12:20 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:20 INFO   Khurram Nasir                -> https://www.linkedin.com/in/khurram-nasir-md-mph-msc-05122421/ (high)
+01:12:23 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:23 INFO   Pam Taub                     -> https://www.linkedin.com/in/pam-rajendran-taub-md-facc-0a6134/ (high)
+01:12:27 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:27 INFO   Ann Marie Navar              -> https://www.linkedin.com/in/ann-marie-navar/ (high)
+01:12:33 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:33 INFO   Sadiya Khan                  -> (not found)
+01:12:37 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:37 INFO   Donald Lloyd-Jones           -> https://www.linkedin.com/in/donald-lloyd-jones-123127224/ (medium)
+01:12:41 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:41 INFO   Martha Gulati                -> https://www.linkedin.com/in/martha-gulati-9b410496/ (high)
+01:12:46 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:46 INFO   Paul Ridker                  -> (not found)
+01:12:49 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:49 INFO   Michelle O'Donoghue          -> https://www.linkedin.com/in/michelle-o-donoghue-md-mph-13986574 (high)
+01:12:55 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:12:55 INFO   Marc Sabatine                -> (not found)
+01:13:00 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:00 INFO   Steven Nissen                -> (not found)
+01:13:05 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:05 INFO   Michael Shapiro              -> (not found)
+01:13:09 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:09 INFO   Sotirios Tsimikas            -> https://www.linkedin.com/in/sotirios-tsimikas-309738122/ (high)
+01:13:12 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:12 INFO   Ron Blankstein               -> https://www.linkedin.com/in/ron-blankstein-46953124b/ (high)
+01:13:20 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:20 INFO   Matthew Budoff               -> (not found)
+01:13:23 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:23 INFO   Amit Khera                   -> https://www.linkedin.com/in/amit-khera-230bab20/ (high)
+01:13:30 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:30 INFO   Ty Gluckman                  -> (not found)
+01:13:33 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:33 INFO   Laurence Sperling            -> https://www.linkedin.com/in/laurence-s-sperling-m-d-facc-faha-facp-b02908207/ (high)
+01:13:37 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:37 INFO   Mikhail Kosiborod            -> https://www.linkedin.com/in/mikhail-kosiborod-15aaba35 (medium)
+01:13:40 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:40 INFO   Rohan Khera                  -> https://www.linkedin.com/in/r-khera/ (high)
+01:13:43 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:43 INFO   Eric Topol                   -> https://www.linkedin.com/in/eric-topol-md-b83a7317/ (high)
+01:13:47 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:47 INFO   Harlan Krumholz              -> https://www.linkedin.com/in/harlan-krumholz-1b541111/ (high)
+01:13:50 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:50 INFO   Deepak Bhatt                 -> https://www.linkedin.com/in/dlbhattmd (high)
+01:13:54 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:54 INFO   John Mandrola                -> https://www.linkedin.com/in/john-mandrola-12427a18 (high)
+01:13:59 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:13:59 INFO   David Maron                  -> (not found)
+01:14:02 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:02 INFO   Fatima Rodriguez             -> https://www.linkedin.com/in/fatima-rodriguez-md-mph-a8981bb7/ (high)
+01:14:05 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:05 INFO   James Min                    -> https://www.linkedin.com/in/jameskminmd (high)
+01:14:09 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:09 INFO   Udo Hoffmann                 -> https://www.linkedin.com/in/udo-hoffmann-md-mph-91a9b38 (high)
+01:14:12 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:12 INFO   Gregg Stone                  -> https://www.linkedin.com/in/gregg-stone-8165891a6/ (medium)
+01:14:17 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:17 INFO   Jagat Narula                 -> (not found)
+01:14:21 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:21 INFO   Amir Ahmadi                  -> https://www.linkedin.com/in/amir-ahmadi-4182802b8/ (high)
+01:14:24 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:24 INFO   Todd Villines                -> https://www.linkedin.com/in/drtoddvillines/ (high)
+01:14:29 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:29 INFO   Michael Lu                   -> https://www.linkedin.com/in/michael-lu-141968123/ (high)
+01:14:35 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:35 INFO   Jonathon Leipsic             -> (not found)
+01:14:41 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:41 INFO   Erin Bohula                  -> https://www.linkedin.com/in/erin-bohula-aaba51280/ (high)
+01:14:44 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:44 INFO   Nicholas Marston             -> https://www.linkedin.com/in/nicholas-marston-md-mph-0b029b89/ (high)
+01:14:48 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:48 INFO   A. Michael Lincoff           -> https://www.linkedin.com/in/a-michael-lincoff-9619a912/ (high)
+01:14:51 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:51 INFO   Darren McGuire               -> https://www.linkedin.com/in/darren-mcguire-0a039a7/ (high)
+01:14:55 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:55 INFO   Milton Packer                -> https://www.linkedin.com/in/packer-milton-03061147/ (high)
+01:14:58 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:14:58 INFO   Sanjit Jolly                 -> https://www.linkedin.com/in/sanjit-jolly-93bb0729/ (high)
+01:15:01 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:01 INFO   Sophia Zoungas               -> https://www.linkedin.com/in/sophia-zoungas-32577963/ (high)
+01:15:05 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:05 INFO   Gilles Montalescot           -> https://www.linkedin.com/in/gilles-montalescot-b14b34313/ (high)
+01:15:08 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:08 INFO   Borja Ibáñez                 -> https://www.linkedin.com/in/borja-ibanez-9136b09a/ (high)
+01:15:14 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:14 INFO   Louise Bowman                -> (not found)
+01:15:19 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:19 INFO   Jing Li                      -> (not found)
+01:15:23 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:23 INFO   C. Michael Gibson            -> https://www.linkedin.com/in/cmichaelgibson (high)
+01:15:30 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:30 INFO   Ajay Kirtane                 -> https://www.linkedin.com/in/ajay-kirtane-86009513 (medium)
+01:15:33 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:33 INFO   Patrick Serruys              -> https://www.linkedin.com/in/patrick-w-serruys-075a1498/ (high)
+01:15:38 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:38 INFO   Christie Ballantyne          -> (not found)
+01:15:45 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:45 INFO   Ashish Sarraju               -> (not found)
+01:15:48 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:48 INFO   Mariko Harada-Shiba          -> https://www.linkedin.com/in/mariko-harada-shiba-8b720bb4/ (high)
+01:15:55 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:15:55 INFO   Adam Nelson                  -> https://www.linkedin.com/in/adamjamesnelson/ (high)
+01:16:03 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:03 INFO   John Kastelein               -> (not found)
+01:16:08 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:08 INFO   David Newby                  -> (not found)
+01:16:15 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:15 INFO   Michelle Williams            -> (not found)
+01:16:19 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:19 INFO   Tim Fairbairn                -> https://uk.linkedin.com/in/tim-fairbairn-66462113b (medium)
+01:16:22 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:22 INFO   George Thanassoulis          -> https://www.linkedin.com/in/george-thanassoulis-134a3613/ (high)
+01:16:28 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:28 INFO   Salim Yusuf                  -> (not found)
+01:16:32 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:32 INFO   Kausik Ray                   -> https://www.linkedin.com/in/kausik-ray-md-fmedsci-19033118 (medium)
+01:16:35 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:35 INFO   Riyaz Patel                  -> https://www.linkedin.com/in/riyaz-suleman-patel/ (high)
+01:16:44 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:44 INFO   Thomas Lüscher               -> https://www.linkedin.com/in/thomas-f-l%C3%BCscher-6a4480207/ (high)
+01:16:49 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:49 INFO   François Mach                -> (not found)
+01:16:53 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:53 INFO   Frank Visseren               -> https://www.linkedin.com/in/frank-visseren-1456b7180/ (medium)
+01:16:58 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:16:58 INFO   Erik Stroes                  -> (not found)
+01:17:01 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:17:01 INFO   Børge Nordestgaard           -> https://www.linkedin.com/in/b%C3%B8rge-nordestgaard-963401124/ (high)
+01:17:05 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:17:05 INFO   Alberico Catapano            -> https://www.linkedin.com/in/alberico-catapano-50440110b/ (high)
+01:17:10 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:17:10 INFO   Ulf Landmesser               -> (not found)
+01:17:10 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:17:10 WARNING   Wolfgang Koenig: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrUKAk4dCQ1nqvC55T5T'}
+01:17:10 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:17:10 WARNING   Gabriel Steg: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrUKC5gfqeTzgtgRmtk8'}
+01:17:11 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:17:11 WARNING   Valentín Fuster: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrUKCw2jJTs6vadRzDcA'}
+01:17:11 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:17:11 WARNING   Fausto Pinto: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrUKDo7L6RYSzedjj94E'}
+01:17:11 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:17:11 WARNING   Stephen Nicholls: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrUKEdibLPb47ycpi37D'}
+01:17:11 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:17:11 WARNING   Clara Chow: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrUKFSqFzDmuGT7PM5KR'}
+01:17:11 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:17:11 WARNING   Dorairaj Prabhakaran: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrUKGJSC9f6ZAdtS22sj'}
+01:17:12 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:17:12 WARNING   Salim Virani: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrUKH8J7dExQPySqTfja'}
+01:17:12 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:17:12 WARNING   Karen Sliwa: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrUKHy8hb6TMVDB3fxDU'}
+01:17:12 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:17:12 WARNING   Raul Santos: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgrUKJokKpRLgCvDtviXf'}
+01:17:12 INFO Wrote 319 candidates to /home/runner/work/kol-watch/kol-watch/data/handle_candidates.csv
+01:17:12 INFO Applied 58 high-confidence matches to kols.csv (empty cells only)
