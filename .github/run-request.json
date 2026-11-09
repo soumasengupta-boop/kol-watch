@@ -1,2 +1,2 @@
-{"mode": "run", "days": 56, "skip_linkedin": false, "linkedin_max_profiles": 2, "linkedin_per_profile": 3, "email": true,
- "note": "Test 2: 8-week Bluesky backfill (free) + tiny LinkedIn test capped at 2 profiles x 3 posts (<=6 Bright Data records) + first email."}
+{"mode": "run", "days": 14, "skip_linkedin": false, "linkedin_max_profiles": 2, "linkedin_per_profile": 3, "email": false,
+ "note": "Test 3: Bright Data account now active. Capped LinkedIn test: 2 profiles x 3 posts (<=6 records). No email."}
