@@ -1,0 +1,78 @@
+ANTHROPIC_API_KEY: set
+BRIGHTDATA_API_KEY: set
+RESEND_API_KEY: set
+REPORT_EMAIL_TO: set
+01:58:38 INFO Resolving Bluesky handles for 71 KOLs
+01:58:39 INFO   Michael Blaha                -> erinmichos.bsky.social
+01:58:39 INFO   Khurram Nasir                -> assadnasir.bsky.social
+01:58:40 INFO   Pam Taub                     -> jentaub.bsky.social
+01:58:40 INFO   Ann Marie Navar              -> oceangirl19.bsky.social
+01:58:41 INFO   Sadiya Khan                  -> azmatzahra.bsky.social
+01:58:41 INFO   Donald Lloyd-Jones           -> motherjones.com
+01:58:42 INFO   Paul Ridker                  -> glenpyle.bsky.social
+01:58:42 INFO   Michelle O'Donoghue          -> michelleodonoghue.bsky.social
+01:58:43 INFO   Marc Sabatine                -> oceangirl19.bsky.social
+01:58:43 INFO   Steven Nissen                -> natrevcardiol.nature.com
+01:58:44 INFO   Sotirios Tsimikas            -> oceangirl19.bsky.social
+01:58:44 INFO   Ron Blankstein               -> glenpyle.bsky.social
+01:58:44 INFO   Matthew Budoff               -> glenpyle.bsky.social
+01:58:45 INFO   Ty Gluckman                  -> oceangirl19.bsky.social
+01:58:46 INFO   Laurence Sperling            -> cardioobdoc.bsky.social
+01:58:46 INFO   Mikhail Kosiborod            -> oceangirl19.bsky.social
+01:58:46 INFO   John Mandrola                -> oceangirl19.bsky.social
+01:58:47 INFO   Fatima Rodriguez             -> particlefati.bsky.social
+01:58:47 INFO   James Min                    -> jamessouthernwood.bsky.social
+01:58:48 INFO   Udo Hoffmann                 -> studiohoffmann.bsky.social
+01:58:48 INFO   Gregg Stone                  -> rollingstone.com
+01:58:49 INFO   Jagat Narula                 -> oceangirl19.bsky.social
+01:58:49 INFO   Amir Ahmadi                  -> xjournal.bsky.social
+01:58:50 INFO   Todd Villines                -> bridgettodd.bsky.social
+01:58:50 INFO   Michael Lu                   -> miclugo.bsky.social
+01:58:51 INFO   Jonathon Leipsic             -> glenpyle.bsky.social
+01:58:51 INFO   Erin Bohula                  -> pnatarajanmd.bsky.social
+01:58:52 INFO   Nicholas Marston             -> pnatarajanmd.bsky.social
+01:58:53 INFO   A. Michael Lincoff           -> natrevcardiol.nature.com
+01:58:53 INFO   Darren McGuire               -> dpmcguire.bsky.social
+01:58:54 INFO   Milton Packer                -> oceangirl19.bsky.social
+01:58:54 INFO   Sanjit Jolly                 -> asphodelles.bsky.social
+01:58:55 INFO   Sophia Zoungas               -> oceangirl19.bsky.social
+01:58:55 INFO   Gilles Montalescot           -> oceangirl19.bsky.social
+01:58:56 INFO   Borja Ibáñez                 -> oceangirl19.bsky.social
+01:58:56 INFO   Louise Bowman                -> brooke.vibe.camp
+01:58:57 INFO   Jing Li                      -> jingli-econ.bsky.social
+01:58:57 INFO   C. Michael Gibson            -> greatdismal.bsky.social
+01:58:58 INFO   Ajay Kirtane                 -> oceangirl19.bsky.social
+01:58:58 INFO   Patrick Serruys              -> oceangirl19.bsky.social
+01:58:59 INFO   Christie Ballantyne          -> christiegolden.bsky.social
+01:58:59 INFO   Ashish Sarraju               -> natrevcardiol.nature.com
+01:59:00 INFO   Mariko Harada-Shiba          -> jreinermd.bsky.social
+01:59:00 INFO   Adam Nelson                  -> adam.nels.onl
+01:59:01 INFO   John Kastelein               -> oceangirl19.bsky.social
+01:59:01 INFO   David Newby                  -> vfnewby.bsky.social
+01:59:02 INFO   Michelle Williams            -> michelleraye.bsky.social
+01:59:02 INFO   Tim Fairbairn                -> oceangirl19.bsky.social
+01:59:03 INFO   George Thanassoulis          -> jsm2334.bsky.social
+01:59:03 INFO   Salim Yusuf                  -> yozkan.bsky.social
+01:59:04 INFO   Kausik Ray                   -> jimray.bsky.team
+01:59:04 INFO   Riyaz Patel                  -> drkavitapatel.bsky.social
+01:59:05 INFO   Thomas Lüscher               -> oceangirl19.bsky.social
+01:59:05 INFO   François Mach                -> ndmedienmacher.bsky.social
+01:59:06 INFO   Frank Visseren               -> oceangirl19.bsky.social
+01:59:06 INFO   Erik Stroes                  -> oceangirl19.bsky.social
+01:59:07 INFO   Børge Nordestgaard           -> oceangirl19.bsky.social
+01:59:07 INFO   Alberico Catapano            -> petermcatapano.bsky.social
+01:59:08 INFO   Ulf Landmesser               -> oceangirl19.bsky.social
+01:59:08 INFO   Wolfgang Koenig              -> oceangirl19.bsky.social
+01:59:09 INFO   Valentín Fuster              -> dlbhattmd.bsky.social
+01:59:09 INFO   Stephen Nicholls             -> richardnicholls.net
+01:59:10 INFO   Dorairaj Prabhakaran         -> oceangirl19.bsky.social
+01:59:10 INFO   Salim Virani                 -> viraniarif.bsky.social
+01:59:11 INFO   Karen Sliwa                  -> oceangirl19.bsky.social
+01:59:11 INFO   ACC (American College of Cardiology) -> jerilryan.bsky.social
+01:59:11 INFO   ASPC (American Society for Preventive Cardiology) -> reptoidz.bsky.social
+01:59:11 INFO   ESC (European Society of Cardiology) -> bolivarescobar.bsky.social
+01:59:12 INFO   EAPC (European Association of Preventive Cardiology) -> sarah-eapc.bsky.social
+01:59:12 INFO   European Heart Journal       -> wsj.com
+01:59:12 INFO   European Journal of Preventive Cardiology -> cpsc.gov
+01:59:12 INFO Wrote 213 candidates to /home/runner/work/kol-watch/kol-watch/data/handle_candidates.csv
+01:59:12 INFO Applied 0 high-confidence matches to kols.csv (empty cells only)
