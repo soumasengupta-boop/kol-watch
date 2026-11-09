@@ -95,7 +95,8 @@ jobs:
           if int(p.get("linkedin_max_profiles") or 0): args += f" --linkedin-max-profiles {int(p['linkedin_max_profiles'])}"
           if int(p.get("linkedin_per_profile") or 0): args += f" --linkedin-per-profile {int(p['linkedin_per_profile'])}"
           with open(os.environ["GITHUB_ENV"], "a") as f:
-              f.write(f"RUN_MODE={p['mode']}\nRUN_ARGS={args}\nRUN_EMAIL={'1' if p.get('email', True) else ''}\n")
+              f.write(f"RUN_MODE={p['mode']}\nRUN_ARGS={args}\nRUN_EMAIL={'1' if p.get('email', True) else ''}\n"
+                      f"RUN_PLATFORMS={p.get('platforms', 'bluesky,linkedin')}\n")
           print("Parameters:", p, "->", args)
           EOF
           mkdir -p data/runs
@@ -111,7 +112,7 @@ jobs:
         if: env.RUN_MODE == 'resolve-handles'
         run: |
           set -o pipefail
-          python -m kolwatch resolve --apply 2>&1 | tee -a "$RUN_LOG"
+          python -m kolwatch resolve --apply --platforms "$RUN_PLATFORMS" 2>&1 | tee -a "$RUN_LOG"
 
       - name: Collect + tag + report
         if: env.RUN_MODE == 'run'

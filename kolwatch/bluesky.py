@@ -50,11 +50,20 @@ def _name_tokens(name: str) -> list[str]:
 def search_handle(kol: KOL) -> list[dict]:
     """Return scored Bluesky candidates for a KOL (best first)."""
     query = re.sub(r"\(.*?\)", "", kol.name).strip()
-    data = _get("app.bsky.actor.searchActors", {"q": query, "limit": 10})
     toks = _name_tokens(kol.name)
     surname = toks[-1] if toks else ""
+    # several query variants catch accounts whose display name differs from the plain name
+    queries = [query]
+    if kol.type == "person" and surname:
+        queries += [f"{surname} cardiology", f"{surname} cardiologist", f"Dr {query}"]
+    actors, seen = [], set()
+    for q in queries:
+        for a in _get("app.bsky.actor.searchActors", {"q": q, "limit": 10}).get("actors", []):
+            if a.get("handle") not in seen:
+                seen.add(a.get("handle"))
+                actors.append(a)
     out = []
-    for a in data.get("actors", []):
+    for a in actors:
         disp = (a.get("displayName") or "").lower()
         desc = a.get("description") or ""
         score = 0.0

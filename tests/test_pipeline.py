@@ -128,7 +128,7 @@ def test_analyze_and_render():
 
 
 def test_update_kols_only_fills_blanks():
-    name = load_kols()[0].name
+    name = next(k.name for k in load_kols() if not k.bluesky_handle)
     n = update_kol_fields({name: {"bluesky_handle": "x.bsky.social", "name": "SHOULD NOT CHANGE"}})
     assert n == 1
     k = next(k for k in load_kols() if k.bluesky_handle == "x.bsky.social")

@@ -1,2 +1,1 @@
-{"mode": "report-only", "email": true,
- "note": "Re-render with Claude digest (no collection, no Bright Data) and email it."}
+{"mode": "resolve-handles", "platforms": "bluesky", "note": "Second Bluesky search pass with name variants (free, no Claude, no Bright Data)."}
