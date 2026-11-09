@@ -1,7 +1,7 @@
 {
  "stats": {
-  "start": "2026-11-02T01:23:07.382263+00:00",
-  "end": "2026-11-09T01:23:07.382263+00:00",
+  "start": "2026-11-02T01:40:33.722434+00:00",
+  "end": "2026-11-09T01:40:33.722434+00:00",
   "label": "Nov 02 \u2013 Nov 09, 2026",
   "week_labels": [
    "Sep 21",
@@ -18,48 +18,27 @@
     "id": "other",
     "label": "Other",
     "group": "Other cardiology",
-    "posts": 33,
-    "posts_prev": 5,
+    "posts": 21,
+    "posts_prev": 4,
     "kols": [
      "AHA (American Heart Association)",
      "Eric Topol"
     ],
     "n_kols": 2,
-    "share": 89.1,
-    "share_prev": 53.5,
-    "delta": 35.6,
+    "share": 51.2,
+    "share_prev": 52.0,
+    "delta": -0.8,
     "history": [
-     49.1,
-     77.6,
-     18.7,
-     30.9,
-     73.6,
-     55.3,
-     53.5,
-     89.1
+     47.6,
+     87.2,
+     39.6,
+     8.8,
+     100.0,
+     0.0,
+     52.0,
+     51.2
     ],
     "top_posts": [
-     {
-      "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzj6itgfms2o",
-      "kol": "Eric Topol",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzj6itgfms2o",
-      "created_at": "2026-11-04",
-      "is_repost": false,
-      "text": "The latest, a projected 81-seat majority",
-      "summary": "The latest, a projected 81-seat majority",
-      "topics": [
-       "other"
-      ],
-      "trials": [],
-      "stance": "neutral",
-      "likes": 552,
-      "reposts": 100,
-      "replies": 24,
-      "engagement": 824,
-      "region": "North America",
-      "industry": false
-     },
      {
       "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mznoiijqqc24",
       "kol": "Eric Topol",
@@ -68,12 +47,12 @@
       "created_at": "2026-11-06",
       "is_repost": false,
       "text": "Health and economic benefits have been grossly underestimated www.newscientist.com/article/2597...",
-      "summary": "Health and economic benefits have been grossly underestimated www.newscientist.com/article/2597...",
+      "summary": "Says health and economic benefits of Covid vaccines are underestimated, linking a New Scientist article.",
       "topics": [
        "other"
       ],
       "trials": [],
-      "stance": "neutral",
+      "stance": "supportive",
       "likes": 239,
       "reposts": 95,
       "replies": 3,
@@ -82,43 +61,162 @@
       "industry": false
      },
      {
-      "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzo5wpy5ak2v",
+      "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzedo4t76c24",
       "kol": "Eric Topol",
       "platform": "bluesky",
-      "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzo5wpy5ak2v",
-      "created_at": "2026-11-06",
+      "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzedo4t76c24",
+      "created_at": "2026-11-02",
       "is_repost": false,
-      "text": "We are at the beginning of a new and exciting era to be able to program our immune system in the body (in vivo). This new review @SciImmunology nails it www.science.org/doi/10.1126/...",
-      "summary": "We are at the beginning of a new and exciting era to be able to program our immune system in the body (in vivo",
+      "text": "Symptomatic improvement in people with #LongCovid over time\nwww.acpjournals.org/doi/10.7326/...\n@annalsofim.bsky.social",
+      "summary": "Shares Annals study on symptomatic improvement in long COVID over time.",
       "topics": [
        "other"
       ],
       "trials": [],
       "stance": "neutral",
-      "likes": 262,
-      "reposts": 58,
-      "replies": 5,
-      "engagement": 393,
+      "likes": 144,
+      "reposts": 46,
+      "replies": 4,
+      "engagement": 248,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr3ychqeu2i",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr3ychqeu2i",
+      "created_at": "2026-11-07",
+      "is_repost": false,
+      "text": "Anastasia Mihailidou, BSc, PhD, FAHA discusses late breaking science from OPTIMAL-STROKE at #ScientificSessions26. \ud83c\udfa5 ",
+      "summary": "Anastasia Mihailidou discusses late-breaking OPTIMAL-STROKE results at Scientific Sessions. Video, no findings stated.",
+      "topics": [
+       "hypertension",
+       "other"
+      ],
+      "trials": [
+       "OPTIMAL-STROKE"
+      ],
+      "stance": "neutral",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 5,
       "region": "North America",
       "industry": false
      }
     ],
-    "trending": true,
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "womens_equity",
+    "label": "Women's heart & equity",
+    "group": "Populations",
+    "posts": 6,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)"
+    ],
+    "n_kols": 1,
+    "share": 11.8,
+    "share_prev": 0.0,
+    "delta": 11.8,
+    "history": [
+     0.0,
+     0.0,
+     18.3,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     11.8
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqbdlhxmp2u",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqbdlhxmp2u",
+      "created_at": "2026-11-07",
+      "is_repost": false,
+      "text": "Join moderator Jennifer Ashton, MD, MS, FACOG, and a panel of speakers to explore key connections between hormones and cardiovascular health across the lifespan. #ScientificSessions26\n \n\ud83d\udcc5 Nov. 7 | 3:15-4:30 PM CT \n\ud83d\udccd S105D ",
+      "summary": "Announces a panel on hormones and cardiovascular health across the lifespan at Scientific Sessions.",
+      "topics": [
+       "womens_equity",
+       "other"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 3,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqxofv7wn2q",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqxofv7wn2q",
+      "created_at": "2026-11-07",
+      "is_repost": false,
+      "text": "Science shared at #ScientificSessions26 is reshaping how we think about menopause and cardiovascular health. Explore educational content today. \n \nLearn more: https://bit.ly/3UwC6la \n",
+      "summary": "Promotes Scientific Sessions content on menopause and cardiovascular health (repost of earlier post).",
+      "topics": [
+       "womens_equity",
+       "other"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 1,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzl52nuirj2h",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzl52nuirj2h",
+      "created_at": "2026-11-05",
+      "is_repost": false,
+      "text": "Check out these sessions for Fellows in Training (FIT) and Go Red for Women in Science & Medicine Committee (GRWISM) in the Member Lounge at #ScientificSessions26.  \n \nBookmark this post and reference after you arrive so you don\u2019t miss anything! ",
+      "summary": "Highlights fellows-in-training and Go Red women in science sessions at Scientific Sessions 2026.",
+      "topics": [
+       "womens_equity",
+       "other"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
     "cooling": false
    },
    {
     "id": "lpa",
     "label": "Lp(a)",
     "group": "Lipids",
-    "posts": 2,
+    "posts": 3,
     "posts_prev": 0,
     "kols": [
-     "AHA (American Heart Association)"
+     "AHA (American Heart Association)",
+     "Khurram Nasir"
     ],
-    "n_kols": 1,
-    "share": 3.1,
+    "n_kols": 2,
+    "share": 10.5,
     "share_prev": 0.0,
-    "delta": 3.1,
+    "delta": 10.5,
     "history": [
      0.0,
      0.0,
@@ -127,9 +225,33 @@
      0.0,
      0.0,
      0.0,
-     3.1
+     10.5
     ],
     "top_posts": [
+     {
+      "id": "li:7525219559667335168",
+      "kol": "Khurram Nasir",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_decentralized-lipoproteina-testing-in-adults-activity-7525219559667335168-QMC8",
+      "created_at": "2026-11-08",
+      "is_repost": false,
+      "text": "A new model of decentralized cardiovascular research is taking shape Pts can be identified through clinical records, contacted directly, and enrolled remotely, testing arranged at local labs-->brings selected research activities closer to where people live Participation more manageable around work, travel and family responsibilities (more practical) In American Journal of Preventive Cardiology sim",
+      "summary": "Nasir describes UNRAVEL, a decentralized Lp(a) study with high enrollment and lab completion, and calls for local reach.",
+      "topics": [
+       "lpa",
+       "trial_methods"
+      ],
+      "trials": [
+       "UNRAVEL"
+      ],
+      "stance": "supportive",
+      "likes": 31,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 31,
+      "region": "North America",
+      "industry": false
+     },
      {
       "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s",
       "kol": "AHA (American Heart Association)",
@@ -138,15 +260,12 @@
       "created_at": "2026-11-07",
       "is_repost": false,
       "text": "Hear from Viet Le, DMSc, PA-C, FACC, FAHA, HF- Cert! \ud83c\udfa5\n\nLp(a) HORIZON, presented at #ScientificSessions26 showed Pelacarsen substantially lowered lipoprotein(a) but did not reduce risk of MACE compared to placebo in patients on guideline-directed medical therapy for secondary prevention of CVD. \n \n ",
-      "summary": "Hear from Viet Le, DMSc, PA-C, FACC, FAHA, HF- Cert! \ud83c\udfa5\n\nLp(a) HORIZON, presented at #ScientificSessions26 show",
+      "summary": "Viet Le summarizes Lp(a)HORIZON: pelacarsen lowered Lp(a) but did not reduce MACE versus placebo.",
       "topics": [
-       "lpa",
-       "trial_methods"
+       "lpa"
       ],
       "trials": [
-       "FACC",
-       "FAHA",
-       "HORIZON"
+       "LP(A)HORIZON"
       ],
       "stance": "neutral",
       "likes": 1,
@@ -164,14 +283,86 @@
       "created_at": "2026-11-07",
       "is_repost": false,
       "text": "Emily Lau, MD, MPH discusses late breaking science from Lp(a) HORIZON at #ScientificSessions26. \ud83c\udfa5 ",
-      "summary": "Emily Lau, MD, MPH discusses late breaking science from Lp(a) HORIZON at #ScientificSessions26. \ud83c\udfa5 ",
+      "summary": "Emily Lau discusses late-breaking Lp(a)HORIZON results at Scientific Sessions. Video, no findings stated.",
       "topics": [
        "lpa"
       ],
       "trials": [
-       "HORIZON"
+       "LP(A)HORIZON"
       ],
       "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "ai_digital",
+    "label": "AI & digital health",
+    "group": "Methods",
+    "posts": 2,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)"
+    ],
+    "n_kols": 1,
+    "share": 5.0,
+    "share_prev": 0.0,
+    "delta": 5.0,
+    "history": [
+     34.9,
+     0.0,
+     0.0,
+     17.6,
+     0.0,
+     0.0,
+     0.0,
+     5.0
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzhedrha7325",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzhedrha7325",
+      "created_at": "2026-11-04",
+      "is_repost": false,
+      "text": "Discover what's next in cardiovascular innovation at the Health Innovation Pavilion at #ScientificSessions26. Explore AI-driven solutions, experience live technology demonstrations and connect with innovators shaping the future of healthcare.\n\n\ud83d\udccd Science & Technology Hall | Booth 100 ",
+      "summary": "Promotes Health Innovation Pavilion with AI-driven solutions at Scientific Sessions 2026.",
+      "topics": [
+       "ai_digital",
+       "other"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 3,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzgqa5fyjj2c",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzgqa5fyjj2c",
+      "created_at": "2026-11-03",
+      "is_repost": false,
+      "text": "Have you downloaded the Heart Events app for #ScientificSessions26 and #ReSS26? Plan your schedule, find sessions, navigate the venue, connect with colleagues, and get answers on the go with Doc Heart AI. \n\nLearn More: https://bit.ly/4iwFEM9",
+      "summary": "Promotes Heart Events app with AI assistant for Scientific Sessions 2026 attendees.",
+      "topics": [
+       "ai_digital",
+       "other"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
       "likes": 0,
       "reposts": 0,
       "replies": 0,
@@ -184,29 +375,103 @@
     "cooling": false
    },
    {
-    "id": "inflammation",
-    "label": "Inflammation",
-    "group": "Residual risk",
-    "posts": 2,
+    "id": "hypertension",
+    "label": "Hypertension",
+    "group": "Risk factors",
+    "posts": 1,
     "posts_prev": 0,
     "kols": [
      "AHA (American Heart Association)"
     ],
     "n_kols": 1,
-    "share": 2.3,
+    "share": 4.1,
     "share_prev": 0.0,
-    "delta": 2.3,
+    "delta": 4.1,
     "history": [
      0.0,
      0.0,
      0.0,
-     12.8,
      0.0,
      0.0,
      0.0,
-     2.3
+     0.0,
+     4.1
     ],
     "top_posts": [
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr3ychqeu2i",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr3ychqeu2i",
+      "created_at": "2026-11-07",
+      "is_repost": false,
+      "text": "Anastasia Mihailidou, BSc, PhD, FAHA discusses late breaking science from OPTIMAL-STROKE at #ScientificSessions26. \ud83c\udfa5 ",
+      "summary": "Anastasia Mihailidou discusses late-breaking OPTIMAL-STROKE results at Scientific Sessions. Video, no findings stated.",
+      "topics": [
+       "hypertension",
+       "other"
+      ],
+      "trials": [
+       "OPTIMAL-STROKE"
+      ],
+      "stance": "neutral",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 5,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "ckm_diabetes",
+    "label": "CKM, diabetes & kidney",
+    "group": "Cardiometabolic",
+    "posts": 3,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)"
+    ],
+    "n_kols": 1,
+    "share": 3.7,
+    "share_prev": 0.0,
+    "delta": 3.7,
+    "history": [
+     0.0,
+     4.3,
+     0.0,
+     2.1,
+     0.0,
+     0.0,
+     0.0,
+     3.7
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzoojqaxg72k",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzoojqaxg72k",
+      "created_at": "2026-11-07",
+      "is_repost": false,
+      "text": "Cardiovascular-kidney-metabolic (CKM) health is a major focus at #ScientificSessions26. \n\n\ud83c\udfa5 Science Communicator Sadiya Khan, MD, MSc, FAHA shares the many ways attendees can the latest science in CKM health through Learning Labs, symposia and focused sessions. ",
+      "summary": "Video promoting CKM health sessions at Scientific Sessions, with Sadiya Khan sharing attendee options.",
+      "topics": [
+       "ckm_diabetes",
+       "other"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "North America",
+      "industry": false
+     },
      {
       "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqsqrn7d22j",
       "kol": "AHA (American Heart Association)",
@@ -215,8 +480,9 @@
       "created_at": "2026-11-07",
       "is_repost": false,
       "text": "Shayan Mohammadmoradi, MS, PhD discusses late breaking science results from ZEUS at #ScientificSessions26.  ",
-      "summary": "Shayan Mohammadmoradi, MS, PhD discusses late breaking science results from ZEUS at #ScientificSessions26.  ",
+      "summary": "Shayan Mohammadmoradi discusses late-breaking ZEUS results at Scientific Sessions. Video, no findings stated.",
       "topics": [
+       "ckm_diabetes",
        "inflammation"
       ],
       "trials": [
@@ -238,185 +504,13 @@
       "created_at": "2026-11-07",
       "is_repost": false,
       "text": "Abdulla A. Damluji, MD, PhD, MBA, FAHA  discusses late breaking science results from ZEUS at #ScientificSessions26.  ",
-      "summary": "Abdulla A. Damluji, MD, PhD, MBA, FAHA  discusses late breaking science results from ZEUS at #ScientificSessio",
+      "summary": "Abdulla Damluji discusses late-breaking ZEUS results at Scientific Sessions. Video, no findings stated.",
       "topics": [
-       "inflammation"
-      ],
-      "trials": [
-       "FAHA",
-       "ZEUS"
-      ],
-      "stance": "neutral",
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 0,
-      "region": "North America",
-      "industry": false
-     }
-    ],
-    "trending": false,
-    "cooling": false
-   },
-   {
-    "id": "womens_equity",
-    "label": "Women's heart & equity",
-    "group": "Populations",
-    "posts": 2,
-    "posts_prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "share": 2.3,
-    "share_prev": 0.0,
-    "delta": 2.3,
-    "history": [
-     0.0,
-     0.0,
-     15.5,
-     0.0,
-     5.6,
-     0.0,
-     0.0,
-     2.3
-    ],
-    "top_posts": [
-     {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzl52nuirj2h",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzl52nuirj2h",
-      "created_at": "2026-11-05",
-      "is_repost": false,
-      "text": "Check out these sessions for Fellows in Training (FIT) and Go Red for Women in Science & Medicine Committee (GRWISM) in the Member Lounge at #ScientificSessions26.  \n \nBookmark this post and reference after you arrive so you don\u2019t miss anything! ",
-      "summary": "Check out these sessions for Fellows in Training (FIT) and Go Red for Women in Science & Medicine Committee (G",
-      "topics": [
-       "womens_equity"
-      ],
-      "trials": [
-       "GRWISM"
-      ],
-      "stance": "neutral",
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 0,
-      "region": "North America",
-      "industry": false
-     },
-     {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzn6g7fywa2u",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzn6g7fywa2u",
-      "created_at": "2026-11-06",
-      "is_repost": false,
-      "text": "Join C. Noel Bairey Merz, Sadiya S. Khan, Amanda M. Perak, Karen Florio, Emily Lau and Esther S.H. Kim for a discussion on sex hormones and cardiovascular health in girls and women. Moderated by David Maron, Sarah D. de Ferranti, Jason C. Kovacic and Jennifer Ashton.  #ScientificSessions26 ",
-      "summary": "Join C. Noel Bairey Merz, Sadiya S. Khan, Amanda M. Perak, Karen Florio, Emily Lau and Esther S.H. Kim for a d",
-      "topics": [
-       "womens_equity"
-      ],
-      "trials": [],
-      "stance": "neutral",
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 0,
-      "region": "North America",
-      "industry": false
-     }
-    ],
-    "trending": false,
-    "cooling": false
-   },
-   {
-    "id": "triglycerides",
-    "label": "Triglycerides & ApoC3",
-    "group": "Lipids",
-    "posts": 1,
-    "posts_prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "share": 1.1,
-    "share_prev": 0.0,
-    "delta": 1.1,
-    "history": [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     1.1
-    ],
-    "top_posts": [
-     {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mznk6dq2g72j",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mznk6dq2g72j",
-      "created_at": "2026-11-06",
-      "is_repost": false,
-      "text": "Early diagnosis of Familial Chylomicronemia Syndrome (FCS) may reduce pancreatitis risk and prevent repeated hospitalizations through appropriate management. \n \nKnow the clinical clues that can help distinguish FCS from more common causes of severe hypertriglyceridemia. \u2b07\ufe0f ",
-      "summary": "Early diagnosis of Familial Chylomicronemia Syndrome (FCS) may reduce pancreatitis risk and prevent repeated h",
-      "topics": [
-       "triglycerides"
-      ],
-      "trials": [],
-      "stance": "neutral",
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 0,
-      "region": "North America",
-      "industry": false
-     }
-    ],
-    "trending": false,
-    "cooling": false
-   },
-   {
-    "id": "ckm_diabetes",
-    "label": "CKM, diabetes & kidney",
-    "group": "Cardiometabolic",
-    "posts": 1,
-    "posts_prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "share": 1.1,
-    "share_prev": 0.0,
-    "delta": 1.1,
-    "history": [
-     0.0,
-     2.6,
-     0.0,
-     6.0,
-     0.0,
-     0.0,
-     0.0,
-     1.1
-    ],
-    "top_posts": [
-     {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzoojqaxg72k",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzoojqaxg72k",
-      "created_at": "2026-11-07",
-      "is_repost": false,
-      "text": "Cardiovascular-kidney-metabolic (CKM) health is a major focus at #ScientificSessions26. \n\n\ud83c\udfa5 Science Communicator Sadiya Khan, MD, MSc, FAHA shares the many ways attendees can the latest science in CKM health through Learning Labs, symposia and focused sessions. ",
-      "summary": "Cardiovascular-kidney-metabolic (CKM) health is a major focus at #ScientificSessions26. \n\n\ud83c\udfa5 Science Communicat",
-      "topics": [
+       "inflammation",
        "ckm_diabetes"
       ],
       "trials": [
-       "FAHA"
+       "ZEUS"
       ],
       "stance": "neutral",
       "likes": 0,
@@ -437,46 +531,398 @@
     "posts": 1,
     "posts_prev": 0,
     "kols": [
-     "AHA (American Heart Association)"
+     "Khurram Nasir"
     ],
     "n_kols": 1,
-    "share": 1.0,
+    "share": 3.3,
     "share_prev": 0.0,
-    "delta": 1.0,
+    "delta": 3.3,
     "history": [
      0.0,
      0.0,
      0.0,
-     2.8,
      0.0,
      0.0,
      0.0,
-     1.0
+     0.0,
+     3.3
     ],
     "top_posts": [
      {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqs7uqdmm2s",
-      "created_at": "2026-11-07",
+      "id": "li:7525219559667335168",
+      "kol": "Khurram Nasir",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_decentralized-lipoproteina-testing-in-adults-activity-7525219559667335168-QMC8",
+      "created_at": "2026-11-08",
       "is_repost": false,
-      "text": "Hear from Viet Le, DMSc, PA-C, FACC, FAHA, HF- Cert! \ud83c\udfa5\n\nLp(a) HORIZON, presented at #ScientificSessions26 showed Pelacarsen substantially lowered lipoprotein(a) but did not reduce risk of MACE compared to placebo in patients on guideline-directed medical therapy for secondary prevention of CVD. \n \n ",
-      "summary": "Hear from Viet Le, DMSc, PA-C, FACC, FAHA, HF- Cert! \ud83c\udfa5\n\nLp(a) HORIZON, presented at #ScientificSessions26 show",
+      "text": "A new model of decentralized cardiovascular research is taking shape Pts can be identified through clinical records, contacted directly, and enrolled remotely, testing arranged at local labs-->brings selected research activities closer to where people live Participation more manageable around work, travel and family responsibilities (more practical) In American Journal of Preventive Cardiology sim",
+      "summary": "Nasir describes UNRAVEL, a decentralized Lp(a) study with high enrollment and lab completion, and calls for local reach.",
       "topics": [
        "lpa",
        "trial_methods"
       ],
       "trials": [
-       "FACC",
-       "FAHA",
-       "HORIZON"
+       "UNRAVEL"
+      ],
+      "stance": "supportive",
+      "likes": 31,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 31,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "triglycerides",
+    "label": "Triglycerides & ApoC3",
+    "group": "Lipids",
+    "posts": 2,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)"
+    ],
+    "n_kols": 1,
+    "share": 2.9,
+    "share_prev": 0.0,
+    "delta": 2.9,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.9
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mznk6dq2g72j",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mznk6dq2g72j",
+      "created_at": "2026-11-06",
+      "is_repost": false,
+      "text": "Early diagnosis of Familial Chylomicronemia Syndrome (FCS) may reduce pancreatitis risk and prevent repeated hospitalizations through appropriate management. \n \nKnow the clinical clues that can help distinguish FCS from more common causes of severe hypertriglyceridemia. \u2b07\ufe0f ",
+      "summary": "Clinical tips on recognizing familial chylomicronemia syndrome to reduce pancreatitis risk and rehospitalization.",
+      "topics": [
+       "triglycerides"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mztif6qmbm2i",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mztif6qmbm2i",
+      "created_at": "2026-11-08",
+      "is_repost": false,
+      "text": "Abdulla A. Damluji MD, PhD, MBA, FAHA discusses late breaking science from OCEANIC-STROKE at #ScientificSessions26. \ud83c\udfa5 ",
+      "summary": "Video of Abdulla Damluji discussing late-breaking OCEANIC-STROKE results at Scientific Sessions 2026.",
+      "topics": [
+       "triglycerides",
+       "antithrombotic"
+      ],
+      "trials": [
+       "OCEANIC-STROKE"
+      ],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "ldl_nonstatin",
+    "label": "LDL & non-statins",
+    "group": "Lipids",
+    "posts": 1,
+    "posts_prev": 2,
+    "kols": [
+     "AHA (American Heart Association)"
+    ],
+    "n_kols": 1,
+    "share": 2.5,
+    "share_prev": 21.0,
+    "delta": -18.5,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     21.0,
+     2.5
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr5m3le3z2j",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr5m3le3z2j",
+      "created_at": "2026-11-08",
+      "is_repost": false,
+      "text": "Yvonne Commodore-Mensah, PhD, MHS, RN, FAHA discusses late breaking science from REDUCE at #ScientificSessions26. \ud83c\udfa5 ",
+      "summary": "Yvonne Commodore-Mensah discusses late-breaking REDUCE results at Scientific Sessions. Video, no findings stated.",
+      "topics": [
+       "ldl_nonstatin",
+       "other"
+      ],
+      "trials": [
+       "REDUCE"
       ],
       "stance": "neutral",
       "likes": 1,
       "reposts": 0,
       "replies": 0,
       "engagement": 1,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "inflammation",
+    "label": "Inflammation",
+    "group": "Residual risk",
+    "posts": 2,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)"
+    ],
+    "n_kols": 1,
+    "share": 2.2,
+    "share_prev": 0.0,
+    "delta": 2.2,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.2
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqsqrn7d22j",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqsqrn7d22j",
+      "created_at": "2026-11-07",
+      "is_repost": false,
+      "text": "Shayan Mohammadmoradi, MS, PhD discusses late breaking science results from ZEUS at #ScientificSessions26.  ",
+      "summary": "Shayan Mohammadmoradi discusses late-breaking ZEUS results at Scientific Sessions. Video, no findings stated.",
+      "topics": [
+       "ckm_diabetes",
+       "inflammation"
+      ],
+      "trials": [
+       "ZEUS"
+      ],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqtm22ks22j",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqtm22ks22j",
+      "created_at": "2026-11-07",
+      "is_repost": false,
+      "text": "Abdulla A. Damluji, MD, PhD, MBA, FAHA  discusses late breaking science results from ZEUS at #ScientificSessions26.  ",
+      "summary": "Abdulla Damluji discusses late-breaking ZEUS results at Scientific Sessions. Video, no findings stated.",
+      "topics": [
+       "inflammation",
+       "ckm_diabetes"
+      ],
+      "trials": [
+       "ZEUS"
+      ],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "heart_failure",
+    "label": "Heart failure",
+    "group": "Other cardiology",
+    "posts": 1,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)"
+    ],
+    "n_kols": 1,
+    "share": 1.5,
+    "share_prev": 0.0,
+    "delta": 1.5,
+    "history": [
+     0.0,
+     8.6,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.5
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzsz76tfzg2e",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzsz76tfzg2e",
+      "created_at": "2026-11-08",
+      "is_repost": false,
+      "text": "Robert Mentz, MD discusses late breaking science from Yoga-CaRe HF at #ScientificSessions26. \ud83c\udfa5 ",
+      "summary": "Video of Robert Mentz discussing late-breaking Yoga-CaRe HF trial results at Scientific Sessions 2026.",
+      "topics": [
+       "heart_failure"
+      ],
+      "trials": [
+       "YOGA-CARE HF"
+      ],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "antithrombotic",
+    "label": "Antithrombotics",
+    "group": "Secondary prevention",
+    "posts": 1,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)"
+    ],
+    "n_kols": 1,
+    "share": 0.7,
+    "share_prev": 0.0,
+    "delta": 0.7,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.7
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mztif6qmbm2i",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mztif6qmbm2i",
+      "created_at": "2026-11-08",
+      "is_repost": false,
+      "text": "Abdulla A. Damluji MD, PhD, MBA, FAHA discusses late breaking science from OCEANIC-STROKE at #ScientificSessions26. \ud83c\udfa5 ",
+      "summary": "Video of Abdulla Damluji discussing late-breaking OCEANIC-STROKE results at Scientific Sessions 2026.",
+      "topics": [
+       "triglycerides",
+       "antithrombotic"
+      ],
+      "trials": [
+       "OCEANIC-STROKE"
+      ],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "lifestyle",
+    "label": "Lifestyle & nutrition",
+    "group": "Prevention strategy",
+    "posts": 1,
+    "posts_prev": 1,
+    "kols": [
+     "AHA (American Heart Association)"
+    ],
+    "n_kols": 1,
+    "share": 0.7,
+    "share_prev": 18.0,
+    "delta": -17.3,
+    "history": [
+     17.5,
+     0.0,
+     21.1,
+     0.0,
+     0.0,
+     0.0,
+     18.0,
+     0.7
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzti5dphqj24",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzti5dphqj24",
+      "created_at": "2026-11-08",
+      "is_repost": false,
+      "text": "Science shared at #ScientificSessions26 is reshaping how we think about menopause and cardiovascular health. Explore educational content today. \n\nLearn more: https://bit.ly/3UwC6la",
+      "summary": "Promotes Scientific Sessions 2026 educational content on menopause and cardiovascular health, with a link.",
+      "topics": [
+       "womens_equity",
+       "lifestyle"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
       "region": "North America",
       "industry": false
      }
@@ -493,66 +939,16 @@
     "kols": [],
     "n_kols": 0,
     "share": 0.0,
-    "share_prev": 11.7,
-    "delta": -11.7,
+    "share_prev": 9.0,
+    "delta": -9.0,
     "history": [
      0.0,
      0.0,
-     16.7,
-     6.8,
+     19.7,
+     30.5,
      0.0,
      0.0,
-     11.7,
-     0.0
-    ],
-    "top_posts": [],
-    "trending": false,
-    "cooling": false
-   },
-   {
-    "id": "interventional",
-    "label": "Interventional & physiology",
-    "group": "Imaging",
-    "posts": 0,
-    "posts_prev": 1,
-    "kols": [],
-    "n_kols": 0,
-    "share": 0.0,
-    "share_prev": 9.9,
-    "delta": -9.9,
-    "history": [
-     21.5,
-     2.6,
-     33.5,
-     27.1,
      9.0,
-     0.0,
-     9.9,
-     0.0
-    ],
-    "top_posts": [],
-    "trending": false,
-    "cooling": false
-   },
-   {
-    "id": "global_health",
-    "label": "Global CV health",
-    "group": "Populations",
-    "posts": 0,
-    "posts_prev": 2,
-    "kols": [],
-    "n_kols": 0,
-    "share": 0.0,
-    "share_prev": 25.0,
-    "delta": -25.0,
-    "history": [
-     7.9,
-     12.2,
-     0.0,
-     1.4,
-     11.7,
-     0.0,
-     25.0,
      0.0
     ],
     "top_posts": [],
@@ -562,73 +958,43 @@
   ],
   "region_topic_labels": [
    "Other",
-   "Lp(a)",
-   "Inflammation",
    "Women's heart & equity",
-   "Triglycerides & ApoC3",
+   "Lp(a)",
+   "AI & digital health",
+   "Hypertension",
    "CKM, diabetes & kidney"
   ],
   "regions": [
    {
     "region": "North America",
-    "posts": 41,
+    "posts": 30,
     "top": [
      {
       "label": "Other",
-      "n": 33
+      "n": 11
      },
      {
       "label": "Women's heart & equity",
-      "n": 2
+      "n": 6
      },
      {
       "label": "Lp(a)",
-      "n": 2
+      "n": 3
      }
     ],
     "cells": [
-     33,
-     2,
-     2,
+     11,
+     6,
+     3,
      2,
      1,
-     1
+     2
     ]
    }
   ],
   "trials": [
    {
-    "name": "FAHA",
-    "posts": 11,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "FRCS",
-    "posts": 2,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "FACC",
-    "posts": 2,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "HORIZON",
+    "name": "LP(A)HORIZON",
     "posts": 2,
     "prev": 0,
     "kols": [
@@ -640,76 +1006,6 @@
    {
     "name": "ZEUS",
     "posts": 2,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "N139-N140",
-    "posts": 1,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "N228-N229",
-    "posts": 1,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "S101",
-    "posts": 1,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "S104",
-    "posts": 1,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "GRWISM",
-    "posts": 1,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "FACOG",
-    "posts": 1,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "S105D",
-    "posts": 1,
     "prev": 0,
     "kols": [
      "AHA (American Heart Association)"
@@ -738,7 +1034,37 @@
     "new": true
    },
    {
+    "name": "UNRAVEL",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "Khurram Nasir"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
     "name": "STREAM",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "AHA (American Heart Association)"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
+    "name": "YOGA-CARE HF",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "AHA (American Heart Association)"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
+    "name": "OCEANIC-STROKE",
     "posts": 1,
     "prev": 0,
     "kols": [
@@ -752,27 +1078,6 @@
   "debates": [],
   "top_posts": [
    {
-    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzj6itgfms2o",
-    "kol": "Eric Topol",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzj6itgfms2o",
-    "created_at": "2026-11-04",
-    "is_repost": false,
-    "text": "The latest, a projected 81-seat majority",
-    "summary": "The latest, a projected 81-seat majority",
-    "topics": [
-     "other"
-    ],
-    "trials": [],
-    "stance": "neutral",
-    "likes": 552,
-    "reposts": 100,
-    "replies": 24,
-    "engagement": 824,
-    "region": "North America",
-    "industry": false
-   },
-   {
     "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mznoiijqqc24",
     "kol": "Eric Topol",
     "platform": "bluesky",
@@ -780,37 +1085,16 @@
     "created_at": "2026-11-06",
     "is_repost": false,
     "text": "Health and economic benefits have been grossly underestimated www.newscientist.com/article/2597...",
-    "summary": "Health and economic benefits have been grossly underestimated www.newscientist.com/article/2597...",
+    "summary": "Says health and economic benefits of Covid vaccines are underestimated, linking a New Scientist article.",
     "topics": [
      "other"
     ],
     "trials": [],
-    "stance": "neutral",
+    "stance": "supportive",
     "likes": 239,
     "reposts": 95,
     "replies": 3,
     "engagement": 438,
-    "region": "North America",
-    "industry": false
-   },
-   {
-    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzo5wpy5ak2v",
-    "kol": "Eric Topol",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzo5wpy5ak2v",
-    "created_at": "2026-11-06",
-    "is_repost": false,
-    "text": "We are at the beginning of a new and exciting era to be able to program our immune system in the body (in vivo). This new review @SciImmunology nails it www.science.org/doi/10.1126/...",
-    "summary": "We are at the beginning of a new and exciting era to be able to program our immune system in the body (in vivo",
-    "topics": [
-     "other"
-    ],
-    "trials": [],
-    "stance": "neutral",
-    "likes": 262,
-    "reposts": 58,
-    "replies": 5,
-    "engagement": 393,
     "region": "North America",
     "industry": false
    },
@@ -822,7 +1106,7 @@
     "created_at": "2026-11-02",
     "is_repost": false,
     "text": "Symptomatic improvement in people with #LongCovid over time\nwww.acpjournals.org/doi/10.7326/...\n@annalsofim.bsky.social",
-    "summary": "Symptomatic improvement in people with #LongCovid over time\nwww.acpjournals.org/doi/10.7326/...\n@annalsofim.bs",
+    "summary": "Shares Annals study on symptomatic improvement in long COVID over time.",
     "topics": [
      "other"
     ],
@@ -836,23 +1120,26 @@
     "industry": false
    },
    {
-    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzlsidmuns2k",
-    "kol": "Eric Topol",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzlsidmuns2k",
-    "created_at": "2026-11-05",
+    "id": "li:7525219559667335168",
+    "kol": "Khurram Nasir",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_decentralized-lipoproteina-testing-in-adults-activity-7525219559667335168-QMC8",
+    "created_at": "2026-11-08",
     "is_repost": false,
-    "text": "Epigenetic aging of kids and adults was accelerated during the Covid pandemic\nFrom a prospective longitudinal study \nwww.pnas.org/doi/epdf/10....",
-    "summary": "Epigenetic aging of kids and adults was accelerated during the Covid pandemic\nFrom a prospective longitudinal ",
+    "text": "A new model of decentralized cardiovascular research is taking shape Pts can be identified through clinical records, contacted directly, and enrolled remotely, testing arranged at local labs-->brings selected research activities closer to where people live Participation more manageable around work, travel and family responsibilities (more practical) In American Journal of Preventive Cardiology sim",
+    "summary": "Nasir describes UNRAVEL, a decentralized Lp(a) study with high enrollment and lab completion, and calls for local reach.",
     "topics": [
-     "other"
+     "lpa",
+     "trial_methods"
     ],
-    "trials": [],
-    "stance": "neutral",
-    "likes": 106,
-    "reposts": 33,
-    "replies": 5,
-    "engagement": 187,
+    "trials": [
+     "UNRAVEL"
+    ],
+    "stance": "supportive",
+    "likes": 31,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 31,
     "region": "North America",
     "industry": false
    },
@@ -864,12 +1151,12 @@
     "created_at": "2026-11-07",
     "is_repost": false,
     "text": "Anastasia Mihailidou, BSc, PhD, FAHA discusses late breaking science from OPTIMAL-STROKE at #ScientificSessions26. \ud83c\udfa5 ",
-    "summary": "Anastasia Mihailidou, BSc, PhD, FAHA discusses late breaking science from OPTIMAL-STROKE at #ScientificSession",
+    "summary": "Anastasia Mihailidou discusses late-breaking OPTIMAL-STROKE results at Scientific Sessions. Video, no findings stated.",
     "topics": [
+     "hypertension",
      "other"
     ],
     "trials": [
-     "FAHA",
      "OPTIMAL-STROKE"
     ],
     "stance": "neutral",
@@ -888,12 +1175,12 @@
     "created_at": "2026-11-03",
     "is_repost": false,
     "text": "Make meaningful connections at #ScientificSessions26!  \n \nExplore the opportunities to grow your professional circle. \ud83d\udd3d \n \nLearn more: https://bit.ly/4izFy6u ",
-    "summary": "Make meaningful connections at #ScientificSessions26!  \n \nExplore the opportunities to grow your professional ",
+    "summary": "Promotes networking opportunities at AHA Scientific Sessions 2026.",
     "topics": [
      "other"
     ],
     "trials": [],
-    "stance": "neutral",
+    "stance": "not_applicable",
     "likes": 2,
     "reposts": 1,
     "replies": 0,
@@ -909,12 +1196,12 @@
     "created_at": "2026-11-03",
     "is_repost": false,
     "text": "Make meaningful connections at the Mentor Meetup room during #ScientificSessions26 and #ReSS26. Meet senior mentors, discuss research and career development, and discover new opportunities. Look for faculty wearing \"Talk to Me About\" badges to find experts ready to connect. ",
-    "summary": "Make meaningful connections at the Mentor Meetup room during #ScientificSessions26 and #ReSS26. Meet senior me",
+    "summary": "Describes Mentor Meetup room for career connections at Scientific Sessions 2026.",
     "topics": [
      "other"
     ],
     "trials": [],
-    "stance": "neutral",
+    "stance": "not_applicable",
     "likes": 1,
     "reposts": 1,
     "replies": 0,
@@ -930,57 +1217,13 @@
     "created_at": "2026-11-04",
     "is_repost": false,
     "text": "Discover what's next in cardiovascular innovation at the Health Innovation Pavilion at #ScientificSessions26. Explore AI-driven solutions, experience live technology demonstrations and connect with innovators shaping the future of healthcare.\n\n\ud83d\udccd Science & Technology Hall | Booth 100 ",
-    "summary": "Discover what's next in cardiovascular innovation at the Health Innovation Pavilion at #ScientificSessions26. ",
+    "summary": "Promotes Health Innovation Pavilion with AI-driven solutions at Scientific Sessions 2026.",
     "topics": [
+     "ai_digital",
      "other"
     ],
     "trials": [],
-    "stance": "neutral",
-    "likes": 1,
-    "reposts": 1,
-    "replies": 0,
-    "engagement": 3,
-    "region": "North America",
-    "industry": false
-   },
-   {
-    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mznnjhzokq2u",
-    "kol": "AHA (American Heart Association)",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mznnjhzokq2u",
-    "created_at": "2026-11-06",
-    "is_repost": false,
-    "text": "Something new is coming for our professional members \ud83d\udc40  \n \nDon\u2019t miss the reveal of MemberCentral at #ScientificSessions26.Stop by the member lounge for assistance in activating your profile. ",
-    "summary": "Something new is coming for our professional members \ud83d\udc40  \n \nDon\u2019t miss the reveal of MemberCentral at #Scientif",
-    "topics": [
-     "other"
-    ],
-    "trials": [],
-    "stance": "neutral",
-    "likes": 1,
-    "reposts": 1,
-    "replies": 0,
-    "engagement": 3,
-    "region": "North America",
-    "industry": false
-   },
-   {
-    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzoqnz2iky2j",
-    "kol": "AHA (American Heart Association)",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzoqnz2iky2j",
-    "created_at": "2026-11-07",
-    "is_repost": false,
-    "text": "\ud83c\udf99\ufe0f Happening Sunday at #ScientificSessions26! \n\nJoin Eric Topol, MD, and Joanna Chikwe, MD, FRCS, FAHA, for a live recording of the Ground Truths podcast. \n \n\ud83d\udcc5 Nov. 8 \n\u23f0 11:30 AM CT \n\ud83d\udccdSpecial Session Room \n",
-    "summary": "\ud83c\udf99\ufe0f Happening Sunday at #ScientificSessions26! \n\nJoin Eric Topol, MD, and Joanna Chikwe, MD, FRCS, FAHA, for a ",
-    "topics": [
-     "other"
-    ],
-    "trials": [
-     "FAHA",
-     "FRCS"
-    ],
-    "stance": "neutral",
+    "stance": "not_applicable",
     "likes": 1,
     "reposts": 1,
     "replies": 0,
@@ -996,19 +1239,104 @@
     "created_at": "2026-11-07",
     "is_repost": false,
     "text": "Join moderator Jennifer Ashton, MD, MS, FACOG, and a panel of speakers to explore key connections between hormones and cardiovascular health across the lifespan. #ScientificSessions26\n \n\ud83d\udcc5 Nov. 7 | 3:15-4:30 PM CT \n\ud83d\udccd S105D ",
-    "summary": "Join moderator Jennifer Ashton, MD, MS, FACOG, and a panel of speakers to explore key connections between horm",
+    "summary": "Announces a panel on hormones and cardiovascular health across the lifespan at Scientific Sessions.",
     "topics": [
+     "womens_equity",
      "other"
     ],
-    "trials": [
-     "FACOG",
-     "S105D"
-    ],
-    "stance": "neutral",
+    "trials": [],
+    "stance": "not_applicable",
     "likes": 1,
     "reposts": 1,
     "replies": 0,
     "engagement": 3,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzh5n7xk7c2o",
+    "kol": "AHA (American Heart Association)",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzh5n7xk7c2o",
+    "created_at": "2026-11-04",
+    "is_repost": false,
+    "text": "Step into the Clinical Case Arena at #ScientificSessions26 and explore real-world cardiovascular cases through an interactive learning experience:  \n\n\ud83d\udd39 Unique and complex case presentations  \n\ud83d\udd39 Interactive, experiential learning  \n\ud83d\udd39 Practical insights to help advance your clinical practice  ",
+    "summary": "Promotes Clinical Case Arena learning sessions at Scientific Sessions 2026.",
+    "topics": [
+     "other"
+    ],
+    "trials": [],
+    "stance": "not_applicable",
+    "likes": 1,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 1,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mziwnm5pwm2b",
+    "kol": "AHA (American Heart Association)",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mziwnm5pwm2b",
+    "created_at": "2026-11-04",
+    "is_repost": false,
+    "text": "\ud83c\udf99\ufe0fTwo opportunities to hear from Eric Topol, MD, at #ScientificSessions26! \n\nOpening Session\n \n\ud83d\udcc5 Nov. 7 | 8-8:30 AM CT \n\ud83d\udccd Center Stage \n \nThen, join Eric Topol and Joanna Chikwe for a live recording of the Ground Truths podcast. \n\n\ud83d\udcc5 Nov. 8 | 11:30 AM CT \n\ud83d\udccdSpecial Session Room",
+    "summary": "Announces Eric Topol appearances at Scientific Sessions 2026 opening and podcast recording.",
+    "topics": [
+     "other"
+    ],
+    "trials": [],
+    "stance": "not_applicable",
+    "likes": 1,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 1,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s",
+    "kol": "AHA (American Heart Association)",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqs7uqdmm2s",
+    "created_at": "2026-11-07",
+    "is_repost": false,
+    "text": "Hear from Viet Le, DMSc, PA-C, FACC, FAHA, HF- Cert! \ud83c\udfa5\n\nLp(a) HORIZON, presented at #ScientificSessions26 showed Pelacarsen substantially lowered lipoprotein(a) but did not reduce risk of MACE compared to placebo in patients on guideline-directed medical therapy for secondary prevention of CVD. \n \n ",
+    "summary": "Viet Le summarizes Lp(a)HORIZON: pelacarsen lowered Lp(a) but did not reduce MACE versus placebo.",
+    "topics": [
+     "lpa"
+    ],
+    "trials": [
+     "LP(A)HORIZON"
+    ],
+    "stance": "neutral",
+    "likes": 1,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 1,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqxofv7wn2q",
+    "kol": "AHA (American Heart Association)",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqxofv7wn2q",
+    "created_at": "2026-11-07",
+    "is_repost": false,
+    "text": "Science shared at #ScientificSessions26 is reshaping how we think about menopause and cardiovascular health. Explore educational content today. \n \nLearn more: https://bit.ly/3UwC6la \n",
+    "summary": "Promotes Scientific Sessions content on menopause and cardiovascular health (repost of earlier post).",
+    "topics": [
+     "womens_equity",
+     "other"
+    ],
+    "trials": [],
+    "stance": "not_applicable",
+    "likes": 1,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 1,
     "region": "North America",
     "industry": false
    }
@@ -1016,15 +1344,22 @@
   "active_kols": [
    {
     "name": "AHA (American Heart Association)",
-    "posts": 36,
-    "engagement": 32,
+    "posts": 27,
+    "engagement": 23,
     "region": "North America",
     "industry": false
    },
    {
     "name": "Eric Topol",
-    "posts": 5,
-    "engagement": 2090,
+    "posts": 2,
+    "engagement": 686,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "Khurram Nasir",
+    "posts": 1,
+    "engagement": 31,
     "region": "North America",
     "industry": false
    }
@@ -1033,22 +1368,23 @@
    "kols_total": 91,
    "kols_bluesky": 14,
    "kols_linkedin": 39,
-   "kols_active": 2,
-   "posts_total": 41,
-   "posts_relevant": 41,
-   "posts_prev": 9,
+   "kols_active": 3,
+   "posts_total": 42,
+   "posts_relevant": 30,
+   "posts_prev": 6,
    "by_platform": {
-    "bluesky": 41
+    "bluesky": 41,
+    "linkedin": 1
    }
   },
   "post_links": {
-   "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzj6itgfms2o": {
-    "kol": "Eric Topol",
-    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzj6itgfms2o"
+   "li:7525219559667335168": {
+    "kol": "Khurram Nasir",
+    "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_decentralized-lipoproteina-testing-in-adults-activity-7525219559667335168-QMC8"
    },
-   "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mznoiijqqc24": {
-    "kol": "Eric Topol",
-    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mznoiijqqc24"
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqs7uqdmm2s"
    }
   }
  },
@@ -1056,11 +1392,11 @@
   "headline": "Most discussed: Other.",
   "key_points": [
    {
-    "title": "Other",
-    "body": "33 posts from 2 KOLs; share 89.1% (+35.6 pts vs prior week).",
+    "title": "Lp(a)",
+    "body": "3 posts from 2 KOLs; share 10.5% (+10.5 pts vs prior week).",
     "post_ids": [
-     "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzj6itgfms2o",
-     "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mznoiijqqc24"
+     "li:7525219559667335168",
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s"
     ]
    }
   ],
