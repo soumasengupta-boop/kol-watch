@@ -1,7 +1,7 @@
 {
  "stats": {
-  "start": "2026-11-02T01:40:33.722434+00:00",
-  "end": "2026-11-09T01:40:33.722434+00:00",
+  "start": "2026-11-02T01:42:56.425703+00:00",
+  "end": "2026-11-09T01:42:56.425703+00:00",
   "label": "Nov 02 \u2013 Nov 09, 2026",
   "week_labels": [
    "Sep 21",
@@ -1378,31 +1378,146 @@
    }
   },
   "post_links": {
+   "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mznoiijqqc24": {
+    "kol": "Eric Topol",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mznoiijqqc24"
+   },
+   "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzedo4t76c24": {
+    "kol": "Eric Topol",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzedo4t76c24"
+   },
    "li:7525219559667335168": {
     "kol": "Khurram Nasir",
     "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_decentralized-lipoproteina-testing-in-adults-activity-7525219559667335168-QMC8"
    },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr3ychqeu2i": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr3ychqeu2i"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqbdlhxmp2u": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqbdlhxmp2u"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mziwnm5pwm2b": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mziwnm5pwm2b"
+   },
    "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s": {
     "kol": "AHA (American Heart Association)",
     "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqs7uqdmm2s"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqxofv7wn2q": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqxofv7wn2q"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr5m3le3z2j": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr5m3le3z2j"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzn6g7fywa2u": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzn6g7fywa2u"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mznk6dq2g72j": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mznk6dq2g72j"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzoojqaxg72k": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzoojqaxg72k"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqsqrn7d22j": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqsqrn7d22j"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr33wibvh2j": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr33wibvh2j"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzsvklq3du2k": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzsvklq3du2k"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzsz76tfzg2e": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzsz76tfzg2e"
+   },
+   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mztif6qmbm2i": {
+    "kol": "AHA (American Heart Association)",
+    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mztif6qmbm2i"
    }
   }
  },
  "digest": {
-  "headline": "Most discussed: Other.",
+  "headline": "AHA Scientific Sessions 2026 (Chicago) dominated the feed, with the AHA account relaying that Lp(a) HORIZON showed pelacarsen substantially lowered Lp(a) but did not reduce MACE versus placebo in secondary prevention.",
   "key_points": [
    {
-    "title": "Lp(a)",
-    "body": "3 posts from 2 KOLs; share 10.5% (+10.5 pts vs prior week).",
+    "title": "Lp(a) HORIZON: Lp(a) lowered, no MACE reduction",
+    "body": "The AHA account, summarising a Viet Le video, said pelacarsen substantially lowered lipoprotein(a) but did not reduce MACE versus placebo in secondary-prevention patients on guideline-directed therapy. Emily Lau was also featured discussing the late-breaker. The posts give no effect sizes and no KOL interpretation.",
     "post_ids": [
-     "li:7525219559667335168",
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s"
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s",
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr33wibvh2j"
+    ]
+   },
+   {
+    "title": "Late-breaker video series from AHA account",
+    "body": "The AHA account posted short discussant videos on OPTIMAL-STROKE (Anastasia Mihailidou), REDUCE (Yvonne Commodore-Mensah), STREAM (Garima Sharma) and Yoga-CaRe HF (Robert Mentz). It also posted on ZEUS (Shayan Mohammadmoradi, Abdulla Damluji) and OCEANIC-STROKE (Damluji). The posts contain no results, only the presenters' names.",
+    "post_ids": [
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr3ychqeu2i",
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr5m3le3z2j",
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzsvklq3du2k",
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzsz76tfzg2e",
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqsqrn7d22j",
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mztif6qmbm2i"
+    ]
+   },
+   {
+    "title": "Women's heart health and menopause programming",
+    "body": "Women's heart and equity was the largest named topic, with 6 posts. They promoted a sex-hormones and cardiovascular health panel (C. Noel Bairey Merz, Sadiya Khan, Emily Lau and others), menopause educational content, and FIT/GRWISM sessions. All were from the AHA account and promotional.",
+    "post_ids": [
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqbdlhxmp2u",
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzn6g7fywa2u",
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqxofv7wn2q"
+    ]
+   },
+   {
+    "title": "CKM health and FCS education",
+    "body": "Sadiya Khan highlighted CKM health sessions (Learning Labs, symposia) as a major meeting focus. A separate AHA post on familial chylomicronemia syndrome (FCS) said early diagnosis may reduce pancreatitis risk and repeat hospitalizations.",
+    "post_ids": [
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzoojqaxg72k",
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mznk6dq2g72j"
+    ]
+   },
+   {
+    "title": "Nasir on decentralized cardiovascular research",
+    "body": "Khurram Nasir (LinkedIn) described a decentralized model. Patients are identified through clinical records, contacted directly and enrolled remotely, with testing at local labs, which he framed as more practical around work and family. He tied it to the UNRAVEL work in the American Journal of Preventive Cardiology.",
+    "post_ids": [
+     "li:7525219559667335168"
+    ]
+   },
+   {
+    "title": "Topol: long COVID and underestimated benefits",
+    "body": "Eric Topol shared an Annals of Internal Medicine paper on symptomatic improvement in long COVID over time. He also shared a New Scientist piece saying health and economic benefits have been grossly underestimated, which drew the most engagement of the week (438). The post text does not name the subject. Topol was also listed for the Opening Session on Nov 7 and a live Ground Truths podcast recording on Nov 8.",
+    "post_ids": [
+     "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mznoiijqqc24",
+     "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzedo4t76c24",
+     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mziwnm5pwm2b"
     ]
    }
   ],
-  "debates": [],
-  "regional": [],
-  "watch_next": [],
-  "generated_by": "fallback"
+  "debates": [
+   "No KOL disagreement is visible this week. Only 3 of 91 tracked KOLs posted, and the AHA account's late-breaker posts are neutral, without critique or interpretation."
+  ],
+  "regional": [
+   {
+    "region": "North America",
+    "note": "All 30 relevant posts came from North America. 41 of 42 posts were on Bluesky and 1 was on LinkedIn, so there is no international signal this week."
+   }
+  ],
+  "watch_next": [
+   "Congenital Heart Disease Day (Nov 9, 8AM\u20131PM CT) at the AHA Scientific Sessions.",
+   "Full presentations and publications for the late-breakers named above (Lp(a) HORIZON, ZEUS, OCEANIC-STROKE, REDUCE, STREAM, OPTIMAL-STROKE, Yoga-CaRe HF). The posts give no results beyond Lp(a) HORIZON."
+  ],
+  "generated_by": "claude-sonnet-5-5"
  }
 }

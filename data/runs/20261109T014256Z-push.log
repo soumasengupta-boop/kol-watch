@@ -1,0 +1,10 @@
+ANTHROPIC_API_KEY: set
+BRIGHTDATA_API_KEY: set
+RESEND_API_KEY: set
+REPORT_EMAIL_TO: set
+01:42:56 INFO Tagging: 105 posts, 105 cached, 0 to tag
+01:42:58 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:42:58 INFO Model rejected forced tool_choice; retrying with auto
+01:43:12 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:43:12 INFO Report: /home/runner/work/kol-watch/kol-watch/site/index.html  (30 relevant posts, 14 topics)
+01:43:13 INFO Emailed report to souma.sengupta@gmail.com via Resend (id 01a1bdf9-47a5-79e1-bae9-00d6db2f2a75)
