@@ -29,7 +29,7 @@ def cmd_collect(args) -> int:
     posts = bluesky.collect(kols, since)
     if not args.skip_linkedin:
         try:
-            posts += linkedin.collect(kols, since)
+            posts += linkedin.collect(kols, since, args.linkedin_max_profiles, args.linkedin_per_profile)
         except linkedin.BrightDataError as e:
             log.warning("LinkedIn skipped: %s", e)
             if args.strict:
@@ -115,6 +115,8 @@ def main(argv: list[str] | None = None) -> int:
         p.add_argument("--skip-linkedin", action="store_true")
         p.add_argument("--strict", action="store_true", help="fail if LinkedIn collection fails")
         p.add_argument("--keyword", action="store_true", help="use offline keyword tagger, no Claude")
+        p.add_argument("--linkedin-max-profiles", type=int, default=0, help="cap LinkedIn profiles (testing)")
+        p.add_argument("--linkedin-per-profile", type=int, default=0, help="cap posts per LinkedIn profile")
 
     for name, fn in (("run", cmd_run), ("collect", cmd_collect), ("report", cmd_report), ("demo", cmd_demo)):
         p = sub.add_parser(name)

@@ -34,13 +34,13 @@ def _bd_date(dt: datetime) -> str:
     return dt.strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
 
-def trigger(urls: list[str], since: datetime, until: datetime) -> str:
+def trigger(urls: list[str], since: datetime, until: datetime, per_profile: int | None = None) -> str:
     params = {
         "dataset_id": BRIGHTDATA_POSTS_DATASET,
         "include_errors": "true",
         "type": "discover_new",
         "discover_by": "profile_url",
-        "limit_per_input": str(LINKEDIN_POSTS_PER_PROFILE),
+        "limit_per_input": str(per_profile or LINKEDIN_POSTS_PER_PROFILE),
     }
     body = [{"url": u, "start_date": _bd_date(since), "end_date": _bd_date(until)} for u in urls]
     r = requests.post(f"{API}/trigger", params=params, json=body, headers=_headers(), timeout=60)
@@ -120,12 +120,17 @@ def normalize(records: list[dict], kols: list[KOL], since: datetime) -> list[dic
     return out
 
 
-def collect(kols: list[KOL], since: datetime) -> list[dict]:
+def collect(kols: list[KOL], since: datetime, max_profiles: int | None = None,
+            per_profile: int | None = None) -> list[dict]:
+    """max_profiles / per_profile cap Bright Data spend (records <= max_profiles * per_profile)."""
     targets = [k for k in kols if k.linkedin_url]
     log.info("LinkedIn: %d of %d KOLs have profile URLs", len(targets), len(kols))
+    if max_profiles:
+        targets = targets[:max_profiles]
+        log.info("  test cap: first %d profiles, %s posts each", len(targets), per_profile or LINKEDIN_POSTS_PER_PROFILE)
     if not targets:
         return []
-    snap = trigger([k.linkedin_url for k in targets], since, utcnow())
+    snap = trigger([k.linkedin_url for k in targets], since, utcnow(), per_profile)
     log.info("  triggered snapshot %s", snap)
     wait(snap)
     raw = download(snap)

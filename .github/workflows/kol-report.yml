@@ -1,8 +1,18 @@
 name: kol-report
 
+# Three ways to start a run:
+#  1. Schedule: Mondays 13:17 UTC (5:17 am Pacific in winter), full weekly run.
+#  2. Manual: Actions -> kol-report -> Run workflow (GitHub app or website).
+#  3. Request file: commit .github/run-request.json, e.g.
+#     {"mode": "run", "days": 8, "skip_linkedin": false, "linkedin_max_profiles": 3, "linkedin_per_profile": 5, "email": true, "note": "why"}
+# Every run saves its log to data/runs/ so it can be read without opening Actions.
+
 on:
   schedule:
-    - cron: "17 13 * * 1"   # Mondays 13:17 UTC (5:17 am Pacific in winter)
+    - cron: "17 13 * * 1"
+  push:
+    branches: [main]
+    paths: [".github/run-request.json"]
   workflow_dispatch:
     inputs:
       mode:
@@ -17,6 +27,13 @@ on:
         description: "Skip LinkedIn (no Bright Data spend)"
         type: boolean
         default: false
+      linkedin_max_profiles:
+        description: "Cap LinkedIn profiles (0 = all). Use small numbers for testing."
+        default: "0"
+      email:
+        description: "Send the email"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -32,16 +49,16 @@ jobs:
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       BRIGHTDATA_API_KEY: ${{ secrets.BRIGHTDATA_API_KEY }}
-      CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      CF_PROJECT: ${{ vars.CLOUDFLARE_PAGES_PROJECT || 'kol-watch' }}
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      REPORT_EMAIL_TO: ${{ secrets.REPORT_EMAIL_TO }}
       SMTP_USER: ${{ secrets.SMTP_USER }}
       SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-      REPORT_EMAIL_TO: ${{ secrets.REPORT_EMAIL_TO }}
       SMTP_HOST: ${{ vars.SMTP_HOST || 'smtp.gmail.com' }}
       SMTP_PORT: ${{ vars.SMTP_PORT || '465' }}
       KOLWATCH_DASHBOARD_URL: ${{ vars.KOLWATCH_DASHBOARD_URL }}
+      CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CF_PROJECT: ${{ vars.CLOUDFLARE_PAGES_PROJECT || 'kol-watch' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -52,34 +69,79 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Resolve run parameters
+        env:
+          EVENT: ${{ github.event_name }}
+          IN_MODE: ${{ inputs.mode }}
+          IN_DAYS: ${{ inputs.days }}
+          IN_SKIP: ${{ inputs.skip_linkedin }}
+          IN_MAXP: ${{ inputs.linkedin_max_profiles }}
+          IN_EMAIL: ${{ inputs.email }}
+        run: |
+          python - <<'EOF'
+          import json, os
+          ev = os.environ["EVENT"]
+          p = {"mode": "run", "days": 8, "skip_linkedin": False, "linkedin_max_profiles": 0,
+               "linkedin_per_profile": 0, "email": True}
+          if ev == "workflow_dispatch":
+              p.update(mode=os.environ["IN_MODE"] or "run", days=int(os.environ["IN_DAYS"] or 8),
+                       skip_linkedin=os.environ["IN_SKIP"] == "true",
+                       linkedin_max_profiles=int(os.environ["IN_MAXP"] or 0),
+                       email=os.environ["IN_EMAIL"] != "false")
+          elif ev == "push":
+              p.update(json.load(open(".github/run-request.json")))
+          args = f"--days {int(p['days'])}"
+          if p.get("skip_linkedin"): args += " --skip-linkedin"
+          if int(p.get("linkedin_max_profiles") or 0): args += f" --linkedin-max-profiles {int(p['linkedin_max_profiles'])}"
+          if int(p.get("linkedin_per_profile") or 0): args += f" --linkedin-per-profile {int(p['linkedin_per_profile'])}"
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              f.write(f"RUN_MODE={p['mode']}\nRUN_ARGS={args}\nRUN_EMAIL={'1' if p.get('email', True) else ''}\n")
+          print("Parameters:", p, "->", args)
+          EOF
+          mkdir -p data/runs
+          echo "RUN_LOG=data/runs/$(date -u +%Y%m%dT%H%M%SZ)-${EVENT}.log" >> "$GITHUB_ENV"
+
+      - name: Check secrets are present (values are never printed)
+        run: |
+          for s in ANTHROPIC_API_KEY BRIGHTDATA_API_KEY RESEND_API_KEY REPORT_EMAIL_TO; do
+            if [ -n "${!s}" ]; then echo "$s: set"; else echo "$s: MISSING"; fi
+          done | tee -a "$RUN_LOG"
+
       - name: Resolve missing handles
-        if: inputs.mode == 'resolve-handles'
-        run: python -m kolwatch resolve --apply
+        if: env.RUN_MODE == 'resolve-handles'
+        run: |
+          set -o pipefail
+          python -m kolwatch resolve --apply 2>&1 | tee -a "$RUN_LOG"
 
       - name: Collect + tag + report
-        if: inputs.mode == 'run' || github.event_name == 'schedule'
+        if: env.RUN_MODE == 'run'
         run: |
-          ARGS="--days ${{ inputs.days || '8' }}"
-          if [ "${{ inputs.skip_linkedin }}" = "true" ]; then ARGS="$ARGS --skip-linkedin"; fi
-          python -m kolwatch run $ARGS
+          set -o pipefail
+          python -m kolwatch run $RUN_ARGS 2>&1 | tee -a "$RUN_LOG"
 
       - name: Re-render report from stored data
-        if: inputs.mode == 'report-only'
-        run: python -m kolwatch report
+        if: env.RUN_MODE == 'report-only'
+        run: |
+          set -o pipefail
+          python -m kolwatch report 2>&1 | tee -a "$RUN_LOG"
 
-      - name: Commit data back to the repo
+      - name: Email the report
+        if: env.RUN_EMAIL == '1' && env.RUN_MODE != 'resolve-handles' && (env.RESEND_API_KEY != '' || env.SMTP_PASSWORD != '') && hashFiles('site/index.html') != ''
+        run: |
+          set -o pipefail
+          python -m kolwatch email --strict 2>&1 | tee -a "$RUN_LOG"
+
+      - name: Commit data and run log back to the repo
+        if: always()
         run: |
           git config user.name "kol-watch-bot"
           git config user.email "kol-watch-bot@users.noreply.github.com"
           git add config/kols.csv data/
           if git diff --cached --quiet; then echo "No changes"; else
-            git commit -m "Weekly KOL data $(date -u +%Y-%m-%d) [${{ inputs.mode || 'run' }}]"
+            git commit -m "KOL data $(date -u +%Y-%m-%d) [${RUN_MODE:-run}, ${{ github.event_name }}]"
+            git pull --rebase -q || true
             git push
           fi
-
-      - name: Email the report
-        if: (env.RESEND_API_KEY != '' || env.SMTP_PASSWORD != '') && inputs.mode != 'resolve-handles' && hashFiles('site/index.html') != ''
-        run: python -m kolwatch email --strict
 
       - name: Deploy dashboard to Cloudflare Pages
         if: env.CF_API_TOKEN != '' && hashFiles('site/index.html') != ''
