@@ -1,7 +1,7 @@
 {
  "stats": {
-  "start": "2026-11-02T01:42:56.425703+00:00",
-  "end": "2026-11-09T01:42:56.425703+00:00",
+  "start": "2026-11-02T23:11:54.780787+00:00",
+  "end": "2026-11-09T23:11:54.780787+00:00",
   "label": "Nov 02 \u2013 Nov 09, 2026",
   "week_labels": [
    "Sep 21",
@@ -18,25 +18,29 @@
     "id": "other",
     "label": "Other",
     "group": "Other cardiology",
-    "posts": 21,
-    "posts_prev": 4,
+    "posts": 36,
+    "posts_prev": 13,
     "kols": [
      "AHA (American Heart Association)",
-     "Eric Topol"
+     "C. Michael Gibson",
+     "Deepak Bhatt",
+     "Eric Topol",
+     "JACC",
+     "Martha Gulati"
     ],
-    "n_kols": 2,
-    "share": 51.2,
-    "share_prev": 52.0,
-    "delta": -0.8,
+    "n_kols": 6,
+    "share": 26.7,
+    "share_prev": 68.5,
+    "delta": -41.7,
     "history": [
-     47.6,
-     87.2,
-     39.6,
-     8.8,
+     55.9,
      100.0,
+     31.4,
+     41.1,
      0.0,
-     52.0,
-     51.2
+     0.0,
+     68.5,
+     26.7
     ],
     "top_posts": [
      {
@@ -53,32 +57,737 @@
       ],
       "trials": [],
       "stance": "supportive",
-      "likes": 239,
-      "reposts": 95,
+      "likes": 240,
+      "reposts": 96,
       "replies": 3,
-      "engagement": 438,
+      "engagement": 441,
       "region": "North America",
       "industry": false
      },
      {
-      "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzedo4t76c24",
-      "kol": "Eric Topol",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzedo4t76c24",
-      "created_at": "2026-11-02",
+      "id": "li:7524309970486525952",
+      "kol": "Martha Gulati",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/martha-gulati-9b410496_aha26-scientificsessions26-activity-7524309970486525952-CiLa",
+      "created_at": "2026-11-06",
       "is_repost": false,
-      "text": "Symptomatic improvement in people with #LongCovid over time\nwww.acpjournals.org/doi/10.7326/...\n@annalsofim.bsky.social",
-      "summary": "Shares Annals study on symptomatic improvement in long COVID over time.",
+      "text": "\ud83c\udf89Prevention takes center stage at #AHA26 ! \ud83d\udc40My watchlist spans BP, lipids, inflammation & obesity. Beyond the headlines, I\u2019ll be looking for absolute \ud83e\udec0benefit, safety & sex-specific results. Which trials are you watching? Here is my list (help by AI for the table)! Also why are we using #ScientificSessions26 ? Such a long hashtag!",
+      "summary": "Gulati lists AHA 2026 prevention trials she is watching, focusing on absolute benefit, safety, and sex-specific results.",
       "topics": [
        "other"
       ],
       "trials": [],
-      "stance": "neutral",
-      "likes": 144,
-      "reposts": 46,
-      "replies": 4,
-      "engagement": 248,
+      "stance": "not_applicable",
+      "likes": 88,
+      "reposts": 0,
+      "replies": 1,
+      "engagement": 91,
       "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7524121562841649152",
+      "kol": "Deepak Bhatt",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-activity-7524121562841649152-nr48",
+      "created_at": "2026-11-05",
+      "is_repost": false,
+      "text": "Looking forward to being a discussant at this late breaking clinical trial presentation at the upcoming American Heart Association meeting. #cardiology",
+      "summary": "Bhatt announces he will discuss a late-breaking trial at the upcoming AHA meeting.",
+      "topics": [
+       "other"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
+      "likes": 25,
+      "reposts": 0,
+      "replies": 3,
+      "engagement": 34,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": true
+   },
+   {
+    "id": "ai_digital",
+    "label": "AI & digital health",
+    "group": "Methods",
+    "posts": 7,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)",
+     "JACC",
+     "Rohan Khera"
+    ],
+    "n_kols": 3,
+    "share": 10.1,
+    "share_prev": 0.0,
+    "delta": 10.1,
+    "history": [
+     25.5,
+     0.0,
+     6.9,
+     4.8,
+     0.0,
+     0.0,
+     0.0,
+     10.1
+    ],
+    "top_posts": [
+     {
+      "id": "li:7524164808926134273",
+      "kol": "Rohan Khera",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/r-khera_aha26-digitalhealth-simpub-activity-7524164808926134273-H54i",
+      "created_at": "2026-11-05",
+      "is_repost": false,
+      "text": "In Nature Medicine today, ahead of Sudheesha Perera 's #AHA26 presentation, our study maps cardiovascular need and digital readiness across nearly 83,000 US census tracts. We asked an important policy question: Where can digital cardiovascular care expand access, and where do we first need to invest to make it possible? Among high-burden communities with cardiology workforce constraints: \u2022 19.9 mi",
+      "summary": "Nature Medicine study maps US census-tract cardiovascular need and digital care readiness, with a public dashboard.",
+      "topics": [
+       "ai_digital",
+       "global_health"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 111,
+      "reposts": 0,
+      "replies": 7,
+      "engagement": 132,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7524134935016677378",
+      "kol": "Rohan Khera",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/r-khera_cards-lab-at-aha-2026-activity-7524134935016677378-jdSr",
+      "created_at": "2026-11-05",
+      "is_repost": false,
+      "text": "Looking forward to #AHA26 in Chicago The Cardiovascular Data Science (CarDS) Lab will be sharing new research across AI-ECG, cardiovascular imaging, agentic AI, and opportunities to improve cardiovascular care. Beyond the presentations, we're looking forward to learning from colleagues, exchanging ideas, and connecting with others working in this space. If you're attending, we'd love to connect. S",
+      "summary": "Yale CarDS Lab previews AHA 2026 research on AI-ECG, imaging, and agentic AI.",
+      "topics": [
+       "ai_digital"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
+      "likes": 72,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 72,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7524093788156305408",
+      "kol": "Rohan Khera",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/r-khera_aha26-cardiovascularinnovation-activity-7524093788156305408-mJI6",
+      "created_at": "2026-11-05",
+      "is_repost": false,
+      "text": "Excited to bring together AHA\u2019s first Innovation Forum tomorrow at #AHA26 in Chicago! How do we move from academic innovation to entrepreneurship\u2014and turn promising ideas into companies that can meaningfully improve cardiovascular care? We have an outstanding lineup of academic innovators, entrepreneurs, investors, and industry leaders to discuss this journey, alongside showcases from innovative c",
+      "summary": "Announcement of AHA's first Innovation Forum on turning academic cardiovascular innovations into companies.",
+      "topics": [
+       "ai_digital"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
+      "likes": 52,
+      "reposts": 0,
+      "replies": 3,
+      "engagement": 61,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "lpa",
+    "label": "Lp(a)",
+    "group": "Lipids",
+    "posts": 7,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)",
+     "Alberico Catapano",
+     "Deepak Bhatt",
+     "JACC",
+     "Khurram Nasir"
+    ],
+    "n_kols": 5,
+    "share": 9.5,
+    "share_prev": 0.0,
+    "delta": 9.5,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     9.5
+    ],
+    "top_posts": [
+     {
+      "id": "li:7525236272995483648",
+      "kol": "Deepak Bhatt",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-prevention-activity-7525236272995483648-AIAS",
+      "created_at": "2026-11-08",
+      "is_repost": false,
+      "text": "See our debate on whether to measure Lp(a). #cardiology #prevention",
+      "summary": "Promotes a debate on whether Lp(a) should be measured for cardiovascular prevention.",
+      "topics": [
+       "lpa"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 46,
+      "reposts": 0,
+      "replies": 2,
+      "engagement": 52,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7525219559667335168",
+      "kol": "Khurram Nasir",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_decentralized-lipoproteina-testing-in-adults-activity-7525219559667335168-QMC8",
+      "created_at": "2026-11-08",
+      "is_repost": false,
+      "text": "A new model of decentralized cardiovascular research is taking shape Pts can be identified through clinical records, contacted directly, and enrolled remotely, testing arranged at local labs-->brings selected research activities closer to where people live Participation more manageable around work, travel and family responsibilities (more practical) In American Journal of Preventive Cardiology sim",
+      "summary": "Nasir describes UNRAVEL, a decentralized Lp(a) study with high enrollment and lab completion, and calls for local reach.",
+      "topics": [
+       "lpa",
+       "trial_methods"
+      ],
+      "trials": [
+       "UNRAVEL"
+      ],
+      "stance": "supportive",
+      "likes": 35,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 35,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7525528553787121664",
+      "kol": "Alberico Catapano",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/alberico-catapano-50440110b_beyond-the-horizon-does-knowing-lpa-change-activity-7525528553787121664-82Gu",
+      "created_at": "2026-11-09",
+      "is_repost": false,
+      "text": "Does measuring Lp(a) really change cardiovascular prevention? Lp(a) is a well-established cardiovascular risk factor, but identifying risk does not necessarily mean improving clinical outcomes. The Lp(a)HORIZON results reignite the debate: despite substantial Lp(a) reduction with pelacarsen, the trial did not meet its primary cardiovascular endpoint. This does not undermine the causal role of Lp(a",
+      "summary": "Questions whether Lp(a) measurement changes outcomes after Lp(a)HORIZON missed its primary endpoint.",
+      "topics": [
+       "lpa",
+       "trial_methods"
+      ],
+      "trials": [
+       "LP(A)HORIZON"
+      ],
+      "stance": "skeptical",
+      "likes": 28,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 28,
+      "region": "Europe",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "trial_methods",
+    "label": "Evidence & trial critique",
+    "group": "Methods",
+    "posts": 10,
+    "posts_prev": 0,
+    "kols": [
+     "Alberico Catapano",
+     "C. Michael Gibson",
+     "Gabriel Steg",
+     "JACC",
+     "Khurram Nasir",
+     "Todd Villines"
+    ],
+    "n_kols": 6,
+    "share": 8.0,
+    "share_prev": 0.0,
+    "delta": 8.0,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     8.0
+    ],
+    "top_posts": [
+     {
+      "id": "li:7524872330259369985",
+      "kol": "Todd Villines",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/drtoddvillines_paramount-trial-primary-results-late-breaking-activity-7524872330259369985-rGXE",
+      "created_at": "2026-11-07",
+      "is_repost": false,
+      "text": "Patients with stable chest symptoms and suspected CAD were approximately twice as likely to experience a more favorable outcome with coronary plaque-based care than with usual care. That is the top-line result of the randomized PARAMOUNT trial, which I presented today at #AHA26 . The trial and this post were sponsored by @Cleerly; I am PARAMOUNT co-chair and a paid consultant to Cleerly. What was ",
+      "summary": "Presents PARAMOUNT RCT: CCTA plaque-based care beat usual care on hierarchical win ratio of 2.0 in suspected CAD.",
+      "topics": [
+       "cac_ccta",
+       "trial_methods"
+      ],
+      "trials": [
+       "PARAMOUNT"
+      ],
+      "stance": "supportive",
+      "likes": 309,
+      "reposts": 0,
+      "replies": 6,
+      "engagement": 327,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7524104545589870592",
+      "kol": "Khurram Nasir",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_real-world-comparative-effectiveness-of-evolocumab-activity-7524104545589870592-cf7T",
+      "created_at": "2026-11-05",
+      "is_repost": false,
+      "text": "How do we choose the next LDL-C lowering therapy for a patient with established ASCVD? This is a question we face often in preventive cardiology, and one that deserves better comparative evidence. Pleased to share this American Journal of Preventive Cardiology study by Nihar Desai Yale School of Medicine and colleagues, together with the accompanying editorial by Safi U. Khan MD, MS. and Raul Sant",
+      "summary": "Target trial emulation links evolocumab to 20% lower MI hazard; post shares editorial caveats on confounding and missing data.",
+      "topics": [
+       "ldl_nonstatin",
+       "trial_methods"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 71,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 71,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7523459200426016768",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_dr-patrick-serruys-and-dr-c-michael-gibson-activity-7523459200426016768-jF_i",
+      "created_at": "2026-11-03",
+      "is_repost": false,
+      "text": "Dr. Patrick Serruys and Dr. C. Michael Gibson discuss the PIONEER IV trial: Compared to usual care, angiography-derived fractional flow reserve-guided PCI met non-inferiority for 12-month death/stroke/MI/revascularization in the intention-to-treat population after application of interim analysis adjustments. Watch video here: https://clinicaltrialresults.org/wp-content/uploads/2026/11/Serruys-TCT-",
+      "summary": "Dr. Patrick Serruys and Dr. C. Michael Gibson discuss the PIONEER IV trial: Compared to usual care, angiograph",
+      "topics": [
+       "interventional",
+       "trial_methods"
+      ],
+      "trials": [
+       "PIONEER",
+       "TCT-2026"
+      ],
+      "stance": "neutral",
+      "likes": 50,
+      "reposts": 0,
+      "replies": 2,
+      "engagement": 56,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "ldl_nonstatin",
+    "label": "LDL & non-statins",
+    "group": "Lipids",
+    "posts": 7,
+    "posts_prev": 2,
+    "kols": [
+     "AHA (American Heart Association)",
+     "C. Michael Gibson",
+     "JACC",
+     "Khurram Nasir",
+     "Mariko Harada-Shiba"
+    ],
+    "n_kols": 5,
+    "share": 7.8,
+    "share_prev": 12.4,
+    "delta": -4.7,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     12.4,
+     7.8
+    ],
+    "top_posts": [
+     {
+      "id": "li:7524104545589870592",
+      "kol": "Khurram Nasir",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_real-world-comparative-effectiveness-of-evolocumab-activity-7524104545589870592-cf7T",
+      "created_at": "2026-11-05",
+      "is_repost": false,
+      "text": "How do we choose the next LDL-C lowering therapy for a patient with established ASCVD? This is a question we face often in preventive cardiology, and one that deserves better comparative evidence. Pleased to share this American Journal of Preventive Cardiology study by Nihar Desai Yale School of Medicine and colleagues, together with the accompanying editorial by Safi U. Khan MD, MS. and Raul Sant",
+      "summary": "Target trial emulation links evolocumab to 20% lower MI hazard; post shares editorial caveats on confounding and missing data.",
+      "topics": [
+       "ldl_nonstatin",
+       "trial_methods"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 71,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 71,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7524722414774140928",
+      "kol": "Mariko Harada-Shiba",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/mariko-harada-shiba-8b720bb4_today-i-am-in-kokura-to-attend-the-annual-activity-7524722414774140928-9ueE",
+      "created_at": "2026-11-07",
+      "is_repost": false,
+      "text": "Today, I am in Kokura to attend the Annual Meeting of the Japanese Society for Pediatric Endocrinology. I had the pleasure of giving a lecture at a luncheon seminar entitled \u201cWhat Can Pediatricians Do Now? Early Diagnosis and Treatment of Homozygous Familial Hypercholesterolemia: Insights from the Latest Guidelines.\u201d The session was chaired by Dr. Kenichi Kashimada from the National Center for Chi",
+      "summary": "Harada-Shiba lectures pediatricians on early diagnosis and treatment of homozygous familial hypercholesterolemia.",
+      "topics": [
+       "ldl_nonstatin"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 12,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 12,
+      "region": "Asia-Pacific",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mzqvpu3kcd2y:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mzqvpu3kcd2y",
+      "created_at": "2026-11-07",
+      "is_repost": true,
+      "text": "Results from the STREAM and eZ-PAVE trials add \ud83c\udd95 insights into statin therapy treatment, including discontinuation vs. continuation in older adults and benefits of statin \u2795 ezetimibe vs. statins alone.\n\nRead more: https://bit.ly/3UlBezP\n\n#ScientificSessions26 #CardioSky",
+      "summary": "Summarizes STREAM and eZ-PAVE on statin discontinuation in older adults and statin plus ezetimibe benefit.",
+      "topics": [
+       "ldl_nonstatin",
+       "trial_methods"
+      ],
+      "trials": [
+       "EZ-PAVE",
+       "STREAM"
+      ],
+      "stance": "neutral",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 4,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "interventional",
+    "label": "Interventional & physiology",
+    "group": "Imaging",
+    "posts": 10,
+    "posts_prev": 5,
+    "kols": [
+     "C. Michael Gibson",
+     "Gabriel Steg",
+     "JACC"
+    ],
+    "n_kols": 3,
+    "share": 7.7,
+    "share_prev": 11.7,
+    "delta": -4.0,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     4.8,
+     0.0,
+     0.0,
+     11.7,
+     7.7
+    ],
+    "top_posts": [
+     {
+      "id": "li:7523459200426016768",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_dr-patrick-serruys-and-dr-c-michael-gibson-activity-7523459200426016768-jF_i",
+      "created_at": "2026-11-03",
+      "is_repost": false,
+      "text": "Dr. Patrick Serruys and Dr. C. Michael Gibson discuss the PIONEER IV trial: Compared to usual care, angiography-derived fractional flow reserve-guided PCI met non-inferiority for 12-month death/stroke/MI/revascularization in the intention-to-treat population after application of interim analysis adjustments. Watch video here: https://clinicaltrialresults.org/wp-content/uploads/2026/11/Serruys-TCT-",
+      "summary": "Dr. Patrick Serruys and Dr. C. Michael Gibson discuss the PIONEER IV trial: Compared to usual care, angiograph",
+      "topics": [
+       "interventional",
+       "trial_methods"
+      ],
+      "trials": [
+       "PIONEER",
+       "TCT-2026"
+      ],
+      "stance": "neutral",
+      "likes": 50,
+      "reposts": 0,
+      "replies": 2,
+      "engagement": 56,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mzgm3cenpq22:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mzgm3cenpq22",
+      "created_at": "2026-11-03",
+      "is_repost": true,
+      "text": "What does SIRONA tell us about sirolimus- vs. paclitaxel-coated balloon angioplasty at 3 years?\n\n\ud83c\udfa5 Hear from Ulf Teichgr\u00e4ber, MD, and Sahil Parikh, MD, FACC, in this #ACCAnywhere TV Quick Take from #TCT2026.\n\n\ud83d\udd17 https://bit.ly/4BA3VcN\n\n#JACCINT #CardioSky @crfheart.bsky.social",
+      "summary": "JACC TV Quick Take on SIRONA 3-year results of sirolimus- vs paclitaxel-coated balloon angioplasty.",
+      "topics": [
+       "interventional"
+      ],
+      "trials": [
+       "SIRONA"
+      ],
+      "stance": "neutral",
+      "likes": 2,
+      "reposts": 2,
+      "replies": 0,
+      "engagement": 6,
+      "region": "Global",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mzejjxgpun2m:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mzejjxgpun2m",
+      "created_at": "2026-11-03",
+      "is_repost": true,
+      "text": "Angiography-derived vFFR-guided revascularization met the prespecified absolute criterion for noninferiority to wire-based FFR, according to results from the LIPSIA-STRATEGY trial presented at #TCT2026 and simultaneously published in #JACC. \ud83d\udd17 https://bit.ly/4szDdNj\n\n@crfheart.bsky.social",
+      "summary": "Angiography-derived vFFR-guided revascularization met the prespecified absolute criterion for noninferiority t",
+      "topics": [
+       "interventional"
+      ],
+      "trials": [
+       "LIPSIA-STRATEGY",
+       "TCT2026"
+      ],
+      "stance": "neutral",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 4,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": true
+   },
+   {
+    "id": "lifestyle",
+    "label": "Lifestyle & nutrition",
+    "group": "Prevention strategy",
+    "posts": 8,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)",
+     "C. Michael Gibson",
+     "JACC",
+     "Martha Gulati"
+    ],
+    "n_kols": 4,
+    "share": 5.2,
+    "share_prev": 0.0,
+    "delta": 5.2,
+    "history": [
+     12.8,
+     0.0,
+     16.7,
+     0.0,
+     0.0,
+     66.7,
+     0.0,
+     5.2
+    ],
+    "top_posts": [
+     {
+      "id": "li:7524291411706380288",
+      "kol": "Martha Gulati",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/martha-gulati-9b410496_our-paper-reassessing-us-obesity-prevalence-activity-7524291411706380288-c_ct",
+      "created_at": "2026-11-06",
+      "is_repost": false,
+      "text": "Our paper: Reassessing US Obesity Prevalence Under the 2025 Lancet Commission's Anthropometric Criteria in @MayoProceedings : \ud83c\udf4eOperationalizing the anthropometric criteria of the 2025 Lancet framework markedly\u2934\ufe0f estimated US obesity prevalence relative to BMI alone \ud83c\udf4eDriven by anthropometric-only reclassification; most pronounced in older & Asian adults \ud83d\udd17 https://lnkd.in/gpDNkdnm",
+      "summary": "Mayo Proceedings paper: 2025 Lancet anthropometric criteria raise US obesity prevalence versus BMI alone.",
+      "topics": [
+       "lifestyle",
+       "risk_scores"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 28,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 28,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mzqx4n5itr2d:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mzqx4n5itr2d",
+      "created_at": "2026-11-07",
+      "is_repost": true,
+      "text": "Intensive BP-lowering therapy in patients with type 2 diabetes and a yoga-based cardiac rehabilitation program for people with HFrEF were among the hot topics in #cvPrev at today\u2019s #ScientificSessions26.\n\nRead on for results from the OPTIMAL-DIABETES and Yoga-CaRe HF trials: https://bit.ly/4sMr9sd",
+      "summary": "Highlights OPTIMAL-DIABETES intensive BP lowering in type 2 diabetes and Yoga-CaRe HF cardiac rehab trial.",
+      "topics": [
+       "hypertension",
+       "lifestyle"
+      ],
+      "trials": [
+       "OPTIMAL-DIABETES",
+       "YOGA-CARE HF"
+      ],
+      "stance": "neutral",
+      "likes": 3,
+      "reposts": 3,
+      "replies": 0,
+      "engagement": 9,
+      "region": "Global",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mzszx6bkbp2s:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mzszx6bkbp2s",
+      "created_at": "2026-11-08",
+      "is_repost": true,
+      "text": "ADHERE-#ASCVD: Digital outreach through a variety of formats may improve short-term statin refill consistently across a broad age range.\n\n\ud83d\udd17 https://bit.ly/4epdcdR #ScientificSessions26 #JACC #CardioSky",
+      "summary": "ADHERE-ASCVD: digital outreach may improve short-term statin refill rates across age groups.",
+      "topics": [
+       "ldl_nonstatin",
+       "lifestyle"
+      ],
+      "trials": [
+       "ADHERE-ASCVD"
+      ],
+      "stance": "supportive",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 4,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "hypertension",
+    "label": "Hypertension",
+    "group": "Risk factors",
+    "posts": 8,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)",
+     "C. Michael Gibson",
+     "JACC"
+    ],
+    "n_kols": 3,
+    "share": 5.1,
+    "share_prev": 0.0,
+    "delta": 5.1,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     5.1
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mzqx4n5itr2d:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mzqx4n5itr2d",
+      "created_at": "2026-11-07",
+      "is_repost": true,
+      "text": "Intensive BP-lowering therapy in patients with type 2 diabetes and a yoga-based cardiac rehabilitation program for people with HFrEF were among the hot topics in #cvPrev at today\u2019s #ScientificSessions26.\n\nRead on for results from the OPTIMAL-DIABETES and Yoga-CaRe HF trials: https://bit.ly/4sMr9sd",
+      "summary": "Highlights OPTIMAL-DIABETES intensive BP lowering in type 2 diabetes and Yoga-CaRe HF cardiac rehab trial.",
+      "topics": [
+       "hypertension",
+       "lifestyle"
+      ],
+      "trials": [
+       "OPTIMAL-DIABETES",
+       "YOGA-CARE HF"
+      ],
+      "stance": "neutral",
+      "likes": 3,
+      "reposts": 3,
+      "replies": 0,
+      "engagement": 9,
+      "region": "Global",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mzqs3uovmm2s:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mzqs3uovmm2s",
+      "created_at": "2026-11-07",
+      "is_repost": true,
+      "text": "From tackling blood clots to managing #BloodPressure, the REDUCE, OCEANIC-STROKE and OPTIMAL-STROKE trials presented at #ScientificSessions26 offered \ud83c\udd95 insights into improving patient outcomes after stroke.\n\nRead the highlights: https://bit.ly/3Wu8IN0 #CardioSky",
+      "summary": "Highlights REDUCE, OCEANIC-STROKE and OPTIMAL-STROKE trials on post-stroke clot prevention and blood pressure management.",
+      "topics": [
+       "antithrombotic",
+       "hypertension"
+      ],
+      "trials": [
+       "OCEANIC-STROKE",
+       "OPTIMAL-STROKE",
+       "REDUCE"
+      ],
+      "stance": "neutral",
+      "likes": 2,
+      "reposts": 2,
+      "replies": 0,
+      "engagement": 6,
+      "region": "Global",
       "industry": false
      },
      {
@@ -106,7 +815,7 @@
       "industry": false
      }
     ],
-    "trending": false,
+    "trending": true,
     "cooling": false
    },
    {
@@ -119,18 +828,18 @@
      "AHA (American Heart Association)"
     ],
     "n_kols": 1,
-    "share": 11.8,
+    "share": 4.0,
     "share_prev": 0.0,
-    "delta": 11.8,
+    "delta": 4.0,
     "history": [
      0.0,
      0.0,
-     18.3,
+     14.5,
      0.0,
      0.0,
      0.0,
      0.0,
-     11.8
+     4.0
     ],
     "top_posts": [
      {
@@ -170,10 +879,10 @@
       ],
       "trials": [],
       "stance": "not_applicable",
-      "likes": 1,
+      "likes": 2,
       "reposts": 0,
       "replies": 0,
-      "engagement": 1,
+      "engagement": 2,
       "region": "North America",
       "industry": false
      },
@@ -204,19 +913,18 @@
     "cooling": false
    },
    {
-    "id": "lpa",
-    "label": "Lp(a)",
-    "group": "Lipids",
-    "posts": 3,
-    "posts_prev": 0,
+    "id": "cac_ccta",
+    "label": "CAC, CCTA & plaque",
+    "group": "Imaging",
+    "posts": 1,
+    "posts_prev": 1,
     "kols": [
-     "AHA (American Heart Association)",
-     "Khurram Nasir"
+     "Todd Villines"
     ],
-    "n_kols": 2,
-    "share": 10.5,
-    "share_prev": 0.0,
-    "delta": 10.5,
+    "n_kols": 1,
+    "share": 3.2,
+    "share_prev": 1.2,
+    "delta": 2.0,
     "history": [
      0.0,
      0.0,
@@ -224,142 +932,118 @@
      0.0,
      0.0,
      0.0,
-     0.0,
-     10.5
+     1.2,
+     3.2
     ],
     "top_posts": [
      {
-      "id": "li:7525219559667335168",
-      "kol": "Khurram Nasir",
+      "id": "li:7524872330259369985",
+      "kol": "Todd Villines",
       "platform": "linkedin",
-      "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_decentralized-lipoproteina-testing-in-adults-activity-7525219559667335168-QMC8",
-      "created_at": "2026-11-08",
+      "url": "https://www.linkedin.com/posts/drtoddvillines_paramount-trial-primary-results-late-breaking-activity-7524872330259369985-rGXE",
+      "created_at": "2026-11-07",
       "is_repost": false,
-      "text": "A new model of decentralized cardiovascular research is taking shape Pts can be identified through clinical records, contacted directly, and enrolled remotely, testing arranged at local labs-->brings selected research activities closer to where people live Participation more manageable around work, travel and family responsibilities (more practical) In American Journal of Preventive Cardiology sim",
-      "summary": "Nasir describes UNRAVEL, a decentralized Lp(a) study with high enrollment and lab completion, and calls for local reach.",
+      "text": "Patients with stable chest symptoms and suspected CAD were approximately twice as likely to experience a more favorable outcome with coronary plaque-based care than with usual care. That is the top-line result of the randomized PARAMOUNT trial, which I presented today at #AHA26 . The trial and this post were sponsored by @Cleerly; I am PARAMOUNT co-chair and a paid consultant to Cleerly. What was ",
+      "summary": "Presents PARAMOUNT RCT: CCTA plaque-based care beat usual care on hierarchical win ratio of 2.0 in suspected CAD.",
       "topics": [
-       "lpa",
+       "cac_ccta",
        "trial_methods"
       ],
       "trials": [
-       "UNRAVEL"
+       "PARAMOUNT"
       ],
       "stance": "supportive",
-      "likes": 31,
+      "likes": 309,
       "reposts": 0,
-      "replies": 0,
-      "engagement": 31,
-      "region": "North America",
-      "industry": false
-     },
-     {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqs7uqdmm2s",
-      "created_at": "2026-11-07",
-      "is_repost": false,
-      "text": "Hear from Viet Le, DMSc, PA-C, FACC, FAHA, HF- Cert! \ud83c\udfa5\n\nLp(a) HORIZON, presented at #ScientificSessions26 showed Pelacarsen substantially lowered lipoprotein(a) but did not reduce risk of MACE compared to placebo in patients on guideline-directed medical therapy for secondary prevention of CVD. \n \n ",
-      "summary": "Viet Le summarizes Lp(a)HORIZON: pelacarsen lowered Lp(a) but did not reduce MACE versus placebo.",
-      "topics": [
-       "lpa"
-      ],
-      "trials": [
-       "LP(A)HORIZON"
-      ],
-      "stance": "neutral",
-      "likes": 1,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 1,
-      "region": "North America",
-      "industry": false
-     },
-     {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr33wibvh2j",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr33wibvh2j",
-      "created_at": "2026-11-07",
-      "is_repost": false,
-      "text": "Emily Lau, MD, MPH discusses late breaking science from Lp(a) HORIZON at #ScientificSessions26. \ud83c\udfa5 ",
-      "summary": "Emily Lau discusses late-breaking Lp(a)HORIZON results at Scientific Sessions. Video, no findings stated.",
-      "topics": [
-       "lpa"
-      ],
-      "trials": [
-       "LP(A)HORIZON"
-      ],
-      "stance": "neutral",
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 0,
+      "replies": 6,
+      "engagement": 327,
       "region": "North America",
       "industry": false
      }
     ],
-    "trending": true,
+    "trending": false,
     "cooling": false
    },
    {
-    "id": "ai_digital",
-    "label": "AI & digital health",
-    "group": "Methods",
-    "posts": 2,
+    "id": "triglycerides",
+    "label": "Triglycerides & ApoC3",
+    "group": "Lipids",
+    "posts": 4,
     "posts_prev": 0,
     "kols": [
-     "AHA (American Heart Association)"
+     "AHA (American Heart Association)",
+     "C. Michael Gibson"
     ],
-    "n_kols": 1,
-    "share": 5.0,
+    "n_kols": 2,
+    "share": 2.6,
     "share_prev": 0.0,
-    "delta": 5.0,
+    "delta": 2.6,
     "history": [
-     34.9,
-     0.0,
-     0.0,
-     17.6,
      0.0,
      0.0,
      0.0,
-     5.0
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.6
     ],
     "top_posts": [
      {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzhedrha7325",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzhedrha7325",
-      "created_at": "2026-11-04",
+      "id": "li:7525588208706060288",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_new-trial-of-gene-editing-therapy-a-one-time-activity-7525588208706060288-zVU6",
+      "created_at": "2026-11-09",
       "is_repost": false,
-      "text": "Discover what's next in cardiovascular innovation at the Health Innovation Pavilion at #ScientificSessions26. Explore AI-driven solutions, experience live technology demonstrations and connect with innovators shaping the future of healthcare.\n\n\ud83d\udccd Science & Technology Hall | Booth 100 ",
-      "summary": "Promotes Health Innovation Pavilion with AI-driven solutions at Scientific Sessions 2026.",
+      "text": "New trial of gene editing therapy: A one-time intravenous infusion of CTX310, a CRISPR-Cas9 gene editing therapy targeting hepatic ANGPTL3, produced substantial reductions in ANGPTL3 and serum triglycerides at 30 days in participants with severe hypertriglyceridemia, providing evidence of durable target knockdown and lipid-lowering efficacy. Download slides here: https://lnkd.in/gFPr8BgD",
+      "summary": "CTX310 gene editing reduced ANGPTL3 and triglycerides at 30 days in severe hypertriglyceridemia.",
       "topics": [
-       "ai_digital",
-       "other"
+       "triglycerides",
+       "ldl_nonstatin"
       ],
       "trials": [],
-      "stance": "not_applicable",
-      "likes": 1,
-      "reposts": 1,
+      "stance": "supportive",
+      "likes": 3,
+      "reposts": 0,
       "replies": 0,
       "engagement": 3,
       "region": "North America",
       "industry": false
      },
      {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzgqa5fyjj2c",
+      "id": "li:7525563238680252416",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_dr-ashish-saraju-and-dr-c-michael-gibson-activity-7525563238680252416-lEyU",
+      "created_at": "2026-11-09",
+      "is_repost": false,
+      "text": "Dr. Ashish Saraju and Dr. C. Michael Gibson discuss the phase 1b study of severe hypertriglyceridemia: A single dose of CTX310, an investigational CRISPR-Cas9 therapy targeting ANGPTL3, achieved a mean triglyceride reduction of 63% from baseline at 30 days in patients with severe hypertriglyceridemia, diabetes, and ASCVD, demonstrating preliminary clinical efficacy and a favorable safety profile. ",
+      "summary": "CTX310 CRISPR ANGPTL3 therapy cut triglycerides 63% at 30 days in severe hypertriglyceridemia.",
+      "topics": [
+       "ldl_nonstatin",
+       "triglycerides"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 2,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mznk6dq2g72j",
       "kol": "AHA (American Heart Association)",
       "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzgqa5fyjj2c",
-      "created_at": "2026-11-03",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mznk6dq2g72j",
+      "created_at": "2026-11-06",
       "is_repost": false,
-      "text": "Have you downloaded the Heart Events app for #ScientificSessions26 and #ReSS26? Plan your schedule, find sessions, navigate the venue, connect with colleagues, and get answers on the go with Doc Heart AI. \n\nLearn More: https://bit.ly/4iwFEM9",
-      "summary": "Promotes Heart Events app with AI assistant for Scientific Sessions 2026 attendees.",
+      "text": "Early diagnosis of Familial Chylomicronemia Syndrome (FCS) may reduce pancreatitis risk and prevent repeated hospitalizations through appropriate management. \n \nKnow the clinical clues that can help distinguish FCS from more common causes of severe hypertriglyceridemia. \u2b07\ufe0f ",
+      "summary": "Clinical tips on recognizing familial chylomicronemia syndrome to reduce pancreatitis risk and rehospitalization.",
       "topics": [
-       "ai_digital",
-       "other"
+       "triglycerides"
       ],
       "trials": [],
       "stance": "not_applicable",
@@ -375,50 +1059,244 @@
     "cooling": false
    },
    {
-    "id": "hypertension",
-    "label": "Hypertension",
-    "group": "Risk factors",
-    "posts": 1,
+    "id": "heart_failure",
+    "label": "Heart failure",
+    "group": "Other cardiology",
+    "posts": 4,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "share": 1.8,
+    "share_prev": 0.0,
+    "delta": 1.8,
+    "history": [
+     3.9,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.8
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mzoeygmi3g2m:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mzoeygmi3g2m",
+      "created_at": "2026-11-06",
+      "is_repost": true,
+      "text": "From precision Lp(a) screening to emerging #CardioOnc biomarkers and sex differences in HF, several #ScientificSessions26 studies are among the simultaneous publications included in @jaccjournals.bsky.social.\n\nCheck out the highlights from key studies \u27a1\ufe0f https://bit.ly/4sMz7l1",
+      "summary": "JACC highlights simultaneous ScientificSessions26 papers on Lp(a) screening, cardio-oncology biomarkers, and HF sex differences.",
+      "topics": [
+       "lpa",
+       "heart_failure"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 2,
+      "reposts": 2,
+      "replies": 0,
+      "engagement": 6,
+      "region": "Global",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mztf4sfat72e:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mztf4sfat72e",
+      "created_at": "2026-11-08",
+      "is_repost": true,
+      "text": "OptimPacing: Left bundle-branch pacing was superior to right ventricular pacing in reducing the risk of death from any cause, #HeartFailure hospitalization, or pacing-induced cardiomyopathy.\n\nGet details: https://bit.ly/4sPvQkX\n\n#ScientificSessions26 #CardioSky",
+      "summary": "OptimPacing: left bundle-branch pacing beat right ventricular pacing for death, HF hospitalization, cardiomyopathy.",
+      "topics": [
+       "heart_failure",
+       "other"
+      ],
+      "trials": [
+       "OPTIMPACING"
+      ],
+      "stance": "supportive",
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 5,
+      "region": "Global",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mztfzfwxah2o:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mztfzfwxah2o",
+      "created_at": "2026-11-08",
+      "is_repost": true,
+      "text": "Two presentations at #ScientificSessions26 simultaneously published in #JACCHF evaluated two novel technologies: a voice-based heart failure (HF) monitoring system, and an EHR-embedded mineralocorticoid receptor antagonists (MRA) prescription prompt.\n\nFollow for more \u27a1\ufe0f https://bit.ly/4BIiUS1",
+      "summary": "Reports a voice-based HF monitoring system and an EHR prompt for MRA prescribing in JACC: HF.",
+      "topics": [
+       "ai_digital",
+       "heart_failure"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 4,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "global_health",
+    "label": "Global CV health",
+    "group": "Populations",
+    "posts": 2,
+    "posts_prev": 2,
+    "kols": [
+     "JACC",
+     "Rohan Khera"
+    ],
+    "n_kols": 2,
+    "share": 1.7,
+    "share_prev": 3.7,
+    "delta": -2.0,
+    "history": [
+     0.0,
+     0.0,
+     1.1,
+     0.0,
+     0.0,
+     0.0,
+     3.7,
+     1.7
+    ],
+    "top_posts": [
+     {
+      "id": "li:7524164808926134273",
+      "kol": "Rohan Khera",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/r-khera_aha26-digitalhealth-simpub-activity-7524164808926134273-H54i",
+      "created_at": "2026-11-05",
+      "is_repost": false,
+      "text": "In Nature Medicine today, ahead of Sudheesha Perera 's #AHA26 presentation, our study maps cardiovascular need and digital readiness across nearly 83,000 US census tracts. We asked an important policy question: Where can digital cardiovascular care expand access, and where do we first need to invest to make it possible? Among high-burden communities with cardiology workforce constraints: \u2022 19.9 mi",
+      "summary": "Nature Medicine study maps US census-tract cardiovascular need and digital care readiness, with a public dashboard.",
+      "topics": [
+       "ai_digital",
+       "global_health"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 111,
+      "reposts": 0,
+      "replies": 7,
+      "engagement": 132,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mztipavus62n:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mztipavus62n",
+      "created_at": "2026-11-08",
+      "is_repost": true,
+      "text": "\ud83c\udfce\ufe0f Findings from RACE-CARS at #ScientificSessions26 show a multi-faceted community and EMS strategy did not improve survival to hospital discharge with a favorable neurologic outcome following out-of-hospital cardiac arrest.\n\n\ud83d\udd17 https://bit.ly/3UqN3ol #CardioSky",
+      "summary": "RACE-CARS: community and EMS strategy did not improve good neurologic survival after cardiac arrest.",
+      "topics": [
+       "other",
+       "global_health"
+      ],
+      "trials": [
+       "RACE-CARS"
+      ],
+      "stance": "neutral",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 3,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "incretins_obesity",
+    "label": "GLP-1 / obesity",
+    "group": "Cardiometabolic",
+    "posts": 2,
     "posts_prev": 0,
     "kols": [
      "AHA (American Heart Association)"
     ],
     "n_kols": 1,
-    "share": 4.1,
+    "share": 1.6,
     "share_prev": 0.0,
-    "delta": 4.1,
+    "delta": 1.6,
     "history": [
      0.0,
      0.0,
+     15.7,
+     35.2,
      0.0,
+     33.3,
      0.0,
-     0.0,
-     0.0,
-     0.0,
-     4.1
+     1.6
     ],
     "top_posts": [
      {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr3ychqeu2i",
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzvchcof5f2h",
       "kol": "AHA (American Heart Association)",
       "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr3ychqeu2i",
-      "created_at": "2026-11-07",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzvchcof5f2h",
+      "created_at": "2026-11-09",
       "is_repost": false,
-      "text": "Anastasia Mihailidou, BSc, PhD, FAHA discusses late breaking science from OPTIMAL-STROKE at #ScientificSessions26. \ud83c\udfa5 ",
-      "summary": "Anastasia Mihailidou discusses late-breaking OPTIMAL-STROKE results at Scientific Sessions. Video, no findings stated.",
+      "text": "Mirvat Alasnag, MD, FRCP, FACC discusses late breaking science from SYNCHRONIZE-CVOT at #ScientificSessions26. \ud83c\udfa5 ",
+      "summary": "Video discussion of late-breaking SYNCHRONIZE-CVOT results at Scientific Sessions.",
       "topics": [
-       "hypertension",
-       "other"
+       "incretins_obesity"
       ],
       "trials": [
-       "OPTIMAL-STROKE"
+       "SYNCHRONIZE-CVOT"
       ],
       "stance": "neutral",
-      "likes": 3,
-      "reposts": 1,
+      "likes": 1,
+      "reposts": 0,
       "replies": 0,
-      "engagement": 5,
+      "engagement": 1,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzviipi72h23",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzviipi72h23",
+      "created_at": "2026-11-09",
+      "is_repost": false,
+      "text": "Anastasia Mihailidou, BSc, PhD, FAHA, FCSANZ, FESC, FIPC, discusses late breaking science from ATTAIN-OSA at #ScientificSessions26. \ud83c\udfa5 ",
+      "summary": "Video discussion of late-breaking ATTAIN-OSA science at Scientific Sessions.",
+      "topics": [
+       "incretins_obesity"
+      ],
+      "trials": [
+       "ATTAIN-OSA"
+      ],
+      "stance": "neutral",
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 1,
       "region": "North America",
       "industry": false
      }
@@ -430,26 +1308,51 @@
     "id": "ckm_diabetes",
     "label": "CKM, diabetes & kidney",
     "group": "Cardiometabolic",
-    "posts": 3,
+    "posts": 4,
     "posts_prev": 0,
     "kols": [
-     "AHA (American Heart Association)"
+     "AHA (American Heart Association)",
+     "C. Michael Gibson"
     ],
-    "n_kols": 1,
-    "share": 3.7,
+    "n_kols": 2,
+    "share": 1.6,
     "share_prev": 0.0,
-    "delta": 3.7,
+    "delta": 1.6,
     "history": [
-     0.0,
-     4.3,
-     0.0,
-     2.1,
+     1.9,
      0.0,
      0.0,
+     2.4,
      0.0,
-     3.7
+     0.0,
+     0.0,
+     1.6
     ],
     "top_posts": [
+     {
+      "id": "li:7525236678664364032",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_cleaner-air-for-lower-cardiometabolic-risk-activity-7525236678664364032-BhiD",
+      "created_at": "2026-11-08",
+      "is_repost": false,
+      "text": "Cleaner Air for Lower Cardiometabolic Risk trial: Four weeks of overnight bedroom air filtration with high-efficiency particulate air filters reduced glycemic variability captured by continuous glucose monitor at 4 weeks in adults with prediabetes, suggesting improved glycemic homeostasis. Download slides here: https://lnkd.in/eaPSk_GB",
+      "summary": "Reports bedroom HEPA air filtration reduced glycemic variability in adults with prediabetes over four weeks.",
+      "topics": [
+       "lifestyle",
+       "ckm_diabetes"
+      ],
+      "trials": [
+       "CLEANER AIR FOR LOWER CARDIOMETABOLIC RISK"
+      ],
+      "stance": "supportive",
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 1,
+      "region": "North America",
+      "industry": false
+     },
      {
       "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzoojqaxg72k",
       "kol": "AHA (American Heart Association)",
@@ -495,207 +1398,6 @@
       "engagement": 0,
       "region": "North America",
       "industry": false
-     },
-     {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqtm22ks22j",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqtm22ks22j",
-      "created_at": "2026-11-07",
-      "is_repost": false,
-      "text": "Abdulla A. Damluji, MD, PhD, MBA, FAHA  discusses late breaking science results from ZEUS at #ScientificSessions26.  ",
-      "summary": "Abdulla Damluji discusses late-breaking ZEUS results at Scientific Sessions. Video, no findings stated.",
-      "topics": [
-       "inflammation",
-       "ckm_diabetes"
-      ],
-      "trials": [
-       "ZEUS"
-      ],
-      "stance": "neutral",
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 0,
-      "region": "North America",
-      "industry": false
-     }
-    ],
-    "trending": false,
-    "cooling": false
-   },
-   {
-    "id": "trial_methods",
-    "label": "Evidence & trial critique",
-    "group": "Methods",
-    "posts": 1,
-    "posts_prev": 0,
-    "kols": [
-     "Khurram Nasir"
-    ],
-    "n_kols": 1,
-    "share": 3.3,
-    "share_prev": 0.0,
-    "delta": 3.3,
-    "history": [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     3.3
-    ],
-    "top_posts": [
-     {
-      "id": "li:7525219559667335168",
-      "kol": "Khurram Nasir",
-      "platform": "linkedin",
-      "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_decentralized-lipoproteina-testing-in-adults-activity-7525219559667335168-QMC8",
-      "created_at": "2026-11-08",
-      "is_repost": false,
-      "text": "A new model of decentralized cardiovascular research is taking shape Pts can be identified through clinical records, contacted directly, and enrolled remotely, testing arranged at local labs-->brings selected research activities closer to where people live Participation more manageable around work, travel and family responsibilities (more practical) In American Journal of Preventive Cardiology sim",
-      "summary": "Nasir describes UNRAVEL, a decentralized Lp(a) study with high enrollment and lab completion, and calls for local reach.",
-      "topics": [
-       "lpa",
-       "trial_methods"
-      ],
-      "trials": [
-       "UNRAVEL"
-      ],
-      "stance": "supportive",
-      "likes": 31,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 31,
-      "region": "North America",
-      "industry": false
-     }
-    ],
-    "trending": false,
-    "cooling": false
-   },
-   {
-    "id": "triglycerides",
-    "label": "Triglycerides & ApoC3",
-    "group": "Lipids",
-    "posts": 2,
-    "posts_prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "share": 2.9,
-    "share_prev": 0.0,
-    "delta": 2.9,
-    "history": [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     2.9
-    ],
-    "top_posts": [
-     {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mznk6dq2g72j",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mznk6dq2g72j",
-      "created_at": "2026-11-06",
-      "is_repost": false,
-      "text": "Early diagnosis of Familial Chylomicronemia Syndrome (FCS) may reduce pancreatitis risk and prevent repeated hospitalizations through appropriate management. \n \nKnow the clinical clues that can help distinguish FCS from more common causes of severe hypertriglyceridemia. \u2b07\ufe0f ",
-      "summary": "Clinical tips on recognizing familial chylomicronemia syndrome to reduce pancreatitis risk and rehospitalization.",
-      "topics": [
-       "triglycerides"
-      ],
-      "trials": [],
-      "stance": "not_applicable",
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 0,
-      "region": "North America",
-      "industry": false
-     },
-     {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mztif6qmbm2i",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mztif6qmbm2i",
-      "created_at": "2026-11-08",
-      "is_repost": false,
-      "text": "Abdulla A. Damluji MD, PhD, MBA, FAHA discusses late breaking science from OCEANIC-STROKE at #ScientificSessions26. \ud83c\udfa5 ",
-      "summary": "Video of Abdulla Damluji discussing late-breaking OCEANIC-STROKE results at Scientific Sessions 2026.",
-      "topics": [
-       "triglycerides",
-       "antithrombotic"
-      ],
-      "trials": [
-       "OCEANIC-STROKE"
-      ],
-      "stance": "neutral",
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 0,
-      "region": "North America",
-      "industry": false
-     }
-    ],
-    "trending": false,
-    "cooling": false
-   },
-   {
-    "id": "ldl_nonstatin",
-    "label": "LDL & non-statins",
-    "group": "Lipids",
-    "posts": 1,
-    "posts_prev": 2,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "share": 2.5,
-    "share_prev": 21.0,
-    "delta": -18.5,
-    "history": [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     21.0,
-     2.5
-    ],
-    "top_posts": [
-     {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr5m3le3z2j",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr5m3le3z2j",
-      "created_at": "2026-11-08",
-      "is_repost": false,
-      "text": "Yvonne Commodore-Mensah, PhD, MHS, RN, FAHA discusses late breaking science from REDUCE at #ScientificSessions26. \ud83c\udfa5 ",
-      "summary": "Yvonne Commodore-Mensah discusses late-breaking REDUCE results at Scientific Sessions. Video, no findings stated.",
-      "topics": [
-       "ldl_nonstatin",
-       "other"
-      ],
-      "trials": [
-       "REDUCE"
-      ],
-      "stance": "neutral",
-      "likes": 1,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 1,
-      "region": "North America",
-      "industry": false
      }
     ],
     "trending": false,
@@ -705,15 +1407,16 @@
     "id": "inflammation",
     "label": "Inflammation",
     "group": "Residual risk",
-    "posts": 2,
+    "posts": 3,
     "posts_prev": 0,
     "kols": [
-     "AHA (American Heart Association)"
+     "AHA (American Heart Association)",
+     "JACC"
     ],
-    "n_kols": 1,
-    "share": 2.2,
+    "n_kols": 2,
+    "share": 1.5,
     "share_prev": 0.0,
-    "delta": 2.2,
+    "delta": 1.5,
     "history": [
      0.0,
      0.0,
@@ -722,9 +1425,32 @@
      0.0,
      0.0,
      0.0,
-     2.2
+     1.5
     ],
     "top_posts": [
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mzqbdrlqi42s:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mzqbdrlqi42s",
+      "created_at": "2026-11-07",
+      "is_repost": true,
+      "text": "ZEUS: Anti-inflammatory therapy targeting IL-1\u03b2 with ziltivekimab did not lower risks of cardiovascular events compared with placebo in high-risk patients with #ASCVD, chronic kidney disease and systemic inflammation.\n\nRead more: https://bit.ly/4Ail2yv #ScientificSessions26 #CardioSky",
+      "summary": "ZEUS: ziltivekimab did not reduce CV events versus placebo in high-risk ASCVD with CKD and inflammation.",
+      "topics": [
+       "inflammation"
+      ],
+      "trials": [
+       "ZEUS"
+      ],
+      "stance": "neutral",
+      "likes": 4,
+      "reposts": 2,
+      "replies": 1,
+      "engagement": 11,
+      "region": "Global",
+      "industry": false
+     },
      {
       "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqsqrn7d22j",
       "kol": "AHA (American Heart Association)",
@@ -778,49 +1504,48 @@
     "cooling": false
    },
    {
-    "id": "heart_failure",
-    "label": "Heart failure",
-    "group": "Other cardiology",
+    "id": "risk_scores",
+    "label": "Risk prediction",
+    "group": "Prevention strategy",
     "posts": 1,
     "posts_prev": 0,
     "kols": [
-     "AHA (American Heart Association)"
+     "Martha Gulati"
     ],
     "n_kols": 1,
-    "share": 1.5,
+    "share": 1.0,
     "share_prev": 0.0,
-    "delta": 1.5,
+    "delta": 1.0,
     "history": [
      0.0,
-     8.6,
+     0.0,
+     13.7,
+     11.6,
      0.0,
      0.0,
      0.0,
-     0.0,
-     0.0,
-     1.5
+     1.0
     ],
     "top_posts": [
      {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzsz76tfzg2e",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzsz76tfzg2e",
-      "created_at": "2026-11-08",
+      "id": "li:7524291411706380288",
+      "kol": "Martha Gulati",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/martha-gulati-9b410496_our-paper-reassessing-us-obesity-prevalence-activity-7524291411706380288-c_ct",
+      "created_at": "2026-11-06",
       "is_repost": false,
-      "text": "Robert Mentz, MD discusses late breaking science from Yoga-CaRe HF at #ScientificSessions26. \ud83c\udfa5 ",
-      "summary": "Video of Robert Mentz discussing late-breaking Yoga-CaRe HF trial results at Scientific Sessions 2026.",
+      "text": "Our paper: Reassessing US Obesity Prevalence Under the 2025 Lancet Commission's Anthropometric Criteria in @MayoProceedings : \ud83c\udf4eOperationalizing the anthropometric criteria of the 2025 Lancet framework markedly\u2934\ufe0f estimated US obesity prevalence relative to BMI alone \ud83c\udf4eDriven by anthropometric-only reclassification; most pronounced in older & Asian adults \ud83d\udd17 https://lnkd.in/gpDNkdnm",
+      "summary": "Mayo Proceedings paper: 2025 Lancet anthropometric criteria raise US obesity prevalence versus BMI alone.",
       "topics": [
-       "heart_failure"
+       "lifestyle",
+       "risk_scores"
       ],
-      "trials": [
-       "YOGA-CARE HF"
-      ],
+      "trials": [],
       "stance": "neutral",
-      "likes": 0,
+      "likes": 28,
       "reposts": 0,
       "replies": 0,
-      "engagement": 0,
+      "engagement": 28,
       "region": "North America",
       "industry": false
      }
@@ -832,15 +1557,16 @@
     "id": "antithrombotic",
     "label": "Antithrombotics",
     "group": "Secondary prevention",
-    "posts": 1,
-    "posts_prev": 0,
+    "posts": 2,
+    "posts_prev": 1,
     "kols": [
-     "AHA (American Heart Association)"
+     "AHA (American Heart Association)",
+     "JACC"
     ],
-    "n_kols": 1,
-    "share": 0.7,
-    "share_prev": 0.0,
-    "delta": 0.7,
+    "n_kols": 2,
+    "share": 0.9,
+    "share_prev": 2.5,
+    "delta": -1.6,
     "history": [
      0.0,
      0.0,
@@ -848,10 +1574,36 @@
      0.0,
      0.0,
      0.0,
-     0.0,
-     0.7
+     2.5,
+     0.9
     ],
     "top_posts": [
+     {
+      "id": "bsky:at://did:plc:ll2t32wq6gvr5zv4xdkx7qeo/app.bsky.feed.post/3mzqs3uovmm2s:rp:jaccjournals.bsky.social",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/accintouch.bsky.social/post/3mzqs3uovmm2s",
+      "created_at": "2026-11-07",
+      "is_repost": true,
+      "text": "From tackling blood clots to managing #BloodPressure, the REDUCE, OCEANIC-STROKE and OPTIMAL-STROKE trials presented at #ScientificSessions26 offered \ud83c\udd95 insights into improving patient outcomes after stroke.\n\nRead the highlights: https://bit.ly/3Wu8IN0 #CardioSky",
+      "summary": "Highlights REDUCE, OCEANIC-STROKE and OPTIMAL-STROKE trials on post-stroke clot prevention and blood pressure management.",
+      "topics": [
+       "antithrombotic",
+       "hypertension"
+      ],
+      "trials": [
+       "OCEANIC-STROKE",
+       "OPTIMAL-STROKE",
+       "REDUCE"
+      ],
+      "stance": "neutral",
+      "likes": 2,
+      "reposts": 2,
+      "replies": 0,
+      "engagement": 6,
+      "region": "Global",
+      "industry": false
+     },
      {
       "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mztif6qmbm2i",
       "kol": "AHA (American Heart Association)",
@@ -879,203 +1631,308 @@
     ],
     "trending": false,
     "cooling": false
-   },
-   {
-    "id": "lifestyle",
-    "label": "Lifestyle & nutrition",
-    "group": "Prevention strategy",
-    "posts": 1,
-    "posts_prev": 1,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "share": 0.7,
-    "share_prev": 18.0,
-    "delta": -17.3,
-    "history": [
-     17.5,
-     0.0,
-     21.1,
-     0.0,
-     0.0,
-     0.0,
-     18.0,
-     0.7
-    ],
-    "top_posts": [
-     {
-      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzti5dphqj24",
-      "kol": "AHA (American Heart Association)",
-      "platform": "bluesky",
-      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzti5dphqj24",
-      "created_at": "2026-11-08",
-      "is_repost": false,
-      "text": "Science shared at #ScientificSessions26 is reshaping how we think about menopause and cardiovascular health. Explore educational content today. \n\nLearn more: https://bit.ly/3UwC6la",
-      "summary": "Promotes Scientific Sessions 2026 educational content on menopause and cardiovascular health, with a link.",
-      "topics": [
-       "womens_equity",
-       "lifestyle"
-      ],
-      "trials": [],
-      "stance": "neutral",
-      "likes": 0,
-      "reposts": 0,
-      "replies": 0,
-      "engagement": 0,
-      "region": "North America",
-      "industry": false
-     }
-    ],
-    "trending": false,
-    "cooling": false
-   },
-   {
-    "id": "incretins_obesity",
-    "label": "GLP-1 / obesity",
-    "group": "Cardiometabolic",
-    "posts": 0,
-    "posts_prev": 1,
-    "kols": [],
-    "n_kols": 0,
-    "share": 0.0,
-    "share_prev": 9.0,
-    "delta": -9.0,
-    "history": [
-     0.0,
-     0.0,
-     19.7,
-     30.5,
-     0.0,
-     0.0,
-     9.0,
-     0.0
-    ],
-    "top_posts": [],
-    "trending": false,
-    "cooling": false
    }
   ],
   "region_topic_labels": [
    "Other",
-   "Women's heart & equity",
-   "Lp(a)",
    "AI & digital health",
-   "Hypertension",
-   "CKM, diabetes & kidney"
+   "Lp(a)",
+   "Evidence & trial critique",
+   "LDL & non-statins",
+   "Interventional & physiology"
   ],
   "regions": [
    {
     "region": "North America",
-    "posts": 30,
+    "posts": 48,
     "top": [
      {
       "label": "Other",
-      "n": 11
+      "n": 15
      },
      {
       "label": "Women's heart & equity",
       "n": 6
      },
      {
-      "label": "Lp(a)",
+      "label": "AI & digital health",
+      "n": 5
+     }
+    ],
+    "cells": [
+     15,
+     5,
+     4,
+     0,
+     3,
+     1
+    ]
+   },
+   {
+    "region": "Global",
+    "posts": 31,
+    "top": [
+     {
+      "label": "Other",
+      "n": 10
+     },
+     {
+      "label": "Interventional & physiology",
+      "n": 8
+     },
+     {
+      "label": "Hypertension",
       "n": 3
      }
     ],
     "cells": [
-     11,
-     6,
-     3,
+     10,
+     1,
      2,
      1,
-     2
+     2,
+     8
+    ]
+   },
+   {
+    "region": "Europe",
+    "posts": 2,
+    "top": [
+     {
+      "label": "Interventional & physiology",
+      "n": 1
+     },
+     {
+      "label": "Lp(a)",
+      "n": 1
+     }
+    ],
+    "cells": [
+     0,
+     0,
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "region": "Asia-Pacific",
+    "posts": 1,
+    "top": [
+     {
+      "label": "LDL & non-statins",
+      "n": 1
+     }
+    ],
+    "cells": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
     ]
    }
   ],
   "trials": [
    {
+    "name": "TCT2026",
+    "posts": 6,
+    "prev": 13,
+    "kols": [
+     "JACC"
+    ],
+    "n_kols": 1,
+    "new": false
+   },
+   {
     "name": "LP(A)HORIZON",
-    "posts": 2,
+    "posts": 4,
     "prev": 0,
     "kols": [
-     "AHA (American Heart Association)"
+     "AHA (American Heart Association)",
+     "Alberico Catapano",
+     "JACC"
+    ],
+    "n_kols": 3,
+    "new": true
+   },
+   {
+    "name": "SIRONA",
+    "posts": 3,
+    "prev": 0,
+    "kols": [
+     "JACC"
     ],
     "n_kols": 1,
     "new": true
    },
    {
     "name": "ZEUS",
+    "posts": 3,
+    "prev": 0,
+    "kols": [
+     "AHA (American Heart Association)",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "new": true
+   },
+   {
+    "name": "JACCINT",
+    "posts": 2,
+    "prev": 3,
+    "kols": [
+     "JACC"
+    ],
+    "n_kols": 1,
+    "new": false
+   },
+   {
+    "name": "STEMI",
     "posts": 2,
     "prev": 0,
     "kols": [
-     "AHA (American Heart Association)"
+     "JACC"
     ],
     "n_kols": 1,
     "new": true
    },
    {
-    "name": "OPTIMAL-STROKE",
-    "posts": 1,
+    "name": "FACC",
+    "posts": 2,
     "prev": 0,
     "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "REDUCE",
-    "posts": 1,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "UNRAVEL",
-    "posts": 1,
-    "prev": 0,
-    "kols": [
-     "Khurram Nasir"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "STREAM",
-    "posts": 1,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
-    ],
-    "n_kols": 1,
-    "new": true
-   },
-   {
-    "name": "YOGA-CARE HF",
-    "posts": 1,
-    "prev": 0,
-    "kols": [
-     "AHA (American Heart Association)"
+     "JACC"
     ],
     "n_kols": 1,
     "new": true
    },
    {
     "name": "OCEANIC-STROKE",
-    "posts": 1,
+    "posts": 2,
     "prev": 0,
     "kols": [
-     "AHA (American Heart Association)"
+     "AHA (American Heart Association)",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "new": true
+   },
+   {
+    "name": "OPTIMAL-STROKE",
+    "posts": 2,
+    "prev": 0,
+    "kols": [
+     "AHA (American Heart Association)",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "new": true
+   },
+   {
+    "name": "REDUCE",
+    "posts": 2,
+    "prev": 0,
+    "kols": [
+     "AHA (American Heart Association)",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "new": true
+   },
+   {
+    "name": "STREAM",
+    "posts": 2,
+    "prev": 0,
+    "kols": [
+     "AHA (American Heart Association)",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "new": true
+   },
+   {
+    "name": "YOGA-CARE HF",
+    "posts": 2,
+    "prev": 0,
+    "kols": [
+     "AHA (American Heart Association)",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "new": true
+   },
+   {
+    "name": "RECOVER-AUTONOMIC",
+    "posts": 2,
+    "prev": 0,
+    "kols": [
+     "C. Michael Gibson"
     ],
     "n_kols": 1,
     "new": true
+   },
+   {
+    "name": "LIPSIA-STRATEGY",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "JACC"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
+    "name": "CLASP",
+    "posts": 1,
+    "prev": 1,
+    "kols": [
+     "JACC"
+    ],
+    "n_kols": 1,
+    "new": false
    }
   ],
-  "papers": [],
-  "debates": [],
+  "papers": [
+   {
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/2856396",
+    "domain": "jamanetwork.com",
+    "n_kols": 1,
+    "kols": [
+     "Gabriel Steg"
+    ],
+    "engagement": 0,
+    "context": "Shares JAMA article on long-term survival after invasive versus conservative management of stable coronary disease."
+   }
+  ],
+  "debates": [
+   {
+    "id": "li:7525528553787121664",
+    "kol": "Alberico Catapano",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/alberico-catapano-50440110b_beyond-the-horizon-does-knowing-lpa-change-activity-7525528553787121664-82Gu",
+    "created_at": "2026-11-09",
+    "is_repost": false,
+    "text": "Does measuring Lp(a) really change cardiovascular prevention? Lp(a) is a well-established cardiovascular risk factor, but identifying risk does not necessarily mean improving clinical outcomes. The Lp(a)HORIZON results reignite the debate: despite substantial Lp(a) reduction with pelacarsen, the trial did not meet its primary cardiovascular endpoint. This does not undermine the causal role of Lp(a",
+    "summary": "Questions whether Lp(a) measurement changes outcomes after Lp(a)HORIZON missed its primary endpoint.",
+    "topics": [
+     "lpa",
+     "trial_methods"
+    ],
+    "trials": [
+     "LP(A)HORIZON"
+    ],
+    "stance": "skeptical",
+    "likes": 28,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 28,
+    "region": "Europe",
+    "industry": false
+   }
+  ],
   "top_posts": [
    {
     "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mznoiijqqc24",
@@ -1091,31 +1948,187 @@
     ],
     "trials": [],
     "stance": "supportive",
-    "likes": 239,
-    "reposts": 95,
+    "likes": 240,
+    "reposts": 96,
     "replies": 3,
-    "engagement": 438,
+    "engagement": 441,
     "region": "North America",
     "industry": false
    },
    {
-    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzedo4t76c24",
-    "kol": "Eric Topol",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzedo4t76c24",
-    "created_at": "2026-11-02",
+    "id": "li:7524872330259369985",
+    "kol": "Todd Villines",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/drtoddvillines_paramount-trial-primary-results-late-breaking-activity-7524872330259369985-rGXE",
+    "created_at": "2026-11-07",
     "is_repost": false,
-    "text": "Symptomatic improvement in people with #LongCovid over time\nwww.acpjournals.org/doi/10.7326/...\n@annalsofim.bsky.social",
-    "summary": "Shares Annals study on symptomatic improvement in long COVID over time.",
+    "text": "Patients with stable chest symptoms and suspected CAD were approximately twice as likely to experience a more favorable outcome with coronary plaque-based care than with usual care. That is the top-line result of the randomized PARAMOUNT trial, which I presented today at #AHA26 . The trial and this post were sponsored by @Cleerly; I am PARAMOUNT co-chair and a paid consultant to Cleerly. What was ",
+    "summary": "Presents PARAMOUNT RCT: CCTA plaque-based care beat usual care on hierarchical win ratio of 2.0 in suspected CAD.",
+    "topics": [
+     "cac_ccta",
+     "trial_methods"
+    ],
+    "trials": [
+     "PARAMOUNT"
+    ],
+    "stance": "supportive",
+    "likes": 309,
+    "reposts": 0,
+    "replies": 6,
+    "engagement": 327,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7524164808926134273",
+    "kol": "Rohan Khera",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/r-khera_aha26-digitalhealth-simpub-activity-7524164808926134273-H54i",
+    "created_at": "2026-11-05",
+    "is_repost": false,
+    "text": "In Nature Medicine today, ahead of Sudheesha Perera 's #AHA26 presentation, our study maps cardiovascular need and digital readiness across nearly 83,000 US census tracts. We asked an important policy question: Where can digital cardiovascular care expand access, and where do we first need to invest to make it possible? Among high-burden communities with cardiology workforce constraints: \u2022 19.9 mi",
+    "summary": "Nature Medicine study maps US census-tract cardiovascular need and digital care readiness, with a public dashboard.",
+    "topics": [
+     "ai_digital",
+     "global_health"
+    ],
+    "trials": [],
+    "stance": "supportive",
+    "likes": 111,
+    "reposts": 0,
+    "replies": 7,
+    "engagement": 132,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7524309970486525952",
+    "kol": "Martha Gulati",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/martha-gulati-9b410496_aha26-scientificsessions26-activity-7524309970486525952-CiLa",
+    "created_at": "2026-11-06",
+    "is_repost": false,
+    "text": "\ud83c\udf89Prevention takes center stage at #AHA26 ! \ud83d\udc40My watchlist spans BP, lipids, inflammation & obesity. Beyond the headlines, I\u2019ll be looking for absolute \ud83e\udec0benefit, safety & sex-specific results. Which trials are you watching? Here is my list (help by AI for the table)! Also why are we using #ScientificSessions26 ? Such a long hashtag!",
+    "summary": "Gulati lists AHA 2026 prevention trials she is watching, focusing on absolute benefit, safety, and sex-specific results.",
     "topics": [
      "other"
     ],
     "trials": [],
+    "stance": "not_applicable",
+    "likes": 88,
+    "reposts": 0,
+    "replies": 1,
+    "engagement": 91,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7524134935016677378",
+    "kol": "Rohan Khera",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/r-khera_cards-lab-at-aha-2026-activity-7524134935016677378-jdSr",
+    "created_at": "2026-11-05",
+    "is_repost": false,
+    "text": "Looking forward to #AHA26 in Chicago The Cardiovascular Data Science (CarDS) Lab will be sharing new research across AI-ECG, cardiovascular imaging, agentic AI, and opportunities to improve cardiovascular care. Beyond the presentations, we're looking forward to learning from colleagues, exchanging ideas, and connecting with others working in this space. If you're attending, we'd love to connect. S",
+    "summary": "Yale CarDS Lab previews AHA 2026 research on AI-ECG, imaging, and agentic AI.",
+    "topics": [
+     "ai_digital"
+    ],
+    "trials": [],
+    "stance": "not_applicable",
+    "likes": 72,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 72,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7524104545589870592",
+    "kol": "Khurram Nasir",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_real-world-comparative-effectiveness-of-evolocumab-activity-7524104545589870592-cf7T",
+    "created_at": "2026-11-05",
+    "is_repost": false,
+    "text": "How do we choose the next LDL-C lowering therapy for a patient with established ASCVD? This is a question we face often in preventive cardiology, and one that deserves better comparative evidence. Pleased to share this American Journal of Preventive Cardiology study by Nihar Desai Yale School of Medicine and colleagues, together with the accompanying editorial by Safi U. Khan MD, MS. and Raul Sant",
+    "summary": "Target trial emulation links evolocumab to 20% lower MI hazard; post shares editorial caveats on confounding and missing data.",
+    "topics": [
+     "ldl_nonstatin",
+     "trial_methods"
+    ],
+    "trials": [],
     "stance": "neutral",
-    "likes": 144,
-    "reposts": 46,
-    "replies": 4,
-    "engagement": 248,
+    "likes": 71,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 71,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7524093788156305408",
+    "kol": "Rohan Khera",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/r-khera_aha26-cardiovascularinnovation-activity-7524093788156305408-mJI6",
+    "created_at": "2026-11-05",
+    "is_repost": false,
+    "text": "Excited to bring together AHA\u2019s first Innovation Forum tomorrow at #AHA26 in Chicago! How do we move from academic innovation to entrepreneurship\u2014and turn promising ideas into companies that can meaningfully improve cardiovascular care? We have an outstanding lineup of academic innovators, entrepreneurs, investors, and industry leaders to discuss this journey, alongside showcases from innovative c",
+    "summary": "Announcement of AHA's first Innovation Forum on turning academic cardiovascular innovations into companies.",
+    "topics": [
+     "ai_digital"
+    ],
+    "trials": [],
+    "stance": "not_applicable",
+    "likes": 52,
+    "reposts": 0,
+    "replies": 3,
+    "engagement": 61,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7523459200426016768",
+    "kol": "C. Michael Gibson",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/cmichaelgibson_dr-patrick-serruys-and-dr-c-michael-gibson-activity-7523459200426016768-jF_i",
+    "created_at": "2026-11-03",
+    "is_repost": false,
+    "text": "Dr. Patrick Serruys and Dr. C. Michael Gibson discuss the PIONEER IV trial: Compared to usual care, angiography-derived fractional flow reserve-guided PCI met non-inferiority for 12-month death/stroke/MI/revascularization in the intention-to-treat population after application of interim analysis adjustments. Watch video here: https://clinicaltrialresults.org/wp-content/uploads/2026/11/Serruys-TCT-",
+    "summary": "Dr. Patrick Serruys and Dr. C. Michael Gibson discuss the PIONEER IV trial: Compared to usual care, angiograph",
+    "topics": [
+     "interventional",
+     "trial_methods"
+    ],
+    "trials": [
+     "PIONEER",
+     "TCT-2026"
+    ],
+    "stance": "neutral",
+    "likes": 50,
+    "reposts": 0,
+    "replies": 2,
+    "engagement": 56,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7525236272995483648",
+    "kol": "Deepak Bhatt",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-prevention-activity-7525236272995483648-AIAS",
+    "created_at": "2026-11-08",
+    "is_repost": false,
+    "text": "See our debate on whether to measure Lp(a). #cardiology #prevention",
+    "summary": "Promotes a debate on whether Lp(a) should be measured for cardiovascular prevention.",
+    "topics": [
+     "lpa"
+    ],
+    "trials": [],
+    "stance": "neutral",
+    "likes": 46,
+    "reposts": 0,
+    "replies": 2,
+    "engagement": 52,
     "region": "North America",
     "industry": false
    },
@@ -1136,388 +2149,160 @@
      "UNRAVEL"
     ],
     "stance": "supportive",
-    "likes": 31,
+    "likes": 35,
     "reposts": 0,
     "replies": 0,
-    "engagement": 31,
+    "engagement": 35,
     "region": "North America",
     "industry": false
    },
    {
-    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr3ychqeu2i",
-    "kol": "AHA (American Heart Association)",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr3ychqeu2i",
-    "created_at": "2026-11-07",
+    "id": "li:7524121562841649152",
+    "kol": "Deepak Bhatt",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-activity-7524121562841649152-nr48",
+    "created_at": "2026-11-05",
     "is_repost": false,
-    "text": "Anastasia Mihailidou, BSc, PhD, FAHA discusses late breaking science from OPTIMAL-STROKE at #ScientificSessions26. \ud83c\udfa5 ",
-    "summary": "Anastasia Mihailidou discusses late-breaking OPTIMAL-STROKE results at Scientific Sessions. Video, no findings stated.",
+    "text": "Looking forward to being a discussant at this late breaking clinical trial presentation at the upcoming American Heart Association meeting. #cardiology",
+    "summary": "Bhatt announces he will discuss a late-breaking trial at the upcoming AHA meeting.",
     "topics": [
-     "hypertension",
      "other"
     ],
-    "trials": [
-     "OPTIMAL-STROKE"
+    "trials": [],
+    "stance": "not_applicable",
+    "likes": 25,
+    "reposts": 0,
+    "replies": 3,
+    "engagement": 34,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7524291411706380288",
+    "kol": "Martha Gulati",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/martha-gulati-9b410496_our-paper-reassessing-us-obesity-prevalence-activity-7524291411706380288-c_ct",
+    "created_at": "2026-11-06",
+    "is_repost": false,
+    "text": "Our paper: Reassessing US Obesity Prevalence Under the 2025 Lancet Commission's Anthropometric Criteria in @MayoProceedings : \ud83c\udf4eOperationalizing the anthropometric criteria of the 2025 Lancet framework markedly\u2934\ufe0f estimated US obesity prevalence relative to BMI alone \ud83c\udf4eDriven by anthropometric-only reclassification; most pronounced in older & Asian adults \ud83d\udd17 https://lnkd.in/gpDNkdnm",
+    "summary": "Mayo Proceedings paper: 2025 Lancet anthropometric criteria raise US obesity prevalence versus BMI alone.",
+    "topics": [
+     "lifestyle",
+     "risk_scores"
     ],
+    "trials": [],
     "stance": "neutral",
-    "likes": 3,
-    "reposts": 1,
-    "replies": 0,
-    "engagement": 5,
-    "region": "North America",
-    "industry": false
-   },
-   {
-    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzgacicn4627",
-    "kol": "AHA (American Heart Association)",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzgacicn4627",
-    "created_at": "2026-11-03",
-    "is_repost": false,
-    "text": "Make meaningful connections at #ScientificSessions26!  \n \nExplore the opportunities to grow your professional circle. \ud83d\udd3d \n \nLearn more: https://bit.ly/4izFy6u ",
-    "summary": "Promotes networking opportunities at AHA Scientific Sessions 2026.",
-    "topics": [
-     "other"
-    ],
-    "trials": [],
-    "stance": "not_applicable",
-    "likes": 2,
-    "reposts": 1,
-    "replies": 0,
-    "engagement": 4,
-    "region": "North America",
-    "industry": false
-   },
-   {
-    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzgg6mlmzk2i",
-    "kol": "AHA (American Heart Association)",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzgg6mlmzk2i",
-    "created_at": "2026-11-03",
-    "is_repost": false,
-    "text": "Make meaningful connections at the Mentor Meetup room during #ScientificSessions26 and #ReSS26. Meet senior mentors, discuss research and career development, and discover new opportunities. Look for faculty wearing \"Talk to Me About\" badges to find experts ready to connect. ",
-    "summary": "Describes Mentor Meetup room for career connections at Scientific Sessions 2026.",
-    "topics": [
-     "other"
-    ],
-    "trials": [],
-    "stance": "not_applicable",
-    "likes": 1,
-    "reposts": 1,
-    "replies": 0,
-    "engagement": 3,
-    "region": "North America",
-    "industry": false
-   },
-   {
-    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzhedrha7325",
-    "kol": "AHA (American Heart Association)",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzhedrha7325",
-    "created_at": "2026-11-04",
-    "is_repost": false,
-    "text": "Discover what's next in cardiovascular innovation at the Health Innovation Pavilion at #ScientificSessions26. Explore AI-driven solutions, experience live technology demonstrations and connect with innovators shaping the future of healthcare.\n\n\ud83d\udccd Science & Technology Hall | Booth 100 ",
-    "summary": "Promotes Health Innovation Pavilion with AI-driven solutions at Scientific Sessions 2026.",
-    "topics": [
-     "ai_digital",
-     "other"
-    ],
-    "trials": [],
-    "stance": "not_applicable",
-    "likes": 1,
-    "reposts": 1,
-    "replies": 0,
-    "engagement": 3,
-    "region": "North America",
-    "industry": false
-   },
-   {
-    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqbdlhxmp2u",
-    "kol": "AHA (American Heart Association)",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqbdlhxmp2u",
-    "created_at": "2026-11-07",
-    "is_repost": false,
-    "text": "Join moderator Jennifer Ashton, MD, MS, FACOG, and a panel of speakers to explore key connections between hormones and cardiovascular health across the lifespan. #ScientificSessions26\n \n\ud83d\udcc5 Nov. 7 | 3:15-4:30 PM CT \n\ud83d\udccd S105D ",
-    "summary": "Announces a panel on hormones and cardiovascular health across the lifespan at Scientific Sessions.",
-    "topics": [
-     "womens_equity",
-     "other"
-    ],
-    "trials": [],
-    "stance": "not_applicable",
-    "likes": 1,
-    "reposts": 1,
-    "replies": 0,
-    "engagement": 3,
-    "region": "North America",
-    "industry": false
-   },
-   {
-    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzh5n7xk7c2o",
-    "kol": "AHA (American Heart Association)",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzh5n7xk7c2o",
-    "created_at": "2026-11-04",
-    "is_repost": false,
-    "text": "Step into the Clinical Case Arena at #ScientificSessions26 and explore real-world cardiovascular cases through an interactive learning experience:  \n\n\ud83d\udd39 Unique and complex case presentations  \n\ud83d\udd39 Interactive, experiential learning  \n\ud83d\udd39 Practical insights to help advance your clinical practice  ",
-    "summary": "Promotes Clinical Case Arena learning sessions at Scientific Sessions 2026.",
-    "topics": [
-     "other"
-    ],
-    "trials": [],
-    "stance": "not_applicable",
-    "likes": 1,
+    "likes": 28,
     "reposts": 0,
     "replies": 0,
-    "engagement": 1,
-    "region": "North America",
-    "industry": false
-   },
-   {
-    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mziwnm5pwm2b",
-    "kol": "AHA (American Heart Association)",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mziwnm5pwm2b",
-    "created_at": "2026-11-04",
-    "is_repost": false,
-    "text": "\ud83c\udf99\ufe0fTwo opportunities to hear from Eric Topol, MD, at #ScientificSessions26! \n\nOpening Session\n \n\ud83d\udcc5 Nov. 7 | 8-8:30 AM CT \n\ud83d\udccd Center Stage \n \nThen, join Eric Topol and Joanna Chikwe for a live recording of the Ground Truths podcast. \n\n\ud83d\udcc5 Nov. 8 | 11:30 AM CT \n\ud83d\udccdSpecial Session Room",
-    "summary": "Announces Eric Topol appearances at Scientific Sessions 2026 opening and podcast recording.",
-    "topics": [
-     "other"
-    ],
-    "trials": [],
-    "stance": "not_applicable",
-    "likes": 1,
-    "reposts": 0,
-    "replies": 0,
-    "engagement": 1,
-    "region": "North America",
-    "industry": false
-   },
-   {
-    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s",
-    "kol": "AHA (American Heart Association)",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqs7uqdmm2s",
-    "created_at": "2026-11-07",
-    "is_repost": false,
-    "text": "Hear from Viet Le, DMSc, PA-C, FACC, FAHA, HF- Cert! \ud83c\udfa5\n\nLp(a) HORIZON, presented at #ScientificSessions26 showed Pelacarsen substantially lowered lipoprotein(a) but did not reduce risk of MACE compared to placebo in patients on guideline-directed medical therapy for secondary prevention of CVD. \n \n ",
-    "summary": "Viet Le summarizes Lp(a)HORIZON: pelacarsen lowered Lp(a) but did not reduce MACE versus placebo.",
-    "topics": [
-     "lpa"
-    ],
-    "trials": [
-     "LP(A)HORIZON"
-    ],
-    "stance": "neutral",
-    "likes": 1,
-    "reposts": 0,
-    "replies": 0,
-    "engagement": 1,
-    "region": "North America",
-    "industry": false
-   },
-   {
-    "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqxofv7wn2q",
-    "kol": "AHA (American Heart Association)",
-    "platform": "bluesky",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqxofv7wn2q",
-    "created_at": "2026-11-07",
-    "is_repost": false,
-    "text": "Science shared at #ScientificSessions26 is reshaping how we think about menopause and cardiovascular health. Explore educational content today. \n \nLearn more: https://bit.ly/3UwC6la \n",
-    "summary": "Promotes Scientific Sessions content on menopause and cardiovascular health (repost of earlier post).",
-    "topics": [
-     "womens_equity",
-     "other"
-    ],
-    "trials": [],
-    "stance": "not_applicable",
-    "likes": 1,
-    "reposts": 0,
-    "replies": 0,
-    "engagement": 1,
+    "engagement": 28,
     "region": "North America",
     "industry": false
    }
   ],
   "active_kols": [
    {
+    "name": "JACC",
+    "posts": 31,
+    "engagement": 133,
+    "region": "Global",
+    "industry": false
+   },
+   {
     "name": "AHA (American Heart Association)",
-    "posts": 27,
-    "engagement": 23,
+    "posts": 29,
+    "engagement": 26,
     "region": "North America",
     "industry": false
    },
    {
-    "name": "Eric Topol",
-    "posts": 2,
-    "engagement": 686,
+    "name": "C. Michael Gibson",
+    "posts": 8,
+    "engagement": 65,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "Rohan Khera",
+    "posts": 3,
+    "engagement": 265,
     "region": "North America",
     "industry": false
    },
    {
     "name": "Khurram Nasir",
-    "posts": 1,
-    "engagement": 31,
+    "posts": 2,
+    "engagement": 106,
     "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "Deepak Bhatt",
+    "posts": 2,
+    "engagement": 86,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "Martha Gulati",
+    "posts": 2,
+    "engagement": 119,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "Eric Topol",
+    "posts": 1,
+    "engagement": 441,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "Mariko Harada-Shiba",
+    "posts": 1,
+    "engagement": 12,
+    "region": "Asia-Pacific",
+    "industry": false
+   },
+   {
+    "name": "Todd Villines",
+    "posts": 1,
+    "engagement": 327,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "Gabriel Steg",
+    "posts": 1,
+    "engagement": 0,
+    "region": "Europe",
+    "industry": false
+   },
+   {
+    "name": "Alberico Catapano",
+    "posts": 1,
+    "engagement": 28,
+    "region": "Europe",
     "industry": false
    }
   ],
   "coverage": {
    "kols_total": 91,
-   "kols_bluesky": 14,
+   "kols_bluesky": 20,
    "kols_linkedin": 39,
-   "kols_active": 3,
-   "posts_total": 42,
-   "posts_relevant": 30,
-   "posts_prev": 6,
+   "kols_active": 12,
+   "posts_total": 102,
+   "posts_relevant": 82,
+   "posts_prev": 22,
    "by_platform": {
-    "bluesky": 41,
-    "linkedin": 1
+    "bluesky": 74,
+    "linkedin": 28
    }
   },
-  "post_links": {
-   "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mznoiijqqc24": {
-    "kol": "Eric Topol",
-    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mznoiijqqc24"
-   },
-   "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzedo4t76c24": {
-    "kol": "Eric Topol",
-    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzedo4t76c24"
-   },
-   "li:7525219559667335168": {
-    "kol": "Khurram Nasir",
-    "url": "https://www.linkedin.com/posts/khurram-nasir-md-mph-msc-05122421_decentralized-lipoproteina-testing-in-adults-activity-7525219559667335168-QMC8"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr3ychqeu2i": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr3ychqeu2i"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqbdlhxmp2u": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqbdlhxmp2u"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mziwnm5pwm2b": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mziwnm5pwm2b"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqs7uqdmm2s"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqxofv7wn2q": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqxofv7wn2q"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr5m3le3z2j": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr5m3le3z2j"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzn6g7fywa2u": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzn6g7fywa2u"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mznk6dq2g72j": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mznk6dq2g72j"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzoojqaxg72k": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzoojqaxg72k"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqsqrn7d22j": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzqsqrn7d22j"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr33wibvh2j": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzr33wibvh2j"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzsvklq3du2k": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzsvklq3du2k"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzsz76tfzg2e": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mzsz76tfzg2e"
-   },
-   "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mztif6qmbm2i": {
-    "kol": "AHA (American Heart Association)",
-    "url": "https://bsky.app/profile/ahascience.bsky.social/post/3mztif6qmbm2i"
-   }
-  }
+  "post_links": {}
  },
  "digest": {
-  "headline": "AHA Scientific Sessions 2026 (Chicago) dominated the feed, with the AHA account relaying that Lp(a) HORIZON showed pelacarsen substantially lowered Lp(a) but did not reduce MACE versus placebo in secondary prevention.",
-  "key_points": [
-   {
-    "title": "Lp(a) HORIZON: Lp(a) lowered, no MACE reduction",
-    "body": "The AHA account, summarising a Viet Le video, said pelacarsen substantially lowered lipoprotein(a) but did not reduce MACE versus placebo in secondary-prevention patients on guideline-directed therapy. Emily Lau was also featured discussing the late-breaker. The posts give no effect sizes and no KOL interpretation.",
-    "post_ids": [
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqs7uqdmm2s",
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr33wibvh2j"
-    ]
-   },
-   {
-    "title": "Late-breaker video series from AHA account",
-    "body": "The AHA account posted short discussant videos on OPTIMAL-STROKE (Anastasia Mihailidou), REDUCE (Yvonne Commodore-Mensah), STREAM (Garima Sharma) and Yoga-CaRe HF (Robert Mentz). It also posted on ZEUS (Shayan Mohammadmoradi, Abdulla Damluji) and OCEANIC-STROKE (Damluji). The posts contain no results, only the presenters' names.",
-    "post_ids": [
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr3ychqeu2i",
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzr5m3le3z2j",
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzsvklq3du2k",
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzsz76tfzg2e",
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqsqrn7d22j",
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mztif6qmbm2i"
-    ]
-   },
-   {
-    "title": "Women's heart health and menopause programming",
-    "body": "Women's heart and equity was the largest named topic, with 6 posts. They promoted a sex-hormones and cardiovascular health panel (C. Noel Bairey Merz, Sadiya Khan, Emily Lau and others), menopause educational content, and FIT/GRWISM sessions. All were from the AHA account and promotional.",
-    "post_ids": [
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqbdlhxmp2u",
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzn6g7fywa2u",
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzqxofv7wn2q"
-    ]
-   },
-   {
-    "title": "CKM health and FCS education",
-    "body": "Sadiya Khan highlighted CKM health sessions (Learning Labs, symposia) as a major meeting focus. A separate AHA post on familial chylomicronemia syndrome (FCS) said early diagnosis may reduce pancreatitis risk and repeat hospitalizations.",
-    "post_ids": [
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mzoojqaxg72k",
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mznk6dq2g72j"
-    ]
-   },
-   {
-    "title": "Nasir on decentralized cardiovascular research",
-    "body": "Khurram Nasir (LinkedIn) described a decentralized model. Patients are identified through clinical records, contacted directly and enrolled remotely, with testing at local labs, which he framed as more practical around work and family. He tied it to the UNRAVEL work in the American Journal of Preventive Cardiology.",
-    "post_ids": [
-     "li:7525219559667335168"
-    ]
-   },
-   {
-    "title": "Topol: long COVID and underestimated benefits",
-    "body": "Eric Topol shared an Annals of Internal Medicine paper on symptomatic improvement in long COVID over time. He also shared a New Scientist piece saying health and economic benefits have been grossly underestimated, which drew the most engagement of the week (438). The post text does not name the subject. Topol was also listed for the Opening Session on Nov 7 and a live Ground Truths podcast recording on Nov 8.",
-    "post_ids": [
-     "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mznoiijqqc24",
-     "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzedo4t76c24",
-     "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3mziwnm5pwm2b"
-    ]
-   }
-  ],
-  "debates": [
-   "No KOL disagreement is visible this week. Only 3 of 91 tracked KOLs posted, and the AHA account's late-breaker posts are neutral, without critique or interpretation."
-  ],
-  "regional": [
-   {
-    "region": "North America",
-    "note": "All 30 relevant posts came from North America. 41 of 42 posts were on Bluesky and 1 was on LinkedIn, so there is no international signal this week."
-   }
-  ],
-  "watch_next": [
-   "Congenital Heart Disease Day (Nov 9, 8AM\u20131PM CT) at the AHA Scientific Sessions.",
-   "Full presentations and publications for the late-breakers named above (Lp(a) HORIZON, ZEUS, OCEANIC-STROKE, REDUCE, STREAM, OPTIMAL-STROKE, Yoga-CaRe HF). The posts give no results beyond Lp(a) HORIZON."
-  ],
+  "headline": "AHA Scientific Sessions (#AHA26) dominated the week. Lp(a)HORIZON missed its primary MACE endpoint despite lowering Lp(a), and KOLs reopened the question of whether to measure Lp(a).",
   "generated_by": "claude-sonnet-5-5"
  }
 }
