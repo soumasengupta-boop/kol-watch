@@ -1,13 +1,17 @@
 """Email the weekly report: a phone-friendly summary in the body, full dashboard attached.
 
-Works with any SMTP server. Default is Gmail with an App Password:
-  SMTP_USER=you@gmail.com  SMTP_PASSWORD=<16-char app password>  REPORT_EMAIL_TO=you@gmail.com
-Optional: SMTP_HOST (smtp.gmail.com), SMTP_PORT (465), REPORT_EMAIL_FROM (defaults to SMTP_USER).
+Two ways to send (the first one configured wins):
+1. Resend (recommended): RESEND_API_KEY + REPORT_EMAIL_TO. The key can only send mail.
+   Without your own domain, Resend sends from onboarding@resend.dev and only to the
+   email address you signed up to Resend with, which is all a personal report needs.
+2. Any SMTP server: SMTP_USER, SMTP_PASSWORD, REPORT_EMAIL_TO (+ optional SMTP_HOST, SMTP_PORT).
+Optional: REPORT_EMAIL_FROM.
 
 Email clients ignore most CSS and block SVG, so the body uses a separate inline-styled template.
 """
 from __future__ import annotations
 
+import base64
 import json
 import logging
 import os
@@ -16,6 +20,7 @@ import ssl
 from email.message import EmailMessage
 from pathlib import Path
 
+import requests
 from jinja2 import Environment, select_autoescape
 
 from .config import REPORTS_DIR
@@ -145,21 +150,27 @@ def send(dry_run_path: Path | None = None) -> bool:
         log.info("Email preview written to %s", dry_run_path)
         return True
 
+    subject = f"KOL Watch {stats['label']}: {digest.get('headline', '')}"[:200]
+    attachment = html_path.read_bytes() if html_path.exists() else None
+
+    if os.environ.get("RESEND_API_KEY"):
+        return _send_resend(subject, body, _plain(stats, digest), attach_name, attachment)
+
     user = os.environ.get("SMTP_USER", "")
     password = os.environ.get("SMTP_PASSWORD", "")
     to = os.environ.get("REPORT_EMAIL_TO", "") or user
     if not (user and password and to):
-        log.warning("SMTP_USER / SMTP_PASSWORD / REPORT_EMAIL_TO not set; skipping email")
+        log.warning("No email settings (RESEND_API_KEY or SMTP_*) found; skipping email")
         return False
 
     msg = EmailMessage()
-    msg["Subject"] = f"KOL Watch {stats['label']}: {digest.get('headline', '')}"[:200]
+    msg["Subject"] = subject
     msg["From"] = os.environ.get("REPORT_EMAIL_FROM", "") or user
     msg["To"] = to
     msg.set_content(_plain(stats, digest))
     msg.add_alternative(body, subtype="html")
-    if html_path.exists():
-        msg.add_attachment(html_path.read_bytes(), maintype="text", subtype="html", filename=attach_name)
+    if attachment:
+        msg.add_attachment(attachment, maintype="text", subtype="html", filename=attach_name)
 
     host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
     port = int(os.environ.get("SMTP_PORT", "465"))
@@ -174,4 +185,26 @@ def send(dry_run_path: Path | None = None) -> bool:
             s.login(user, password)
             s.send_message(msg)
     log.info("Emailed report to %s", to)
+    return True
+
+
+def _send_resend(subject: str, html: str, text: str, attach_name: str, attachment: bytes | None) -> bool:
+    to = os.environ.get("REPORT_EMAIL_TO", "")
+    if not to:
+        log.warning("REPORT_EMAIL_TO not set (must be the email you signed up to Resend with); skipping email")
+        return False
+    payload = {
+        "from": os.environ.get("REPORT_EMAIL_FROM", "") or "KOL Watch <onboarding@resend.dev>",
+        "to": [to], "subject": subject, "html": html, "text": text,
+    }
+    if attachment:
+        payload["attachments"] = [{"filename": attach_name, "content": base64.b64encode(attachment).decode()}]
+    r = requests.post("https://api.resend.com/emails", json=payload, timeout=60,
+                      headers={"Authorization": f"Bearer {os.environ['RESEND_API_KEY']}"})
+    if r.status_code >= 400:
+        log.warning("Resend error %s: %s", r.status_code, r.text[:300])
+        if r.status_code == 403:
+            log.warning("Without a verified domain, REPORT_EMAIL_TO must equal your Resend sign-up email.")
+        return False
+    log.info("Emailed report to %s via Resend (id %s)", to, r.json().get("id"))
     return True

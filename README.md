@@ -26,9 +26,8 @@ Repo → **Settings → Secrets and variables → Actions → New repository sec
 |---|---|
 | `ANTHROPIC_API_KEY` | console.anthropic.com → API keys |
 | `BRIGHTDATA_API_KEY` | Bright Data → Account settings → API key |
-| `SMTP_USER` | The Gmail address that sends the report |
-| `SMTP_PASSWORD` | A Gmail **App Password** for that account (see "Weekly email" below), not your normal password |
-| `REPORT_EMAIL_TO` | Where the report goes (can be the same address) |
+| `RESEND_API_KEY` | resend.com → API Keys → create with **Sending access** (send-only; cannot read any mail) |
+| `REPORT_EMAIL_TO` | The email address you signed up to Resend with (the report goes there) |
 | `CLOUDFLARE_API_TOKEN` | Cloudflare → My Profile → API Tokens → *Create token* → template **"Edit Cloudflare Workers"** or a custom token with **Account › Cloudflare Pages › Edit** |
 | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare dashboard → right sidebar of any page (Account ID) |
 
@@ -47,9 +46,11 @@ downloadable artifact on each workflow run, and archived in `data/reports/`.
 Each run emails a phone-friendly summary (digest, topic shares, trials, papers, top posts) with the full
 dashboard attached as an HTML file.
 
-To use Gmail: turn on 2-Step Verification for the sending account, then go to
-**myaccount.google.com/apppasswords**, create an app password named "kol-watch", and save the 16-character
-code as the `SMTP_PASSWORD` secret. Any other SMTP provider works too: set repo variables `SMTP_HOST` and `SMTP_PORT`.
+Default is **Resend**: a send-only API key, nothing to do with your Gmail account. Without your own domain,
+Resend sends from `onboarding@resend.dev` and only to the address you signed up with, which is all this needs.
+Free plan: 3,000 emails/month.
+
+Alternative: any SMTP server via `SMTP_USER`, `SMTP_PASSWORD` (+ repo variables `SMTP_HOST`, `SMTP_PORT`).
 If you later host the dashboard, set a repo variable `KOLWATCH_DASHBOARD_URL` and the email will link to it.
 
 Preview the email locally without sending: `python -m kolwatch email --preview email.html`.
