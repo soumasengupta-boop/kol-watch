@@ -19,11 +19,11 @@ API = "https://public.api.bsky.app/xrpc"
 SESSION = requests.Session()
 SESSION.headers["User-Agent"] = USER_AGENT
 
+# Strong evidence the account is a cardiology person; generic academic words count only a little.
 CARDIO_WORDS = re.compile(
-    r"cardio|cardiac|heart|lipid|prevent|cardiolog|\bmd\b|m\.d\.|facc|fesc|faha|physician|"
-    r"echocard|imaging|vascular|atheroscler|trialist|epidemiolog|professor|scct|interventional",
-    re.I,
-)
+    r"cardio|cardiac|heart|lipid|prevent|vascular|atheroscler|echocard|imaging|interventional|"
+    r"scct|trialist|coronary|cholesterol|\bcv\b|\bcvd\b|electrophysiolog", re.I)
+WEAK_WORDS = re.compile(r"\bmd\b|m\.d\.|physician|professor|scientist|medicine|clinician|facc|fesc|faha", re.I)
 
 
 def _get(method: str, params: dict, retries: int = 3) -> dict:
@@ -59,15 +59,19 @@ def search_handle(kol: KOL) -> list[dict]:
         desc = a.get("description") or ""
         score = 0.0
         if surname and surname in disp:
-            score += 0.4
+            score += 0.35
         if toks and all(t in disp for t in toks):
             score += 0.25
         if CARDIO_WORDS.search(desc) or CARDIO_WORDS.search(disp):
-            score += 0.3
+            score += 0.35
+        elif WEAK_WORDS.search(desc) or WEAK_WORDS.search(disp):
+            score += 0.1
         if kol.affiliation and any(
             w.lower() in desc.lower() for w in re.findall(r"[A-Z][a-z]{3,}", kol.affiliation)
         ):
             score += 0.15
+        if kol.type != "person":
+            score = min(score, 0.8)  # never auto-apply organisation matches; review them by hand
         out.append(
             {
                 "name": kol.name,

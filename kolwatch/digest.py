@@ -92,5 +92,5 @@ def write(stats: dict) -> dict:
                 d["generated_by"] = DIGEST_MODEL
                 return d
     except Exception as e:  # noqa: BLE001
-        log.warning("Digest generation failed (%s); using fallback", e)
+        log.warning("Digest generation failed (%s); using fallback", str(e)[:200])
     return _fallback(stats)

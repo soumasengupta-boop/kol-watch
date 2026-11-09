@@ -117,23 +117,30 @@ def tag_posts(posts: list[dict], force_keyword: bool = False) -> dict[str, dict]
     topics = cfg["topics"]
     valid = {t["id"] for t in topics}
     cache = {t["id"]: t for t in read_jsonl(TAGS_FILE)}
-    todo = [p for p in posts if p["id"] not in cache]
-    log.info("Tagging: %d posts, %d cached, %d new", len(posts), len(posts) - len(todo), len(todo))
+    use_claude = bool(os.environ.get("ANTHROPIC_API_KEY")) and not force_keyword
+    # posts tagged by the keyword fallback (e.g. API outage / no credit) get re-tagged once Claude is available
+    todo = [p for p in posts if p["id"] not in cache or (use_claude and cache[p["id"]].get("tagger") == "keyword")]
+    log.info("Tagging: %d posts, %d cached, %d to tag", len(posts), len(posts) - len(todo), len(todo))
 
     new: list[dict] = []
-    use_claude = bool(os.environ.get("ANTHROPIC_API_KEY")) and not force_keyword
     if todo and use_claude:
         import anthropic
 
         client = anthropic.Anthropic()
         system = SYSTEM.format(taxonomy=_taxonomy_text(topics))
+        failures = 0
         for i in range(0, len(todo), BATCH):
             batch = todo[i : i + BATCH]
-            try:
-                got = _claude_batch(client, system, batch, valid)
-            except Exception as e:  # noqa: BLE001
-                log.warning("  batch %d failed (%s); using keyword fallback", i // BATCH, e)
-                got = [_keyword_tag(p, topics) for p in batch]
+            got = []
+            if failures < 2:
+                try:
+                    got = _claude_batch(client, system, batch, valid)
+                    failures = 0
+                except Exception as e:  # noqa: BLE001
+                    failures += 1
+                    log.warning("  batch %d failed (%s); using keyword fallback", i // BATCH, str(e)[:200])
+                    if failures >= 2:
+                        log.warning("  Claude unavailable; keyword-tagging the rest (will re-tag on a later run)")
             got_ids = {g["id"] for g in got}
             got += [_keyword_tag(p, topics) for p in batch if p["id"] not in got_ids]
             new.extend(got)

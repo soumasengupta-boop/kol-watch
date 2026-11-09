@@ -10,7 +10,7 @@ Y,Sadiya Khan,person,North America,USA,Northwestern,epidemiology; PREVENT equati
 Y,Donald Lloyd-Jones,person,North America,USA,Northwestern,epidemiology; Life's Essential 8,Former AHA president; population prevention,,,,
 Y,Martha Gulati,person,North America,USA,Cedars-Sinai,women's heart health; prevention,Highly active digital opinion leader,drmarthagulati.bsky.social,https://www.linkedin.com/in/martha-gulati-9b410496/,,
 Y,Paul Ridker,person,North America,USA,Brigham and Women's,inflammation; hsCRP; colchicine,Anti-inflammatory CVOT leader,,,,
-Y,Michelle O'Donoghue,person,North America,USA,Brigham / TIMI Study Group,Lp(a); lipid trials,Lp(a) outcomes trials,michelleodonoghue.bsky.social,https://www.linkedin.com/in/michelle-o-donoghue-md-mph-13986574,,
+Y,Michelle O'Donoghue,person,North America,USA,Brigham / TIMI Study Group,Lp(a); lipid trials,Lp(a) outcomes trials,,https://www.linkedin.com/in/michelle-o-donoghue-md-mph-13986574,,"Bluesky auto-match was wrong, cleared"
 Y,Marc Sabatine,person,North America,USA,Brigham / TIMI Study Group,lipids; PCSK9; trials,Major lipid CVOTs,,,,
 Y,Steven Nissen,person,North America,USA,Cleveland Clinic,lipids; Lp(a); trials,High-profile trialist and commentator,,,,
 Y,Michael Shapiro,person,North America,USA,Wake Forest,lipids; Lp(a),Lp(a) and lipid clinic voice,michaeldshapiro.bsky.social,,,
@@ -46,7 +46,7 @@ Y,Sophia Zoungas,person,Asia-Pacific,Australia,Monash University,prevention in o
 Y,Gilles Montalescot,person,Europe,France,Sorbonne University / ACTION Study Group,ACS; lipids; antithrombotics,CVOT: AMUNDSEN presenter (evolocumab pre-PCI; ESC 2026 / JAMA),,https://www.linkedin.com/in/gilles-montalescot-b14b34313/,,
 Y,Borja Ibáñez,person,Europe,Spain,CNIC Madrid,post-MI therapy; beta-blockers; imaging,CVOT: REBOOT (beta-blockers post-MI),,https://www.linkedin.com/in/borja-ibanez-9136b09a/,,
 Y,Louise Bowman,person,Europe,UK,University of Oxford,lipids; inclisiran; large simple trials,CVOT: ORION-4 chief investigator (inclisiran; results pending),,,,
-Y,Jing Li,person,Asia-Pacific,China,Fuwai Hospital / National Center for CV Diseases,hypertension; intensive BP lowering,CVOT: ESPRIT (intensive BP lowering in China); fills East Asia gap,jingli-econ.bsky.social,,,
+Y,Jing Li,person,Asia-Pacific,China,Fuwai Hospital / National Center for CV Diseases,hypertension; intensive BP lowering,CVOT: ESPRIT (intensive BP lowering in China); fills East Asia gap,,,,"Bluesky auto-match was wrong, cleared"
 Y,C. Michael Gibson,person,North America,USA,Baim Institute / Harvard,ACS; antithrombotics; trials; digital education,Added by Souma; very active on social media; AEGIS-II (ApoA-I infusion) lead,,https://www.linkedin.com/in/cmichaelgibson,,
 Y,Ajay Kirtane,person,North America,USA,Columbia University / NewYork-Presbyterian,interventional; PCI; renal denervation; intravascular imaging,Added by Souma; very active on social media,,,,
 Y,Patrick Serruys,person,Europe,Ireland/Netherlands,University of Galway (formerly Erasmus MC Rotterdam),interventional; CCTA-guided revascularization; FFR-CT; SYNTAX,Added by Souma,,https://www.linkedin.com/in/patrick-w-serruys-075a1498/,,
@@ -61,7 +61,7 @@ Y,Tim Fairbairn,person,Europe,UK,Liverpool Heart and Chest Hospital,CCTA; FFR-CT
 Y,George Thanassoulis,person,North America,Canada,McGill,Lp(a); lipids,Canadian Lp(a) leader,,https://www.linkedin.com/in/george-thanassoulis-134a3613/,,
 Y,Salim Yusuf,person,North America,Canada,Population Health Research Institute,global prevention; polypill,Global prevention epidemiology,,,,
 Y,Kausik Ray,person,Europe,UK,Imperial College London,lipids; PCSK9; inclisiran,Leading European lipidologist,,,,
-Y,Riyaz Patel,person,Europe,UK,University College London,genetics; prevention,Active online; genetic risk,drkavitapatel.bsky.social,https://www.linkedin.com/in/riyaz-suleman-patel/,,
+Y,Riyaz Patel,person,Europe,UK,University College London,genetics; prevention,Active online; genetic risk,,https://www.linkedin.com/in/riyaz-suleman-patel/,,"Bluesky auto-match was wrong, cleared"
 Y,Thomas Lüscher,person,Europe,Switzerland/UK,Zurich / Royal Brompton,broad cardiology; editor,Former EHJ editor; active online,,https://www.linkedin.com/in/thomas-f-l%C3%BCscher-6a4480207/,,
 Y,François Mach,person,Europe,Switzerland,Geneva University Hospitals,lipids; ESC guidelines,ESC dyslipidaemia guideline chair,,,,
 Y,Frank Visseren,person,Europe,Netherlands,UMC Utrecht,prevention guidelines; risk,ESC prevention guideline chair,,,,
@@ -83,10 +83,10 @@ Y,ACC (American College of Cardiology),organization,North America,USA,,society n
 Y,AHA (American Heart Association),organization,North America,USA,,society news; guidelines,Official society channel,ahascience.bsky.social,,,
 Y,ASPC (American Society for Preventive Cardiology),organization,North America,USA,,prevention society,Prevention-specific society,,,,
 Y,National Lipid Association,organization,North America,USA,,lipids,Lipid society,nationallipid.bsky.social,,,
-Y,ESC (European Society of Cardiology),organization,Europe,EU,,society news; guidelines,Official society channel,bolivarescobar.bsky.social,,,
+Y,ESC (European Society of Cardiology),organization,Europe,EU,,society news; guidelines,Official society channel,,,,"Bluesky auto-match was wrong, cleared"
 Y,EAPC (European Association of Preventive Cardiology),organization,Europe,EU,,prevention society,ESC prevention branch,,,,
 Y,European Atherosclerosis Society,organization,Europe,EU,,lipids; Lp(a),Lipid society,eassociety.bsky.social,,,
 Y,World Heart Federation,organization,Global,,,global CV health,Global policy and prevention,worldheart.org,,,
-Y,JACC,journal,Global,,,publications,Major journal feed,jrvosse.bsky.social,,,
+Y,JACC,journal,Global,,,publications,Major journal feed,,,,"Bluesky auto-match was wrong, cleared"
 Y,European Heart Journal,journal,Global,,,publications,Major journal feed,,,,
 Y,European Journal of Preventive Cardiology,journal,Global,,,prevention publications,Prevention-specific journal,,,,

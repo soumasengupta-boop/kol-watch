@@ -1,1 +1,2 @@
-{"mode": "resolve-handles", "note": "Test 1: find Bluesky handles (free) and LinkedIn URLs (Claude web search). No Bright Data use."}
+{"mode": "run", "days": 56, "skip_linkedin": false, "linkedin_max_profiles": 2, "linkedin_per_profile": 3, "email": true,
+ "note": "Test 2: 8-week Bluesky backfill (free) + tiny LinkedIn test capped at 2 profiles x 3 posts (<=6 Bright Data records) + first email."}
