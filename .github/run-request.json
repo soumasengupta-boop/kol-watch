@@ -1,1 +1,1 @@
-{"mode": "resolve-handles", "platforms": "bluesky", "note": "Second Bluesky search pass with name variants (free, no Claude, no Bright Data)."}
+{"mode": "resolve-handles", "platforms": "linkedin", "note": "Finish LinkedIn URL lookups for KOLs still blank (10 failed earlier on low credit + earlier not-found). Claude web search only; no Bright Data."}
