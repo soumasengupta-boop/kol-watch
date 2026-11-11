@@ -1,0 +1,89 @@
+ANTHROPIC_API_KEY: set
+BRIGHTDATA_API_KEY: set
+RESEND_API_KEY: set
+REPORT_EMAIL_TO: set
+19:57:16 INFO Resolving LinkedIn URLs for 41 KOLs (Claude web search)
+19:57:25 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:57:25 INFO   Seth Martin                  -> https://www.linkedin.com/in/seth-shay-martin-38334532/ (high)
+19:57:30 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:57:30 INFO   Michael Blaha                -> (not found)
+19:57:36 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:57:36 INFO   Roger Blumenthal             -> (not found)
+19:57:42 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:57:42 INFO   Sadiya Khan                  -> (not found)
+19:57:46 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:57:46 INFO   Donald Lloyd-Jones           -> https://www.linkedin.com/in/donald-lloyd-jones-123127224/ (medium)
+19:57:51 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:57:51 INFO   Paul Ridker                  -> (not found)
+19:57:57 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:57:57 INFO   Marc Sabatine                -> (not found)
+19:58:03 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:58:03 INFO   Steven Nissen                -> (not found)
+19:58:08 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:58:08 INFO   Michael Shapiro              -> (not found)
+19:58:14 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:58:14 INFO   Matthew Budoff               -> https://www.linkedin.com/in/matthew-budoff-081b416/ (medium)
+19:58:21 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:58:21 INFO   Ty Gluckman                  -> (not found)
+19:58:26 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:58:26 INFO   Mikhail Kosiborod            -> https://www.linkedin.com/in/mikhail-kosiborod-15aaba35 (high)
+19:58:31 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:58:31 INFO   David Maron                  -> (not found)
+19:58:35 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:58:35 INFO   Gregg Stone                  -> https://www.linkedin.com/in/gregg-stone-8165891a6/ (medium)
+19:58:40 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:58:40 INFO   Jagat Narula                 -> (not found)
+19:58:46 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:58:46 INFO   Jonathon Leipsic             -> (not found)
+19:58:51 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:58:51 INFO   Louise Bowman                -> (not found)
+19:58:56 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:58:56 INFO   Jing Li                      -> (not found)
+19:59:03 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:59:03 INFO   Ajay Kirtane                 -> (not found)
+19:59:06 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:59:06 INFO   Christie Ballantyne          -> https://www.linkedin.com/in/christie-ballantyne-875163b/ (high)
+19:59:11 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:59:11 INFO   Ashish Sarraju               -> (not found)
+19:59:20 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:59:20 INFO   John Kastelein               -> (not found)
+19:59:24 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:59:24 INFO   David Newby                  -> (not found)
+19:59:32 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:59:32 INFO   Michelle Williams            -> https://www.linkedin.com/in/michmog/ (medium)
+19:59:36 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:59:36 INFO   Tim Fairbairn                -> https://www.linkedin.com/in/tim-fairbairn-66462113b (medium)
+19:59:42 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:59:42 INFO   Salim Yusuf                  -> (not found)
+19:59:47 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:59:47 INFO   Kausik Ray                   -> https://www.linkedin.com/in/kausik-ray-md-fmedsci-19033118 (medium)
+19:59:56 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+19:59:56 INFO   François Mach                -> (not found)
+20:00:00 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:00 INFO   Frank Visseren               -> https://www.linkedin.com/in/frank-visseren-1456b7180/ (medium)
+20:00:05 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:05 INFO   Erik Stroes                  -> (not found)
+20:00:10 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:10 INFO   Ulf Landmesser               -> https://www.linkedin.com/in/ulf-landmesser-6b66b6132/ (high)
+20:00:16 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:16 INFO   Wolfgang Koenig              -> https://www.linkedin.com/in/wolfgang-koenig-223129111/ (medium)
+20:00:21 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:21 INFO   Gabriel Steg                 -> https://fr.linkedin.com/in/philippe-gabriel-steg-b51320a (high)
+20:00:29 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:29 INFO   Valentín Fuster              -> (not found)
+20:00:32 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:32 INFO   Fausto Pinto                 -> https://www.linkedin.com/in/fausto-pinto-a7897913/ (high)
+20:00:35 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:35 INFO   Stephen Nicholls             -> https://www.linkedin.com/in/stephen-j-nicholls/ (high)
+20:00:38 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:38 INFO   Clara Chow                   -> https://www.linkedin.com/in/clara-chow-87243642/ (high)
+20:00:43 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:43 INFO   Dorairaj Prabhakaran         -> https://www.linkedin.com/in/dorairaj-prabhakaran-b1323924/ (high)
+20:00:46 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:46 INFO   Salim Virani                 -> https://www.linkedin.com/in/salim-s-virani (high)
+20:00:50 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:50 INFO   Karen Sliwa                  -> https://www.linkedin.com/in/karen-sliwa-hahnle-72b35a67/ (high)
+20:00:56 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+20:00:56 INFO   Raul Santos                  -> https://www.linkedin.com/in/raul-santos-0501733/ (high)
+20:00:56 INFO Wrote 20 candidates to /home/runner/work/kol-watch/kol-watch/data/handle_candidates.csv
+20:00:56 INFO Applied 12 high-confidence matches to kols.csv (empty cells only)
