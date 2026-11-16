@@ -1,0 +1,2125 @@
+{
+ "stats": {
+  "start": "2026-11-09T23:08:02.132288+00:00",
+  "end": "2026-11-16T23:08:02.132288+00:00",
+  "label": "Nov 09 \u2013 Nov 16, 2026",
+  "week_labels": [
+   "Sep 28",
+   "Oct 05",
+   "Oct 12",
+   "Oct 19",
+   "Oct 26",
+   "Nov 02",
+   "Nov 09",
+   "Nov 16"
+  ],
+  "topics": [
+   {
+    "id": "other",
+    "label": "Other",
+    "group": "Other cardiology",
+    "posts": 17,
+    "posts_prev": 36,
+    "kols": [
+     "C. Michael Gibson",
+     "Clara Chow",
+     "Deepak Bhatt",
+     "Eric Topol",
+     "JACC",
+     "Kausik Ray",
+     "Raul Santos",
+     "Salim Virani"
+    ],
+    "n_kols": 8,
+    "share": 31.6,
+    "share_prev": 26.7,
+    "delta": 4.9,
+    "history": [
+     100.0,
+     31.4,
+     41.1,
+     0.0,
+     0.0,
+     68.5,
+     26.7,
+     31.6
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzyuuaodnc2u",
+      "kol": "Eric Topol",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzyuuaodnc2u",
+      "created_at": "2026-11-11",
+      "is_repost": false,
+      "text": "While AI teach leaders are talking about curing all diseases, the US can\u2019t even prevent a disease (eminently preventable) that was considered eliminated here 26 years ago",
+      "summary": "Criticizes US failure to prevent a disease declared eliminated 26 years ago, while AI leaders promise disease cures.",
+      "topics": [
+       "other",
+       "global_health"
+      ],
+      "trials": [],
+      "stance": "critical",
+      "likes": 2283,
+      "reposts": 664,
+      "replies": 38,
+      "engagement": 3725,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7526705568296792064",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_everyone-has-at-least-one-dna-variant-that-activity-7526705568296792064--eB9",
+      "created_at": "2026-11-12",
+      "is_repost": false,
+      "text": "Everyone has at least one DNA variant that affects their response to a medication. And almost no one knows that or the variant(s) they carry. https://lnkd.in/gWxRVkNh",
+      "summary": "Shares study finding everyone carries a DNA variant affecting drug response, largely unknown to people.",
+      "topics": [
+       "risk_scores",
+       "other"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 600,
+      "reposts": 0,
+      "replies": 53,
+      "engagement": 759,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7526432200607629312",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_moving-on-to-preventing-cancer-with-vaccines-activity-7526432200607629312-2Llk",
+      "created_at": "2026-11-11",
+      "is_repost": false,
+      "text": "Moving on to preventing cancer with vaccines With today's NEJM publication of the melanoma treatment vaccine success https://lnkd.in/gSpJspyy The editorial notes the remarkable potential for vaccines to prevent cancer : https://lnkd.in/gSpJspyy \"a vaccine against 25 recurrent mutational hotspots in genes such as KRAS, BRAF, and PIK3CA could target mutations found in more than 70% of colorectal, pa",
+      "summary": "Shares NEJM melanoma cancer vaccine publication and vaccines for cancer prevention, including Lynch syndrome trial.",
+      "topics": [
+       "other"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 464,
+      "reposts": 0,
+      "replies": 32,
+      "engagement": 560,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "ai_digital",
+    "label": "AI & digital health",
+    "group": "Methods",
+    "posts": 5,
+    "posts_prev": 7,
+    "kols": [
+     "Clara Chow",
+     "Eric Topol"
+    ],
+    "n_kols": 2,
+    "share": 12.9,
+    "share_prev": 10.1,
+    "delta": 2.7,
+    "history": [
+     0.0,
+     6.9,
+     4.8,
+     0.0,
+     0.0,
+     0.0,
+     10.1,
+     12.9
+    ],
+    "top_posts": [
+     {
+      "id": "li:7527419675824017408",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_two-instructive-cases-that-ai-made-the-diagnosis-activity-7527419675824017408-A1G1",
+      "created_at": "2026-11-14",
+      "is_repost": false,
+      "text": "Two instructive cases that AI made the diagnosis 1. A 37-year-old woman with 10 years of abdominal pain. \u2014The AI makes the diagnosis and recommends a successful treatment. \u2014 The physician \"diagnosed a patient with a condition I had never diagnosed before and started treatment largely on the basis of the output of a chatbot.\" https://lnkd.in/g5EHGC5R 2. A diagnosis missed for decades, gift link htt",
+      "summary": "Two cases where AI, including a chatbot, produced diagnoses that physicians had missed or not made.",
+      "topics": [
+       "ai_digital"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 266,
+      "reposts": 0,
+      "replies": 26,
+      "engagement": 344,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n22ejn2ohc25",
+      "kol": "Eric Topol",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n22ejn2ohc25",
+      "created_at": "2026-11-11",
+      "is_repost": false,
+      "text": "f you want to get an expert independent assessment of where we are with AI now and where it's headed, you can't outdo @emollick.bsky.social. Our conversation covers his new book (Co-Existence) and much more\n\nerictopol.substack.com/p/ethan-moll...",
+      "summary": "Podcast conversation with Ethan Mollick on AI's current state and direction, tied to his new book.",
+      "topics": [
+       "ai_digital"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 58,
+      "reposts": 11,
+      "replies": 0,
+      "engagement": 80,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7527769411458400257",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_ai-could-make-surgery-safer-activity-7527769411458400257-MVMu",
+      "created_at": "2026-11-15",
+      "is_repost": false,
+      "text": "AI Could Make Surgery Safer | A clip from my Substack post, Jo Chikwe: A Renowned Cardiac Surgeon, on Leadership, Diversity, And Much More. Watch it here: https://lnkd.in/ghCE3dfC",
+      "summary": "Promotes a podcast clip claiming AI could make surgery safer.",
+      "topics": [
+       "ai_digital"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 35,
+      "reposts": 0,
+      "replies": 4,
+      "engagement": 47,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "risk_scores",
+    "label": "Risk prediction",
+    "group": "Prevention strategy",
+    "posts": 5,
+    "posts_prev": 1,
+    "kols": [
+     "Eric Topol",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "share": 10.4,
+    "share_prev": 1.0,
+    "delta": 9.4,
+    "history": [
+     0.0,
+     13.7,
+     11.6,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     10.4
+    ],
+    "top_posts": [
+     {
+      "id": "li:7526705568296792064",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_everyone-has-at-least-one-dna-variant-that-activity-7526705568296792064--eB9",
+      "created_at": "2026-11-12",
+      "is_repost": false,
+      "text": "Everyone has at least one DNA variant that affects their response to a medication. And almost no one knows that or the variant(s) they carry. https://lnkd.in/gWxRVkNh",
+      "summary": "Shares study finding everyone carries a DNA variant affecting drug response, largely unknown to people.",
+      "topics": [
+       "risk_scores",
+       "other"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 600,
+      "reposts": 0,
+      "replies": 53,
+      "engagement": 759,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n252ej4ybs2s",
+      "kol": "Eric Topol",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n252ej4ybs2s",
+      "created_at": "2026-11-12",
+      "is_repost": false,
+      "text": "Everyone has at least one DNA variant that affects their response to a medication. And almost no one knows that or the variant(s) they carry. \nscience.org/doi/10.1126/...",
+      "summary": "Shares study finding everyone carries a DNA variant affecting drug response, largely unknown to people.",
+      "topics": [
+       "other",
+       "risk_scores"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 208,
+      "reposts": 68,
+      "replies": 7,
+      "engagement": 365,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7528126761017147392",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_plasma-proteins-for-the-win-againbetter-activity-7528126761017147392-JLUT",
+      "created_at": "2026-11-16",
+      "is_repost": false,
+      "text": "Plasma proteins for the win again....better prediction of Type 2 diabetes, liver, kidney, heart, and other diseases than currently used metrics @NatMetabolism https://lnkd.in/gJkwwDYU",
+      "summary": "Plasma proteins predict type 2 diabetes, liver, kidney and heart disease better than current metrics.",
+      "topics": [
+       "risk_scores",
+       "ckm_diabetes"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 120,
+      "reposts": 0,
+      "replies": 9,
+      "engagement": 147,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "womens_equity",
+    "label": "Women's heart & equity",
+    "group": "Populations",
+    "posts": 4,
+    "posts_prev": 6,
+    "kols": [
+     "Eric Topol",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "share": 7.0,
+    "share_prev": 4.0,
+    "delta": 3.0,
+    "history": [
+     0.0,
+     14.5,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     4.0,
+     7.0
+    ],
+    "top_posts": [
+     {
+      "id": "li:7527771035627114496",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_jo-chikwe-a-renowned-cardiac-surgeon-on-activity-7527771035627114496-UdX7",
+      "created_at": "2026-11-15",
+      "is_repost": false,
+      "text": "There are only a handful of Black female cardiac surgeons in the United States. One is Jo Chikwe , who heads up heart surgery CedarsSinai and is Editor-in-Chief of Annals Of Thoracic Surgery . We did a live audience Ground Truths at the 99th annual meeting the American Heart Association , where she led the AHA Scientific Sessions. https://lnkd.in/ghCE3dfC",
+      "summary": "Highlights scarcity of Black female cardiac surgeons, featuring Jo Chikwe from a podcast episode.",
+      "topics": [
+       "womens_equity",
+       "other"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 134,
+      "reposts": 0,
+      "replies": 8,
+      "engagement": 158,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2eitfmwqk2u",
+      "kol": "Eric Topol",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n2eitfmwqk2u",
+      "created_at": "2026-11-15",
+      "is_repost": false,
+      "text": "There are only a handful of Black female cardiac surgeons in the United States. One is Jo Chikwe, a renowned leader in the field. We did a live audience Ground Truths at the @americanheart.bsky.social where she led \n@ahascience.bsky.social Scientific Sessions. erictopol.substack.com/p/jo-chikwe-...",
+      "summary": "Highlights scarcity of Black female cardiac surgeons, featuring Jo Chikwe from AHA sessions.",
+      "topics": [
+       "womens_equity",
+       "other"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 96,
+      "reposts": 16,
+      "replies": 0,
+      "engagement": 128,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2cphpapoi2f",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2cphpapoi2f",
+      "created_at": "2026-11-15",
+      "is_repost": false,
+      "text": "In OPTION, after #AFib ablation, left atrial appendage closure and oral anticoagulation had similar 36-month death, stroke, or embolism in both sexes. Bleeding fell more in men, driven by non-major bleeding (11.1% vs 3.9%).\n\nRead more in the #LAAC issue of #JACC: https://bit.ly/4AjVwst",
+      "summary": "OPTION trial: after AF ablation, LAAC and anticoagulation had similar outcomes; men had more bleeding.",
+      "topics": [
+       "antithrombotic",
+       "womens_equity"
+      ],
+      "trials": [
+       "OPTION"
+      ],
+      "stance": "neutral",
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 1,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "global_health",
+    "label": "Global CV health",
+    "group": "Populations",
+    "posts": 3,
+    "posts_prev": 2,
+    "kols": [
+     "Clara Chow",
+     "Eric Topol",
+     "Salim Virani"
+    ],
+    "n_kols": 3,
+    "share": 6.0,
+    "share_prev": 1.7,
+    "delta": 4.3,
+    "history": [
+     0.0,
+     1.1,
+     0.0,
+     0.0,
+     0.0,
+     3.7,
+     1.7,
+     6.0
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzyuuaodnc2u",
+      "kol": "Eric Topol",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzyuuaodnc2u",
+      "created_at": "2026-11-11",
+      "is_repost": false,
+      "text": "While AI teach leaders are talking about curing all diseases, the US can\u2019t even prevent a disease (eminently preventable) that was considered eliminated here 26 years ago",
+      "summary": "Criticizes US failure to prevent a disease declared eliminated 26 years ago, while AI leaders promise disease cures.",
+      "topics": [
+       "other",
+       "global_health"
+      ],
+      "trials": [],
+      "stance": "critical",
+      "likes": 2283,
+      "reposts": 664,
+      "replies": 38,
+      "engagement": 3725,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7526185212305846273",
+      "kol": "Salim Virani",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/salim-s-virani_%F0%9D%99%92%F0%9D%99%9D%F0%9D%99%AE-%F0%9D%99%99%F0%9D%99%A4-%F0%9D%99%97%F0%9D%99%96%F0%9D%99%A8%F0%9D%99%9E%F0%9D%99%98-%F0%9D%99%A8%F0%9D%99%98%F0%9D%99%9E%F0%9D%99%9A%F0%9D%99%A3%F0%9D%99%98%F0%9D%99%9A%F0%9D%99%A8-%F0%9D%99%A2%F0%9D%99%96%F0%9D%99%A9%F0%9D%99%A9%F0%9D%99%9A%F0%9D%99%A7-activity-7526185212305846273-xdh6",
+      "created_at": "2026-11-11",
+      "is_repost": false,
+      "text": "\ud835\ude52\ud835\ude5d\ud835\ude6e \ud835\ude59\ud835\ude64 \ud835\ude57\ud835\ude56\ud835\ude68\ud835\ude5e\ud835\ude58 \ud835\ude68\ud835\ude58\ud835\ude5e\ud835\ude5a\ud835\ude63\ud835\ude58\ud835\ude5a\ud835\ude68 \ud835\ude62\ud835\ude56\ud835\ude69\ud835\ude69\ud835\ude5a\ud835\ude67? \ud835\ude3c\ud835\ude63\ud835\ude59 \ud835\ude5d\ud835\ude64\ud835\ude6c \ud835\ude58\ud835\ude56\ud835\ude63 \ud835\ude6c\ud835\ude5a \ud835\ude5a\ud835\ude63\ud835\ude68\ud835\ude6a\ud835\ude67\ud835\ude5a \ud835\ude69\ud835\ude5d\ud835\ude5a\ud835\ude6e \ud835\ude56\ud835\ude59\ud835\ude59\ud835\ude67\ud835\ude5a\ud835\ude68\ud835\ude68 \ud835\ude69\ud835\ude5d\ud835\ude5a \ud835\ude5d\ud835\ude5a\ud835\ude56\ud835\ude61\ud835\ude69\ud835\ude5d \ud835\ude58\ud835\ude5d\ud835\ude56\ud835\ude61\ud835\ude61\ud835\ude5a\ud835\ude63\ud835\ude5c\ud835\ude5a\ud835\ude68 \ud835\ude69\ud835\ude5d\ud835\ude56\ud835\ude69 \ud835\ude62\ud835\ude56\ud835\ude69\ud835\ude69\ud835\ude5a\ud835\ude67 \ud835\ude62\ud835\ude64\ud835\ude68\ud835\ude69 \ud835\ude69\ud835\ude64 \ud835\ude64\ud835\ude6a\ud835\ude67 \ud835\ude58\ud835\ude64\ud835\ude62\ud835\ude62\ud835\ude6a\ud835\ude63\ud835\ude5e\ud835\ude69\ud835\ude5e\ud835\ude5a\ud835\ude68? At the AKU Department of Biological and Biomedical Sciences (BBS) Annual Conference 2026, I had the opportunity to reflect on these questions and share a few thoughts on the way forward. For many medical students, basic sciences provide their first encounter with research, sc",
+      "summary": "Reflects on basic science research, equity, and reverse translation for populations at Aga Khan University conference.",
+      "topics": [
+       "global_health",
+       "other"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 29,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 29,
+      "region": "Asia-Pacific",
+      "industry": false
+     },
+     {
+      "id": "li:7527110053573840896",
+      "kol": "Clara Chow",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/clara-chow-87243642_welcome-to-australia-an-important-meeeing-activity-7527110053573840896-TRCC",
+      "created_at": "2026-11-13",
+      "is_repost": false,
+      "text": "Welcome to Australia\u2026 an important meeeing to tackle this disease which is preventable and should be stopped earlier in its tracks \u2026",
+      "summary": "Welcomes attendees to Australia for a meeting on a preventable disease that should be stopped early.",
+      "topics": [
+       "global_health",
+       "other"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 5,
+      "region": "Asia-Pacific",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "antithrombotic",
+    "label": "Antithrombotics",
+    "group": "Secondary prevention",
+    "posts": 5,
+    "posts_prev": 2,
+    "kols": [
+     "C. Michael Gibson",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "share": 5.7,
+    "share_prev": 0.9,
+    "delta": 4.8,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.5,
+     0.9,
+     5.7
+    ],
+    "top_posts": [
+     {
+      "id": "li:7526395508764987392",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_dr-ashkan-shoamanesh-and-dr-c-michael-activity-7526395508764987392-4kIY",
+      "created_at": "2026-11-11",
+      "is_repost": false,
+      "text": "Dr. Ashkan Shoamanesh and Dr. C. Michael Gibson discuss findings presented at the recent ESOC meeting about what the latest data reveals about asundexian and ischemic stroke prevention. We examine the characteristics and severity of ischemic strokes occurring during the study, the consistency of treatment benefit over time, and the rates, outcomes, and predictors of intracranial hemorrhage (ICH) a",
+      "summary": "ESOC asundexian analyses: stroke benefit persists, bleeding rates similar to placebo; sponsored by Bayer.",
+      "topics": [
+       "antithrombotic",
+       "trial_methods"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 17,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 17,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n24rbkybsv2x",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n24rbkybsv2x",
+      "created_at": "2026-11-12",
+      "is_repost": false,
+      "text": "Where does #LAAC fit in stroke prevention for pts w/ #AFib? New #JACC special issue brings together original research, randomized evidence, meta-analysis & expert perspectives examining LAAC vs. anticoagulation, pt selection, outcomes & more: https://bit.ly/4zaidyo\n\n#CardioSky @bbikdeli.bsky.social",
+      "summary": "JACC special issue on left atrial appendage closure versus anticoagulation in AF stroke prevention.",
+      "topics": [
+       "antithrombotic",
+       "interventional"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 2,
+      "reposts": 2,
+      "replies": 0,
+      "engagement": 6,
+      "region": "Global",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2cphpapoi2f",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2cphpapoi2f",
+      "created_at": "2026-11-15",
+      "is_repost": false,
+      "text": "In OPTION, after #AFib ablation, left atrial appendage closure and oral anticoagulation had similar 36-month death, stroke, or embolism in both sexes. Bleeding fell more in men, driven by non-major bleeding (11.1% vs 3.9%).\n\nRead more in the #LAAC issue of #JACC: https://bit.ly/4AjVwst",
+      "summary": "OPTION trial: after AF ablation, LAAC and anticoagulation had similar outcomes; men had more bleeding.",
+      "topics": [
+       "antithrombotic",
+       "womens_equity"
+      ],
+      "trials": [
+       "OPTION"
+      ],
+      "stance": "neutral",
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 1,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "heart_failure",
+    "label": "Heart failure",
+    "group": "Other cardiology",
+    "posts": 3,
+    "posts_prev": 4,
+    "kols": [
+     "C. Michael Gibson",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "share": 4.7,
+    "share_prev": 1.8,
+    "delta": 2.9,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.8,
+     4.7
+    ],
+    "top_posts": [
+     {
+      "id": "li:7527031688359698433",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_acoramidis-tafamidis-amyloid-activity-7527031688359698433-3HQw",
+      "created_at": "2026-11-13",
+      "is_repost": false,
+      "text": "How do real-world outcomes compare between #acoramidis vs #tafamidis in patients with transthyretin #amyloid cardiomyopathy (ATTR-CM)? Dr. David Lanfear and I discuss a new independent, real-world study using U.S. electronic health record data, showing acoramidis was associated with an 18% lower risk of the composite of clinical outcomes compared with tafamidis, including significantly lower rates",
+      "summary": "Real-world EHR study: acoramidis linked to 18% lower composite risk versus tafamidis in ATTR-CM; sponsored by BridgeBio.",
+      "topics": [
+       "heart_failure",
+       "other"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 32,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 32,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7526261631887126528",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_heart-failure-with-preserved-ejection-fraction-activity-7526261631887126528-PXnS",
+      "created_at": "2026-11-11",
+      "is_repost": false,
+      "text": "Heart failure with preserved ejection fraction (HFpEF) is common, carries a significant clinical burden, and is often underrecognized. How does its prevalence and impact compare with HFrEF, and why is early diagnosis so critical? Dr. Dmitry Abramov and I discuss the importance of recognizing HFpEF, understanding its associated outcomes, and navigating a practical diagnostic pathway to help identif",
+      "summary": "Video discussion on underrecognized HFpEF prevalence, outcomes, and early diagnostic pathway; sponsored by Bayer.",
+      "topics": [
+       "heart_failure"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 14,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 14,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n256o2cai625",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n256o2cai625",
+      "created_at": "2026-11-12",
+      "is_repost": false,
+      "text": "\ud83d\udce3New #HeartFailure science is coming to JACC: Heart Failure!\n \nAbstracts from THT 2027 will be published in the journal, bringing emerging research from the meeting to the broader CV community.\n\nPlanning to submit? Abstracts are due Nov. 16: https://bit.ly/4iMhyNw\n\n#JACCHF #THT #CardioSky",
+      "summary": "JACC: Heart Failure will publish THT 2027 abstracts; submission deadline November 16.",
+      "topics": [
+       "heart_failure",
+       "other"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "ldl_nonstatin",
+    "label": "LDL & non-statins",
+    "group": "Lipids",
+    "posts": 2,
+    "posts_prev": 7,
+    "kols": [
+     "Kausik Ray",
+     "Raul Santos"
+    ],
+    "n_kols": 2,
+    "share": 4.4,
+    "share_prev": 7.7,
+    "delta": -3.3,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     12.4,
+     7.7,
+     4.4
+    ],
+    "top_posts": [
+     {
+      "id": "li:7527097762841280512",
+      "kol": "Kausik Ray",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_eas-latam-how-vision-became-reality-and-activity-7527097762841280512-llEY",
+      "created_at": "2026-11-13",
+      "is_repost": false,
+      "text": "EAS LATAM How vision became reality and making the EAS the biggest Atherosclerosis society in the world",
+      "summary": "Describes EAS LATAM's growth into the largest atherosclerosis society in the world.",
+      "topics": [
+       "ldl_nonstatin",
+       "other"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
+      "likes": 39,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 39,
+      "region": "Europe",
+      "industry": false
+     },
+     {
+      "id": "li:7526967034153361409",
+      "kol": "Raul Santos",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/raul-santos-0501733_contemporary-pharmacotherapy-for-familial-activity-7526967034153361409-1EaK",
+      "created_at": "2026-11-13",
+      "is_repost": false,
+      "text": "Our new review focuses on pediatric FH and the advances in therapy. Heterozygous FH affects 1/310 children, while the homozygous form is usually found in 1:300,000. Pharmacological therapy is recommended from age 6 and upon diagnosis in the severe homozygous form. Statins and ezetimibe are the baseline therapy. Alirocumab, evolocumab, and inclisiran are approved for more severe cases. Finally, lom",
+      "summary": "Review of pediatric familial hypercholesterolemia: early diagnosis and approved lipid therapies, well tolerated.",
+      "topics": [
+       "ldl_nonstatin",
+       "other"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 20,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 20,
+      "region": "Latin America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": true
+   },
+   {
+    "id": "interventional",
+    "label": "Interventional & physiology",
+    "group": "Imaging",
+    "posts": 7,
+    "posts_prev": 10,
+    "kols": [
+     "C. Michael Gibson",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "share": 4.3,
+    "share_prev": 7.7,
+    "delta": -3.4,
+    "history": [
+     0.0,
+     0.0,
+     4.8,
+     0.0,
+     0.0,
+     11.7,
+     7.7,
+     4.3
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n24rbkybsv2x",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n24rbkybsv2x",
+      "created_at": "2026-11-12",
+      "is_repost": false,
+      "text": "Where does #LAAC fit in stroke prevention for pts w/ #AFib? New #JACC special issue brings together original research, randomized evidence, meta-analysis & expert perspectives examining LAAC vs. anticoagulation, pt selection, outcomes & more: https://bit.ly/4zaidyo\n\n#CardioSky @bbikdeli.bsky.social",
+      "summary": "JACC special issue on left atrial appendage closure versus anticoagulation in AF stroke prevention.",
+      "topics": [
+       "antithrombotic",
+       "interventional"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 2,
+      "reposts": 2,
+      "replies": 0,
+      "engagement": 6,
+      "region": "Global",
+      "industry": false
+     },
+     {
+      "id": "li:7526992609504927744",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_baiminstitute-activity-7526992609504927744-DYdY",
+      "created_at": "2026-11-13",
+      "is_repost": false,
+      "text": "Reminder! Please join us for Baim Grand Rounds with Shamir Mehta on Monday, November 16, 2026, at 9:30 am EST, presenting \"From COMPLETE to COMPLETE-2: Resolving the Anatomy vs. Physiology Debate in STEMI Multivessel Disease Revascularization.\" Zoom link: https://lnkd.in/emgAxXGH #BaimInstitute",
+      "summary": "Announces Baim Grand Rounds on anatomy vs physiology debate in STEMI multivessel revascularization.",
+      "topics": [
+       "interventional"
+      ],
+      "trials": [
+       "COMPLETE",
+       "COMPLETE-2"
+      ],
+      "stance": "neutral",
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 3,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7528095196064968704",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_baiminstitute-activity-7528095196064968704-G5Od",
+      "created_at": "2026-11-16",
+      "is_repost": false,
+      "text": "Reminder! Join us in 30 minutes at 9:30 am EST with Shamir Mehta , presenting \"From COMPLETE to COMPLETE-2: Resolving the Anatomy vs. Physiology Debate in STEMI Multivessel Disease Revascularization.\" Zoom link: https://lnkd.in/emgAxXGH #BaimInstitute",
+      "summary": "Reminder for Baim Grand Rounds on COMPLETE to COMPLETE-2 anatomy vs physiology in STEMI revascularization.",
+      "topics": [
+       "cac_ccta",
+       "interventional"
+      ],
+      "trials": [
+       "COMPLETE",
+       "COMPLETE-2"
+      ],
+      "stance": "neutral",
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 3,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": true
+   },
+   {
+    "id": "cac_ccta",
+    "label": "CAC, CCTA & plaque",
+    "group": "Imaging",
+    "posts": 3,
+    "posts_prev": 1,
+    "kols": [
+     "C. Michael Gibson"
+    ],
+    "n_kols": 1,
+    "share": 3.1,
+    "share_prev": 3.2,
+    "delta": -0.1,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.2,
+     3.2,
+     3.1
+    ],
+    "top_posts": [
+     {
+      "id": "li:7528095196064968704",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_baiminstitute-activity-7528095196064968704-G5Od",
+      "created_at": "2026-11-16",
+      "is_repost": false,
+      "text": "Reminder! Join us in 30 minutes at 9:30 am EST with Shamir Mehta , presenting \"From COMPLETE to COMPLETE-2: Resolving the Anatomy vs. Physiology Debate in STEMI Multivessel Disease Revascularization.\" Zoom link: https://lnkd.in/emgAxXGH #BaimInstitute",
+      "summary": "Reminder for Baim Grand Rounds on COMPLETE to COMPLETE-2 anatomy vs physiology in STEMI revascularization.",
+      "topics": [
+       "cac_ccta",
+       "interventional"
+      ],
+      "trials": [
+       "COMPLETE",
+       "COMPLETE-2"
+      ],
+      "stance": "neutral",
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 3,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7528181132488654848",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_the-recording-from-todays-baim-grand-rounds-activity-7528181132488654848-r0Dp",
+      "created_at": "2026-11-16",
+      "is_repost": false,
+      "text": "The recording from today's Baim Grand Rounds with Shamir Mehta titled \"From COMPLETE to COMPLETE-2: Resolving the Anatomy vs. Physiology Debate in STEMI Multivessel Disease Revascularization.\" You can find it here: https://lnkd.in/guBBTypb",
+      "summary": "Shares recording of Baim Grand Rounds on COMPLETE to COMPLETE-2 STEMI multivessel revascularization.",
+      "topics": [
+       "cac_ccta",
+       "interventional"
+      ],
+      "trials": [
+       "COMPLETE",
+       "COMPLETE-2"
+      ],
+      "stance": "neutral",
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 2,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7528095060786159616",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_baiminstitute-activity-7528095060786159616-MSYy",
+      "created_at": "2026-11-16",
+      "is_repost": false,
+      "text": "Reminder! Join us in 30 minutes at 9:30 am EST for Baim Grand Rounds with Shamir Mehta , presenting \"From COMPLETE to COMPLETE-2: Resolving the Anatomy vs. Physiology Debate in STEMI Multivessel Disease Revascularization.\" Zoom link: https://lnkd.in/emgAxXGH #BaimInstitute",
+      "summary": "Announces Baim Grand Rounds talk on COMPLETE to COMPLETE-2 anatomy vs physiology in STEMI multivessel PCI.",
+      "topics": [
+       "cac_ccta",
+       "interventional"
+      ],
+      "trials": [
+       "COMPLETE",
+       "COMPLETE-2"
+      ],
+      "stance": "neutral",
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 1,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "lpa",
+    "label": "Lp(a)",
+    "group": "Lipids",
+    "posts": 2,
+    "posts_prev": 7,
+    "kols": [
+     "C. Michael Gibson",
+     "Kausik Ray"
+    ],
+    "n_kols": 2,
+    "share": 3.0,
+    "share_prev": 9.6,
+    "delta": -6.6,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     9.6,
+     3.0
+    ],
+    "top_posts": [
+     {
+      "id": "li:7527112906652516352",
+      "kol": "Kausik Ray",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_heres-our-take-on-the-recent-horizon-results-activity-7527112906652516352-RjoQ",
+      "created_at": "2026-11-13",
+      "is_repost": false,
+      "text": "Here\u2019s our take on the recent Horizon results and what it means for Lp(a) Read the EAS statement below",
+      "summary": "Shares EAS statement interpreting recent HORIZON results and their implications for Lp(a).",
+      "topics": [
+       "lpa"
+      ],
+      "trials": [
+       "HORIZON"
+      ],
+      "stance": "neutral",
+      "likes": 49,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 49,
+      "region": "Europe",
+      "industry": false
+     },
+     {
+      "id": "li:7528209121469255680",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_following-the-highly-anticipated-horizon-activity-7528209121469255680-zytn",
+      "created_at": "2026-11-16",
+      "is_repost": false,
+      "text": "Following the highly anticipated HORIZON trial results presented at AHA 2026, what do the findings mean for cardiovascular prevention, clinical guidelines, and everyday practice? Dr. Pam Taub and I discuss the implications of the HORIZON findings, the evolving evidence surrounding Lp(a), and what clinicians should consider moving forward. Watch video here: https://clinicaltrialresults.org/wp-conte",
+      "summary": "Video discussion of HORIZON Lp(a) results and implications for prevention, guidelines and practice.",
+      "topics": [
+       "lpa"
+      ],
+      "trials": [
+       "HORIZON"
+      ],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": true
+   },
+   {
+    "id": "hypertension",
+    "label": "Hypertension",
+    "group": "Risk factors",
+    "posts": 1,
+    "posts_prev": 8,
+    "kols": [
+     "Mikhail Kosiborod"
+    ],
+    "n_kols": 1,
+    "share": 2.7,
+    "share_prev": 5.1,
+    "delta": -2.4,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     5.1,
+     2.7
+    ],
+    "top_posts": [
+     {
+      "id": "li:7527061793656094720",
+      "kol": "Mikhail Kosiborod",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/mikhail-kosiborod-15aaba35_as-we-learn-more-about-the-drivers-of-uncontrolled-activity-7527061793656094720-Rcsi",
+      "created_at": "2026-11-13",
+      "is_repost": false,
+      "text": "As we learn more about the drivers of uncontrolled hypertension, we can better understand patient needs. Many factors can make high blood pressure difficult to control. Research can help us understand why blood pressure remains high for some people. I'm proud of the work we\u2019re doing at AstraZeneca to better understand these challenges and explore how high blood pressure is managed in everyday care",
+      "summary": "AstraZeneca promotes research on drivers of uncontrolled hypertension and its management in everyday care.",
+      "topics": [
+       "hypertension"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 72,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 72,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "ckm_diabetes",
+    "label": "CKM, diabetes & kidney",
+    "group": "Cardiometabolic",
+    "posts": 1,
+    "posts_prev": 4,
+    "kols": [
+     "Eric Topol"
+    ],
+    "n_kols": 1,
+    "share": 1.5,
+    "share_prev": 1.6,
+    "delta": -0.0,
+    "history": [
+     0.0,
+     0.0,
+     2.4,
+     0.0,
+     0.0,
+     0.0,
+     1.6,
+     1.5
+    ],
+    "top_posts": [
+     {
+      "id": "li:7528126761017147392",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_plasma-proteins-for-the-win-againbetter-activity-7528126761017147392-JLUT",
+      "created_at": "2026-11-16",
+      "is_repost": false,
+      "text": "Plasma proteins for the win again....better prediction of Type 2 diabetes, liver, kidney, heart, and other diseases than currently used metrics @NatMetabolism https://lnkd.in/gJkwwDYU",
+      "summary": "Plasma proteins predict type 2 diabetes, liver, kidney and heart disease better than current metrics.",
+      "topics": [
+       "risk_scores",
+       "ckm_diabetes"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 120,
+      "reposts": 0,
+      "replies": 9,
+      "engagement": 147,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "incretins_obesity",
+    "label": "GLP-1 / obesity",
+    "group": "Cardiometabolic",
+    "posts": 1,
+    "posts_prev": 2,
+    "kols": [
+     "C. Michael Gibson"
+    ],
+    "n_kols": 1,
+    "share": 1.4,
+    "share_prev": 1.6,
+    "delta": -0.2,
+    "history": [
+     0.0,
+     15.7,
+     35.2,
+     0.0,
+     33.3,
+     0.0,
+     1.6,
+     1.4
+    ],
+    "top_posts": [
+     {
+      "id": "li:7526630044555788289",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_baiminstitute-activity-7526630044555788289-1YsP",
+      "created_at": "2026-11-12",
+      "is_repost": false,
+      "text": "Join us for Baim Grand Rounds on Monday, November 30, 2026, at 9:30 am EST with Yu Mi (Yumi) K. , presenting \"The Many Faces of Obesity: Diverse Phenotypes, Expanding Therapeutic Horizons.\" Zoom link: https://lnkd.in/ezPRieBR #BaimInstitute",
+      "summary": "Announces Baim Grand Rounds talk on diverse obesity phenotypes and expanding therapeutic options.",
+      "topics": [
+       "incretins_obesity"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 5,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "trial_methods",
+    "label": "Evidence & trial critique",
+    "group": "Methods",
+    "posts": 2,
+    "posts_prev": 10,
+    "kols": [
+     "C. Michael Gibson",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "share": 1.2,
+    "share_prev": 8.1,
+    "delta": -6.9,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     8.1,
+     1.2
+    ],
+    "top_posts": [
+     {
+      "id": "li:7526395508764987392",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_dr-ashkan-shoamanesh-and-dr-c-michael-activity-7526395508764987392-4kIY",
+      "created_at": "2026-11-11",
+      "is_repost": false,
+      "text": "Dr. Ashkan Shoamanesh and Dr. C. Michael Gibson discuss findings presented at the recent ESOC meeting about what the latest data reveals about asundexian and ischemic stroke prevention. We examine the characteristics and severity of ischemic strokes occurring during the study, the consistency of treatment benefit over time, and the rates, outcomes, and predictors of intracranial hemorrhage (ICH) a",
+      "summary": "ESOC asundexian analyses: stroke benefit persists, bleeding rates similar to placebo; sponsored by Bayer.",
+      "topics": [
+       "antithrombotic",
+       "trial_methods"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 17,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 17,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2cdmmh33v2f",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2cdmmh33v2f",
+      "created_at": "2026-11-14",
+      "is_repost": false,
+      "text": "Should race be in clinical equations? The answer isn't simply yes or no. A variable like this may improve prediction w/o belonging in decisions about treatment/access. Purpose, evidence & consequences should drive the choice https://bit.ly/4AmwUzk #JACC #CardioSky #HealthEquity @hmkyale.bsky.social ",
+      "summary": "Asks whether race belongs in clinical equations; argues purpose, evidence and consequences should decide.",
+      "topics": [
+       "risk_scores",
+       "trial_methods"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": true
+   },
+   {
+    "id": "triglycerides",
+    "label": "Triglycerides & ApoC3",
+    "group": "Lipids",
+    "posts": 0,
+    "posts_prev": 4,
+    "kols": [],
+    "n_kols": 0,
+    "share": 0.0,
+    "share_prev": 2.6,
+    "delta": -2.6,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.6,
+     0.0
+    ],
+    "top_posts": [],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "inflammation",
+    "label": "Inflammation",
+    "group": "Residual risk",
+    "posts": 0,
+    "posts_prev": 3,
+    "kols": [],
+    "n_kols": 0,
+    "share": 0.0,
+    "share_prev": 1.5,
+    "delta": -1.5,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.5,
+     0.0
+    ],
+    "top_posts": [],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "lifestyle",
+    "label": "Lifestyle & nutrition",
+    "group": "Prevention strategy",
+    "posts": 0,
+    "posts_prev": 8,
+    "kols": [],
+    "n_kols": 0,
+    "share": 0.0,
+    "share_prev": 5.2,
+    "delta": -5.2,
+    "history": [
+     0.0,
+     16.7,
+     0.0,
+     0.0,
+     66.7,
+     0.0,
+     5.2,
+     0.0
+    ],
+    "top_posts": [],
+    "trending": false,
+    "cooling": true
+   }
+  ],
+  "region_topic_labels": [
+   "Other",
+   "AI & digital health",
+   "Risk prediction",
+   "Women's heart & equity",
+   "Global CV health",
+   "Antithrombotics"
+  ],
+  "regions": [
+   {
+    "region": "North America",
+    "posts": 23,
+    "top": [
+     {
+      "label": "Other",
+      "n": 5
+     },
+     {
+      "label": "AI & digital health",
+      "n": 4
+     },
+     {
+      "label": "CAC, CCTA & plaque",
+      "n": 3
+     }
+    ],
+    "cells": [
+     5,
+     4,
+     2,
+     2,
+     0,
+     1
+    ]
+   },
+   {
+    "region": "Global",
+    "posts": 8,
+    "top": [
+     {
+      "label": "Antithrombotics",
+      "n": 4
+     },
+     {
+      "label": "Women's heart & equity",
+      "n": 1
+     },
+     {
+      "label": "Interventional & physiology",
+      "n": 1
+     }
+    ],
+    "cells": [
+     0,
+     0,
+     1,
+     1,
+     0,
+     4
+    ]
+   },
+   {
+    "region": "Asia-Pacific",
+    "posts": 4,
+    "top": [
+     {
+      "label": "Global CV health",
+      "n": 2
+     },
+     {
+      "label": "Other",
+      "n": 1
+     },
+     {
+      "label": "AI & digital health",
+      "n": 1
+     }
+    ],
+    "cells": [
+     1,
+     1,
+     0,
+     0,
+     2,
+     0
+    ]
+   },
+   {
+    "region": "Europe",
+    "posts": 2,
+    "top": [
+     {
+      "label": "LDL & non-statins",
+      "n": 1
+     },
+     {
+      "label": "Lp(a)",
+      "n": 1
+     }
+    ],
+    "cells": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "region": "Latin America",
+    "posts": 1,
+    "top": [
+     {
+      "label": "LDL & non-statins",
+      "n": 1
+     }
+    ],
+    "cells": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "trials": [
+   {
+    "name": "COMPLETE",
+    "posts": 4,
+    "prev": 0,
+    "kols": [
+     "C. Michael Gibson"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
+    "name": "COMPLETE-2",
+    "posts": 4,
+    "prev": 0,
+    "kols": [
+     "C. Michael Gibson"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
+    "name": "HORIZON",
+    "posts": 2,
+    "prev": 0,
+    "kols": [
+     "C. Michael Gibson",
+     "Kausik Ray"
+    ],
+    "n_kols": 2,
+    "new": true
+   },
+   {
+    "name": "ENCIRCLE MAC",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "JACC"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
+    "name": "OPTION",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "JACC"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
+    "name": "ASAP-TOO",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "JACC"
+    ],
+    "n_kols": 1,
+    "new": true
+   }
+  ],
+  "papers": [],
+  "debates": [
+   {
+    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzyuuaodnc2u",
+    "kol": "Eric Topol",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzyuuaodnc2u",
+    "created_at": "2026-11-11",
+    "is_repost": false,
+    "text": "While AI teach leaders are talking about curing all diseases, the US can\u2019t even prevent a disease (eminently preventable) that was considered eliminated here 26 years ago",
+    "summary": "Criticizes US failure to prevent a disease declared eliminated 26 years ago, while AI leaders promise disease cures.",
+    "topics": [
+     "other",
+     "global_health"
+    ],
+    "trials": [],
+    "stance": "critical",
+    "likes": 2283,
+    "reposts": 664,
+    "replies": 38,
+    "engagement": 3725,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2ejadx7fc24",
+    "kol": "Eric Topol",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n2ejadx7fc24",
+    "created_at": "2026-11-15",
+    "is_repost": false,
+    "text": "The US NIH budget, our crown jewel for advancing biomedicine, is the same as it was over 20 years ago, inflation adjusted",
+    "summary": "Notes US NIH budget is flat in inflation-adjusted terms compared with 20 years ago.",
+    "topics": [
+     "other"
+    ],
+    "trials": [],
+    "stance": "critical",
+    "likes": 212,
+    "reposts": 82,
+    "replies": 11,
+    "engagement": 409,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7528116216197120002",
+    "kol": "Eric Topol",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_opportunistic-risk-assessment-of-major-osteoporotic-activity-7528116216197120002-QFKF",
+    "created_at": "2026-11-16",
+    "is_repost": false,
+    "text": "Over 70 million chest X-rays are done in the US each year. None of them report out major risk of osteoporotic fractures. We're in the era of opportunistic AI and not seizing the oportunities https://lnkd.in/g_9FdpY6",
+    "summary": "Chest X-rays don't report osteoporotic fracture risk; opportunistic AI is underused.",
+    "topics": [
+     "ai_digital",
+     "risk_scores"
+    ],
+    "trials": [],
+    "stance": "critical",
+    "likes": 35,
+    "reposts": 0,
+    "replies": 1,
+    "engagement": 38,
+    "region": "North America",
+    "industry": false
+   }
+  ],
+  "top_posts": [
+   {
+    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzyuuaodnc2u",
+    "kol": "Eric Topol",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzyuuaodnc2u",
+    "created_at": "2026-11-11",
+    "is_repost": false,
+    "text": "While AI teach leaders are talking about curing all diseases, the US can\u2019t even prevent a disease (eminently preventable) that was considered eliminated here 26 years ago",
+    "summary": "Criticizes US failure to prevent a disease declared eliminated 26 years ago, while AI leaders promise disease cures.",
+    "topics": [
+     "other",
+     "global_health"
+    ],
+    "trials": [],
+    "stance": "critical",
+    "likes": 2283,
+    "reposts": 664,
+    "replies": 38,
+    "engagement": 3725,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7526705568296792064",
+    "kol": "Eric Topol",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_everyone-has-at-least-one-dna-variant-that-activity-7526705568296792064--eB9",
+    "created_at": "2026-11-12",
+    "is_repost": false,
+    "text": "Everyone has at least one DNA variant that affects their response to a medication. And almost no one knows that or the variant(s) they carry. https://lnkd.in/gWxRVkNh",
+    "summary": "Shares study finding everyone carries a DNA variant affecting drug response, largely unknown to people.",
+    "topics": [
+     "risk_scores",
+     "other"
+    ],
+    "trials": [],
+    "stance": "neutral",
+    "likes": 600,
+    "reposts": 0,
+    "replies": 53,
+    "engagement": 759,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7526432200607629312",
+    "kol": "Eric Topol",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_moving-on-to-preventing-cancer-with-vaccines-activity-7526432200607629312-2Llk",
+    "created_at": "2026-11-11",
+    "is_repost": false,
+    "text": "Moving on to preventing cancer with vaccines With today's NEJM publication of the melanoma treatment vaccine success https://lnkd.in/gSpJspyy The editorial notes the remarkable potential for vaccines to prevent cancer : https://lnkd.in/gSpJspyy \"a vaccine against 25 recurrent mutational hotspots in genes such as KRAS, BRAF, and PIK3CA could target mutations found in more than 70% of colorectal, pa",
+    "summary": "Shares NEJM melanoma cancer vaccine publication and vaccines for cancer prevention, including Lynch syndrome trial.",
+    "topics": [
+     "other"
+    ],
+    "trials": [],
+    "stance": "supportive",
+    "likes": 464,
+    "reposts": 0,
+    "replies": 32,
+    "engagement": 560,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2ejadx7fc24",
+    "kol": "Eric Topol",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n2ejadx7fc24",
+    "created_at": "2026-11-15",
+    "is_repost": false,
+    "text": "The US NIH budget, our crown jewel for advancing biomedicine, is the same as it was over 20 years ago, inflation adjusted",
+    "summary": "Notes US NIH budget is flat in inflation-adjusted terms compared with 20 years ago.",
+    "topics": [
+     "other"
+    ],
+    "trials": [],
+    "stance": "critical",
+    "likes": 212,
+    "reposts": 82,
+    "replies": 11,
+    "engagement": 409,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n252ej4ybs2s",
+    "kol": "Eric Topol",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n252ej4ybs2s",
+    "created_at": "2026-11-12",
+    "is_repost": false,
+    "text": "Everyone has at least one DNA variant that affects their response to a medication. And almost no one knows that or the variant(s) they carry. \nscience.org/doi/10.1126/...",
+    "summary": "Shares study finding everyone carries a DNA variant affecting drug response, largely unknown to people.",
+    "topics": [
+     "other",
+     "risk_scores"
+    ],
+    "trials": [],
+    "stance": "neutral",
+    "likes": 208,
+    "reposts": 68,
+    "replies": 7,
+    "engagement": 365,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7527419675824017408",
+    "kol": "Eric Topol",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_two-instructive-cases-that-ai-made-the-diagnosis-activity-7527419675824017408-A1G1",
+    "created_at": "2026-11-14",
+    "is_repost": false,
+    "text": "Two instructive cases that AI made the diagnosis 1. A 37-year-old woman with 10 years of abdominal pain. \u2014The AI makes the diagnosis and recommends a successful treatment. \u2014 The physician \"diagnosed a patient with a condition I had never diagnosed before and started treatment largely on the basis of the output of a chatbot.\" https://lnkd.in/g5EHGC5R 2. A diagnosis missed for decades, gift link htt",
+    "summary": "Two cases where AI, including a chatbot, produced diagnoses that physicians had missed or not made.",
+    "topics": [
+     "ai_digital"
+    ],
+    "trials": [],
+    "stance": "supportive",
+    "likes": 266,
+    "reposts": 0,
+    "replies": 26,
+    "engagement": 344,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7527771035627114496",
+    "kol": "Eric Topol",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_jo-chikwe-a-renowned-cardiac-surgeon-on-activity-7527771035627114496-UdX7",
+    "created_at": "2026-11-15",
+    "is_repost": false,
+    "text": "There are only a handful of Black female cardiac surgeons in the United States. One is Jo Chikwe , who heads up heart surgery CedarsSinai and is Editor-in-Chief of Annals Of Thoracic Surgery . We did a live audience Ground Truths at the 99th annual meeting the American Heart Association , where she led the AHA Scientific Sessions. https://lnkd.in/ghCE3dfC",
+    "summary": "Highlights scarcity of Black female cardiac surgeons, featuring Jo Chikwe from a podcast episode.",
+    "topics": [
+     "womens_equity",
+     "other"
+    ],
+    "trials": [],
+    "stance": "neutral",
+    "likes": 134,
+    "reposts": 0,
+    "replies": 8,
+    "engagement": 158,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7528126761017147392",
+    "kol": "Eric Topol",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_plasma-proteins-for-the-win-againbetter-activity-7528126761017147392-JLUT",
+    "created_at": "2026-11-16",
+    "is_repost": false,
+    "text": "Plasma proteins for the win again....better prediction of Type 2 diabetes, liver, kidney, heart, and other diseases than currently used metrics @NatMetabolism https://lnkd.in/gJkwwDYU",
+    "summary": "Plasma proteins predict type 2 diabetes, liver, kidney and heart disease better than current metrics.",
+    "topics": [
+     "risk_scores",
+     "ckm_diabetes"
+    ],
+    "trials": [],
+    "stance": "supportive",
+    "likes": 120,
+    "reposts": 0,
+    "replies": 9,
+    "engagement": 147,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2eitfmwqk2u",
+    "kol": "Eric Topol",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n2eitfmwqk2u",
+    "created_at": "2026-11-15",
+    "is_repost": false,
+    "text": "There are only a handful of Black female cardiac surgeons in the United States. One is Jo Chikwe, a renowned leader in the field. We did a live audience Ground Truths at the @americanheart.bsky.social where she led \n@ahascience.bsky.social Scientific Sessions. erictopol.substack.com/p/jo-chikwe-...",
+    "summary": "Highlights scarcity of Black female cardiac surgeons, featuring Jo Chikwe from AHA sessions.",
+    "topics": [
+     "womens_equity",
+     "other"
+    ],
+    "trials": [],
+    "stance": "neutral",
+    "likes": 96,
+    "reposts": 16,
+    "replies": 0,
+    "engagement": 128,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7526210559256666112",
+    "kol": "Clara Chow",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/clara-chow-87243642_congratulations-craig-anderson-great-to-activity-7526210559256666112-aGqS",
+    "created_at": "2026-11-11",
+    "is_repost": false,
+    "text": "Congratulations Craig Anderson ! Great to represent the Scientific Advisory Committee of the Ramaciotti Foundation and present you the Ramaciotti Medal for Excellence today at The George Institute for Global Health . Recognising your outstanding impact in improving the management of stroke.",
+    "summary": "Presented Ramaciotti Medal to Craig Anderson for contributions to stroke management at The George Institute.",
+    "topics": [
+     "other"
+    ],
+    "trials": [],
+    "stance": "supportive",
+    "likes": 80,
+    "reposts": 0,
+    "replies": 5,
+    "engagement": 95,
+    "region": "Asia-Pacific",
+    "industry": false
+   },
+   {
+    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n22ejn2ohc25",
+    "kol": "Eric Topol",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n22ejn2ohc25",
+    "created_at": "2026-11-11",
+    "is_repost": false,
+    "text": "f you want to get an expert independent assessment of where we are with AI now and where it's headed, you can't outdo @emollick.bsky.social. Our conversation covers his new book (Co-Existence) and much more\n\nerictopol.substack.com/p/ethan-moll...",
+    "summary": "Podcast conversation with Ethan Mollick on AI's current state and direction, tied to his new book.",
+    "topics": [
+     "ai_digital"
+    ],
+    "trials": [],
+    "stance": "neutral",
+    "likes": 58,
+    "reposts": 11,
+    "replies": 0,
+    "engagement": 80,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7527061793656094720",
+    "kol": "Mikhail Kosiborod",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/mikhail-kosiborod-15aaba35_as-we-learn-more-about-the-drivers-of-uncontrolled-activity-7527061793656094720-Rcsi",
+    "created_at": "2026-11-13",
+    "is_repost": false,
+    "text": "As we learn more about the drivers of uncontrolled hypertension, we can better understand patient needs. Many factors can make high blood pressure difficult to control. Research can help us understand why blood pressure remains high for some people. I'm proud of the work we\u2019re doing at AstraZeneca to better understand these challenges and explore how high blood pressure is managed in everyday care",
+    "summary": "AstraZeneca promotes research on drivers of uncontrolled hypertension and its management in everyday care.",
+    "topics": [
+     "hypertension"
+    ],
+    "trials": [],
+    "stance": "neutral",
+    "likes": 72,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 72,
+    "region": "North America",
+    "industry": false
+   }
+  ],
+  "active_kols": [
+   {
+    "name": "Eric Topol",
+    "posts": 12,
+    "engagement": 6760,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "C. Michael Gibson",
+    "posts": 9,
+    "engagement": 77,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "JACC",
+    "posts": 8,
+    "engagement": 8,
+    "region": "Global",
+    "industry": false
+   },
+   {
+    "name": "Clara Chow",
+    "posts": 3,
+    "engagement": 111,
+    "region": "Asia-Pacific",
+    "industry": false
+   },
+   {
+    "name": "Kausik Ray",
+    "posts": 2,
+    "engagement": 88,
+    "region": "Europe",
+    "industry": false
+   },
+   {
+    "name": "Salim Virani",
+    "posts": 1,
+    "engagement": 29,
+    "region": "Asia-Pacific",
+    "industry": false
+   },
+   {
+    "name": "Raul Santos",
+    "posts": 1,
+    "engagement": 20,
+    "region": "Latin America",
+    "industry": false
+   },
+   {
+    "name": "Mikhail Kosiborod",
+    "posts": 1,
+    "engagement": 72,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "Deepak Bhatt",
+    "posts": 1,
+    "engagement": 33,
+    "region": "North America",
+    "industry": false
+   }
+  ],
+  "coverage": {
+   "kols_total": 91,
+   "kols_bluesky": 20,
+   "kols_linkedin": 58,
+   "kols_active": 9,
+   "posts_total": 50,
+   "posts_relevant": 38,
+   "posts_prev": 82,
+   "by_platform": {
+    "bluesky": 14,
+    "linkedin": 36
+   }
+  },
+  "post_links": {
+   "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzyuuaodnc2u": {
+    "kol": "Eric Topol",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3mzyuuaodnc2u"
+   },
+   "li:7526705568296792064": {
+    "kol": "Eric Topol",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_everyone-has-at-least-one-dna-variant-that-activity-7526705568296792064--eB9"
+   },
+   "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2ejadx7fc24": {
+    "kol": "Eric Topol",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n2ejadx7fc24"
+   },
+   "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n252ej4ybs2s": {
+    "kol": "Eric Topol",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n252ej4ybs2s"
+   },
+   "li:7527419675824017408": {
+    "kol": "Eric Topol",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_two-instructive-cases-that-ai-made-the-diagnosis-activity-7527419675824017408-A1G1"
+   },
+   "li:7527771035627114496": {
+    "kol": "Eric Topol",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_jo-chikwe-a-renowned-cardiac-surgeon-on-activity-7527771035627114496-UdX7"
+   },
+   "li:7528126761017147392": {
+    "kol": "Eric Topol",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_plasma-proteins-for-the-win-againbetter-activity-7528126761017147392-JLUT"
+   },
+   "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n22ejn2ohc25": {
+    "kol": "Eric Topol",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n22ejn2ohc25"
+   },
+   "li:7527112906652516352": {
+    "kol": "Kausik Ray",
+    "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_heres-our-take-on-the-recent-horizon-results-activity-7527112906652516352-RjoQ"
+   },
+   "li:7527769411458400257": {
+    "kol": "Eric Topol",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_ai-could-make-surgery-safer-activity-7527769411458400257-MVMu"
+   },
+   "li:7528116216197120002": {
+    "kol": "Eric Topol",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_opportunistic-risk-assessment-of-major-osteoporotic-activity-7528116216197120002-QFKF"
+   },
+   "li:7528144597122908160": {
+    "kol": "Deepak Bhatt",
+    "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-cardiovascular-activity-7528144597122908160-FdxL"
+   },
+   "li:7527031688359698433": {
+    "kol": "C. Michael Gibson",
+    "url": "https://www.linkedin.com/posts/cmichaelgibson_acoramidis-tafamidis-amyloid-activity-7527031688359698433-3HQw"
+   },
+   "li:7526395508764987392": {
+    "kol": "C. Michael Gibson",
+    "url": "https://www.linkedin.com/posts/cmichaelgibson_dr-ashkan-shoamanesh-and-dr-c-michael-activity-7526395508764987392-4kIY"
+   },
+   "li:7526261631887126528": {
+    "kol": "C. Michael Gibson",
+    "url": "https://www.linkedin.com/posts/cmichaelgibson_heart-failure-with-preserved-ejection-fraction-activity-7526261631887126528-PXnS"
+   },
+   "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n24rbkybsv2x": {
+    "kol": "JACC",
+    "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n24rbkybsv2x"
+   },
+   "li:7526992609504927744": {
+    "kol": "C. Michael Gibson",
+    "url": "https://www.linkedin.com/posts/cmichaelgibson_baiminstitute-activity-7526992609504927744-DYdY"
+   },
+   "li:7528181132488654848": {
+    "kol": "C. Michael Gibson",
+    "url": "https://www.linkedin.com/posts/cmichaelgibson_the-recording-from-todays-baim-grand-rounds-activity-7528181132488654848-r0Dp"
+   },
+   "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2cphpapoi2f": {
+    "kol": "JACC",
+    "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2cphpapoi2f"
+   },
+   "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2ev3q3uem2d": {
+    "kol": "JACC",
+    "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2ev3q3uem2d"
+   },
+   "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3mzy2odnsjy27": {
+    "kol": "JACC",
+    "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3mzy2odnsjy27"
+   },
+   "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2cdmmh33v2f": {
+    "kol": "JACC",
+    "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2cdmmh33v2f"
+   },
+   "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2h5fm3nep2b": {
+    "kol": "JACC",
+    "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2h5fm3nep2b"
+   },
+   "li:7528209121469255680": {
+    "kol": "C. Michael Gibson",
+    "url": "https://www.linkedin.com/posts/cmichaelgibson_following-the-highly-anticipated-horizon-activity-7528209121469255680-zytn"
+   }
+  }
+ },
+ "digest": {
+  "headline": "A quiet, low-volume week (38 relevant posts vs 82 prior, only 9 of 91 KOLs active) dominated by Eric Topol's AI, genomics and policy commentary, with HORIZON/Lp(a) follow-up and a JACC LAAC focus issue the main cardiology threads.",
+  "key_points": [
+   {
+    "title": "Topol: AI diagnosis and opportunistic AI",
+    "body": "Eric Topol posted two AI diagnosis cases (a 37-year-old woman with 10 years of abdominal pain, and a diagnosis missed for decades). He also noted that >70 million US chest X-rays a year do not report osteoporotic fracture risk, calling this a missed 'opportunistic AI' era. He also promoted a conversation with Ethan Mollick and a clip on AI making surgery safer.",
+    "post_ids": [
+     "li:7527419675824017408",
+     "li:7528116216197120002",
+     "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n22ejn2ohc25",
+     "li:7527769411458400257"
+    ]
+   },
+   {
+    "title": "Risk prediction: pharmacogenomics and plasma proteins",
+    "body": "Topol highlighted that everyone carries at least one DNA variant affecting medication response, and that few people know theirs. He also shared a Nature Metabolism paper reporting that plasma proteins predict type 2 diabetes, liver, kidney and heart disease better than current metrics. Risk prediction was the fastest-rising named topic (5 posts vs 1).",
+    "post_ids": [
+     "li:7526705568296792064",
+     "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n252ej4ybs2s",
+     "li:7528126761017147392"
+    ]
+   },
+   {
+    "title": "HORIZON and Lp(a) follow-up after AHA",
+    "body": "Kausik Ray posted the EAS statement on the HORIZON results and what they mean for Lp(a). C. Michael Gibson posted a discussion with Pam Taub on HORIZON's implications for prevention, guidelines and practice. Deepak Bhatt shared a recap of major AHA trials. No results were stated in these posts.",
+    "post_ids": [
+     "li:7527112906652516352",
+     "li:7528209121469255680",
+     "li:7528144597122908160"
+    ]
+   },
+   {
+    "title": "JACC LAAC focus issue drives antithrombotic posts",
+    "body": "JACC posted several items from its LAAC issue. In OPTION, after AF ablation, LAAC and oral anticoagulation had similar 36-month death, stroke or embolism in both sexes. Bleeding fell more in men, driven by non-major bleeding (11.1% vs 3.9%). ASAP-TOO (LAAC vs SAPT/no antithrombotic) was underpowered from poor accrual, with no significant difference in ischemic stroke/systemic embolism. A review of 8 trials in >7,000 AF patients stressed patient selection and shared decisions.",
+    "post_ids": [
+     "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2cphpapoi2f",
+     "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2ev3q3uem2d",
+     "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2h5fm3nep2b",
+     "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n24rbkybsv2x"
+    ]
+   },
+   {
+    "title": "Gibson's COMPLETE/COMPLETE-2 Grand Rounds",
+    "body": "Gibson's repeated Baim Grand Rounds posts accounted for the COMPLETE and COMPLETE-2 trial mentions. Shamir Mehta presented 'Resolving the Anatomy vs. Physiology Debate in STEMI Multivessel Disease Revascularization', and the recording was posted. Gibson also covered asundexian and ischemic stroke prevention (ESOC data), HFpEF recognition, and a real-world ATTR-CM study. The study associated acoramidis with an 18% lower risk of the composite outcome than tafamidis.",
+    "post_ids": [
+     "li:7526992609504927744",
+     "li:7528181132488654848",
+     "li:7526395508764987392",
+     "li:7526261631887126528",
+     "li:7527031688359698433"
+    ]
+   },
+   {
+    "title": "Equity, health policy and prevention themes",
+    "body": "JACC reported that CV mortality varied more among 3,110 US counties than among states. It also argued that race in clinical equations should depend on purpose, evidence and consequences. Topol criticized the US failure to prevent a disease considered eliminated 26 years ago, and said the NIH budget is flat over 20+ years in inflation-adjusted terms. He also discussed Jo Chikwe on diversity in cardiac surgery.",
+    "post_ids": [
+     "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3mzy2odnsjy27",
+     "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2cdmmh33v2f",
+     "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3mzyuuaodnc2u",
+     "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2ejadx7fc24",
+     "li:7527771035627114496"
+    ]
+   }
+  ],
+  "debates": [
+   "Topol took a critical stance on AI. He said hype about curing all diseases contrasts with failures in basic prevention, and that opportunistic AI use on chest X-rays is not being seized.",
+   "JACC framed LAAC evidence as limited. ASAP-TOO was underpowered, and the 8-trial review stressed what the trials 'can and cannot show', so patient selection is key."
+  ],
+  "regional": [
+   {
+    "region": "North America",
+    "note": "23 posts, mostly Topol (AI, genomics, policy) and Gibson (Baim Grand Rounds, trial interviews). Mikhail Kosiborod (AstraZeneca-affiliated) posted on drivers of uncontrolled hypertension."
+   },
+   {
+    "region": "Asia-Pacific",
+    "note": "Clara Chow posted on digital health, a Ramaciotti Medal for Craig Anderson (stroke), and a preventable-disease meeting in Australia. Salim Virani spoke on basic sciences at an AKU conference."
+   },
+   {
+    "region": "Europe",
+    "note": "Kausik Ray posted the EAS HORIZON/Lp(a) statement and the EAS LATAM expansion."
+   },
+   {
+    "region": "Latin America",
+    "note": "Raul Santos published a pediatric FH review. It notes heterozygous FH affects 1/310 children and that therapy is recommended from age 6."
+   }
+  ],
+  "watch_next": [
+   "Baim Grand Rounds on Nov 30, 2026, 9:30 am EST: 'The Many Faces of Obesity'.",
+   "THT 2027 abstracts for JACC: Heart Failure were due Nov 16.",
+   "Further guideline and practice discussion of HORIZON/Lp(a) after the EAS statement."
+  ],
+  "generated_by": "claude-sonnet-5-5"
+ }
+}
