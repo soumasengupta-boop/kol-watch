@@ -1,0 +1,1842 @@
+{
+ "stats": {
+  "start": "2026-11-17T01:08:08.444529+00:00",
+  "end": "2026-11-24T01:08:08.444529+00:00",
+  "label": "Nov 17 \u2013 Nov 24, 2026",
+  "week_labels": [
+   "Oct 06",
+   "Oct 13",
+   "Oct 20",
+   "Oct 27",
+   "Nov 03",
+   "Nov 10",
+   "Nov 17",
+   "Nov 24"
+  ],
+  "topics": [
+   {
+    "id": "other",
+    "label": "Other",
+    "group": "Other cardiology",
+    "posts": 9,
+    "posts_prev": 17,
+    "kols": [
+     "AHA (American Heart Association)",
+     "Eric Topol",
+     "JACC",
+     "Raul Santos"
+    ],
+    "n_kols": 4,
+    "share": 26.0,
+    "share_prev": 30.4,
+    "delta": -4.4,
+    "history": [
+     29.9,
+     46.5,
+     0.0,
+     0.0,
+     68.5,
+     26.7,
+     30.4,
+     26.0
+    ],
+    "top_posts": [
+     {
+      "id": "li:7529950205291679744",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_multiple-randomized-trials-of-a-flu-shot-activity-7529950205291679744-0JLI",
+      "created_at": "2026-11-21",
+      "is_repost": false,
+      "text": "Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American cardiology guidelines. But not implemented in medical practice Links: \u2014New Swedish nationwide registry report https://lnkd.in/gmM5e55t \u2014Largest ran",
+      "summary": "Flu vaccine after MI reduces mortality and CV events in RCTs and Swedish registry, yet underimplemented.",
+      "topics": [
+       "other",
+       "lifestyle"
+      ],
+      "trials": [],
+      "stance": "critical",
+      "likes": 523,
+      "reposts": 0,
+      "replies": 65,
+      "engagement": 718,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2tiog4jg22f",
+      "kol": "Eric Topol",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n2tiog4jg22f",
+      "created_at": "2026-11-21",
+      "is_repost": false,
+      "text": "Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American guidelines.\nBut not implemented in practice.",
+      "summary": "Flu vaccination after heart attack is guideline Class 1 and trial-supported but underused in practice.",
+      "topics": [
+       "other",
+       "lifestyle"
+      ],
+      "trials": [],
+      "stance": "critical",
+      "likes": 208,
+      "reposts": 80,
+      "replies": 4,
+      "engagement": 380,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7528916143055523840",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_exciting-to-see-the-continued-success-of-activity-7528916143055523840-TanQ",
+      "created_at": "2026-11-18",
+      "is_repost": false,
+      "text": "Exciting to see the continued success of vaccines to treat many of the most refractory cancers! Phase 3 Success: Improved Survival \u2014Malignant Melanoma \u2014Acute Myeloid Leukemia (AML) Ongoing Clinical Trials With Encouraging Preliminary Results \u2014Pancreatic Cancer \u2014Triple-Negative Breast Cancer (TNBC) \u2014Non-Small Cell Lung Cancer (NSCLC) \u2014Glioblastoma \u2014Renal Cell Carcinoma (Kidney Cancer) \u2014Ovarian Canc",
+      "summary": "Topol highlights cancer vaccine trial successes and ongoing results across multiple tumor types.",
+      "topics": [
+       "other"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 245,
+      "reposts": 0,
+      "replies": 20,
+      "engagement": 305,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": true
+   },
+   {
+    "id": "ldl_nonstatin",
+    "label": "LDL & non-statins",
+    "group": "Lipids",
+    "posts": 4,
+    "posts_prev": 2,
+    "kols": [
+     "C. Michael Gibson",
+     "Erin Michos",
+     "Kausik Ray",
+     "Raul Santos"
+    ],
+    "n_kols": 4,
+    "share": 17.4,
+    "share_prev": 4.2,
+    "delta": 13.2,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     12.4,
+     7.7,
+     4.2,
+     17.4
+    ],
+    "top_posts": [
+     {
+      "id": "li:7530533272913821697",
+      "kol": "Kausik Ray",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_twice-yearly-leqvio-inclisiran-reduced-activity-7530533272913821697-HXs2",
+      "created_at": "2026-11-23",
+      "is_repost": false,
+      "text": "I started working on the inclisiran development programme over a decade ago. I took it through approvals and it\u2019s now in 1.2 million people worldwide The world\u2019s first and only twice yearly therapy for cholesterol lowering It\u2019s with enormous pride to report the Novartis press release The top line for Orion 4 https://lnkd.in/ev6A4C8K",
+      "summary": "Announces ORION-4 top-line results for inclisiran; notes its use in 1.2 million people.",
+      "topics": [
+       "ldl_nonstatin"
+      ],
+      "trials": [
+       "ORION-4"
+      ],
+      "stance": "supportive",
+      "likes": 260,
+      "reposts": 0,
+      "replies": 9,
+      "engagement": 287,
+      "region": "Europe",
+      "industry": false
+     },
+     {
+      "id": "li:7529727297571115008",
+      "kol": "Raul Santos",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/raul-santos-0501733_permedfh-familialhypercholesterolaemia-activity-7529727297571115008-gFe9",
+      "created_at": "2026-11-21",
+      "is_repost": false,
+      "text": "I'm honored to discuss the evolution in the Diagnosis, Risk, and Treatment of Familial Hypercholesterolemia at the Permed FH symposium \ud83d\udcc5 3\u20134 December 2026 | Live online from Sintra, Portugal. Please check the program and register at https://lnkd.in/dktQi4tq #PerMedFH #FamilialHypercholesterolaemia #PersonalisedMedicine FH Europe Foundation CardioGen Einstein Hospital Israelita World Heart Federati",
+      "summary": "Raul Santos announces talk on familial hypercholesterolemia at PerMed FH symposium, December 2026.",
+      "topics": [
+       "ldl_nonstatin",
+       "other"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 57,
+      "reposts": 0,
+      "replies": 3,
+      "engagement": 66,
+      "region": "Latin America",
+      "industry": false
+     },
+     {
+      "id": "li:7530600612342915072",
+      "kol": "Erin Michos",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/erinmichos_twice-yearly-leqvio-inclisiran-reduced-activity-7530600612342915072-bwFY",
+      "created_at": "2026-11-23",
+      "is_repost": false,
+      "text": "Great news! #Inclisiran reduced cardiovascular events in the first dedicated CVOT for inclisiran to read out. Once again, another study confirming the impact of lowering LDL-C. #cvPrev https://lnkd.in/e5ivrPaD",
+      "summary": "Inclisiran reduced cardiovascular events in first dedicated CVOT; confirms benefit of LDL-C lowering.",
+      "topics": [
+       "ldl_nonstatin"
+      ],
+      "trials": [
+       "ORION-4"
+      ],
+      "stance": "supportive",
+      "likes": 42,
+      "reposts": 0,
+      "replies": 1,
+      "engagement": 45,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "interventional",
+    "label": "Interventional & physiology",
+    "group": "Imaging",
+    "posts": 6,
+    "posts_prev": 7,
+    "kols": [
+     "Deepak Bhatt",
+     "Eric Topol",
+     "JACC"
+    ],
+    "n_kols": 3,
+    "share": 11.3,
+    "share_prev": 4.7,
+    "delta": 6.6,
+    "history": [
+     0.0,
+     5.5,
+     0.0,
+     0.0,
+     11.7,
+     7.7,
+     4.7,
+     11.3
+    ],
+    "top_posts": [
+     {
+      "id": "li:7529600311280459776",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_spontaneous-coronary-artery-dissection-implications-activity-7529600311280459776-ZzpI",
+      "created_at": "2026-11-20",
+      "is_repost": false,
+      "text": "What causes heart attacks in ~25% of women under age 50? This. A comprehensive review of spontaneous coronary artery dissection (SCAD) @TheLancet Jacqueline Saw Peter Clemmensen https://lnkd.in/g3hDsANn",
+      "summary": "Topol highlights a Lancet review of spontaneous coronary artery dissection as a cause of MI in young women.",
+      "topics": [
+       "womens_equity",
+       "interventional"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 158,
+      "reposts": 0,
+      "replies": 10,
+      "engagement": 188,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7529152411987533824",
+      "kol": "Deepak Bhatt",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-cardiovascular-shock-activity-7529152411987533824-sYo7",
+      "created_at": "2026-11-19",
+      "is_repost": false,
+      "text": "Beautiful summary of the DAPT-SHOCK-AMI trial, with the main results in The Lancet and the imaging substudy in Circulation. #cardiology #cardiovascular #shock",
+      "summary": "Bhatt praises DAPT-SHOCK-AMI summary; main results in Lancet, imaging substudy in Circulation.",
+      "topics": [
+       "interventional",
+       "antithrombotic"
+      ],
+      "trials": [
+       "DAPT-SHOCK-AMI"
+      ],
+      "stance": "supportive",
+      "likes": 22,
+      "reposts": 0,
+      "replies": 1,
+      "engagement": 25,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2txiqgsxf2v",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2txiqgsxf2v",
+      "created_at": "2026-11-21",
+      "is_repost": false,
+      "text": "Can stent-retriever thrombectomy help in #STEMI with large thrombus burden? In the NATURE superiority trial (156 pts, \u22648 h from symptom onset), adding it before PCI reduced infarct size on #whyCMR vs PCI alone. #JACC https://bit.ly/4gvTGfY",
+      "summary": "NATURE trial: adding stent-retriever thrombectomy before PCI reduced infarct size in large-thrombus STEMI.",
+      "topics": [
+       "interventional",
+       "cac_ccta"
+      ],
+      "trials": [
+       "NATURE"
+      ],
+      "stance": "supportive",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 4,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "ckm_diabetes",
+    "label": "CKM, diabetes & kidney",
+    "group": "Cardiometabolic",
+    "posts": 3,
+    "posts_prev": 1,
+    "kols": [
+     "C. Michael Gibson",
+     "Deepak Bhatt",
+     "Salim Virani"
+    ],
+    "n_kols": 3,
+    "share": 8.1,
+    "share_prev": 1.7,
+    "delta": 6.4,
+    "history": [
+     0.0,
+     2.7,
+     0.0,
+     0.0,
+     0.0,
+     1.6,
+     1.7,
+     8.1
+    ],
+    "top_posts": [
+     {
+      "id": "li:7528715250548961281",
+      "kol": "Salim Virani",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/salim-s-virani_another-important-milestone-for-lifecard-activity-7528715250548961281-2B9d",
+      "created_at": "2026-11-18",
+      "is_repost": false,
+      "text": "Another important milestone for LIFECARD: 1,600 FibroScan assessments completed across our study cohorts! As the study progresses, we are expanding our assessments to look more closely at the interconnected factors that shape cardiovascular-kidney-metabolic health. FibroScan is a quick, painless, non-invasive test that helps assess liver health by measuring liver stiffness and fat. It allows us to",
+      "summary": "LIFECARD reaches 1,600 FibroScan liver assessments in a 4,200-person youth-adult cardiovascular-kidney-metabolic cohort study.",
+      "topics": [
+       "ckm_diabetes",
+       "global_health",
+       "cac_ccta"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 67,
+      "reposts": 0,
+      "replies": 11,
+      "engagement": 100,
+      "region": "Asia-Pacific",
+      "industry": false
+     },
+     {
+      "id": "li:7529535257889665025",
+      "kol": "Deepak Bhatt",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-prevention-cardiovascular-activity-7529535257889665025-BSui",
+      "created_at": "2026-11-20",
+      "is_repost": false,
+      "text": "Tune in to our broad-ranging discussion on trials from the recent American Heart Association meeting, trends in #cardiology and #prevention , and a variety of other related topics. #cardiovascular #diabetes #obesity",
+      "summary": "Bhatt promotes a discussion of AHA trials, cardiology prevention trends, diabetes and obesity.",
+      "topics": [
+       "incretins_obesity",
+       "ckm_diabetes"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 19,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 19,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "li:7528932882275450880",
+      "kol": "C. Michael Gibson",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/cmichaelgibson_intensive-ldl-c-lowering-reduces-cardiovascular-activity-7528932882275450880-cMuS",
+      "created_at": "2026-11-18",
+      "is_repost": false,
+      "text": "Intensive LDL-C lowering reduces cardiovascular risk in patients with impaired kidney function: Evolocumab reduced the risk of 3-point MACE by 39% and 4-point MACE by 23% in patients with reduced eGFR with NNTs of 20-25 in the Vesalius CV trial. Dr. Jan Cornel and I discuss the findings. Watch video here: https://clinicaltrialresults.org/wp-content/uploads/2026/11/Cornel.mp4",
+      "summary": "VESALIUS-CV: evolocumab cut MACE in reduced-eGFR patients; video discussion with Dr. Jan Cornel.",
+      "topics": [
+       "ldl_nonstatin",
+       "ckm_diabetes"
+      ],
+      "trials": [
+       "VESALIUS-CV"
+      ],
+      "stance": "supportive",
+      "likes": 13,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 13,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "lpa",
+    "label": "Lp(a)",
+    "group": "Lipids",
+    "posts": 2,
+    "posts_prev": 2,
+    "kols": [
+     "Kausik Ray"
+    ],
+    "n_kols": 1,
+    "share": 7.7,
+    "share_prev": 4.3,
+    "delta": 3.4,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     9.6,
+     4.3,
+     7.7
+    ],
+    "top_posts": [
+     {
+      "id": "li:7529837422461988864",
+      "kol": "Kausik Ray",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_the-clinical-relevance-of-lipoproteina-activity-7529837422461988864-2PKy",
+      "created_at": "2026-11-21",
+      "is_repost": false,
+      "text": "Our thoughts published last week on the Horizon trial and implications for other theapies and testing. #EAS statement https://lnkd.in/dWzpesCY",
+      "summary": "Kausik Ray shares EAS statement on Lp(a)HORIZON trial and implications for therapies and testing.",
+      "topics": [
+       "lpa",
+       "trial_methods"
+      ],
+      "trials": [
+       "HORIZON"
+      ],
+      "stance": "neutral",
+      "likes": 52,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 52,
+      "region": "Europe",
+      "industry": false
+     },
+     {
+      "id": "li:7530687031656615936",
+      "kol": "Kausik Ray",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_my-thoughts-on-the-horizon-trial-and-lp-activity-7530687031656615936-UV1S",
+      "created_at": "2026-11-23",
+      "is_repost": false,
+      "text": "My thoughts on the Horizon trial and Lp (a)",
+      "summary": "Shares own thoughts on the HORIZON trial and lipoprotein(a); no details given in post.",
+      "topics": [
+       "lpa"
+      ],
+      "trials": [
+       "HORIZON"
+      ],
+      "stance": "neutral",
+      "likes": 20,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 20,
+      "region": "Europe",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "lifestyle",
+    "label": "Lifestyle & nutrition",
+    "group": "Prevention strategy",
+    "posts": 3,
+    "posts_prev": 0,
+    "kols": [
+     "AHA (American Heart Association)",
+     "Eric Topol"
+    ],
+    "n_kols": 2,
+    "share": 7.1,
+    "share_prev": 0.0,
+    "delta": 7.1,
+    "history": [
+     15.9,
+     0.0,
+     0.0,
+     66.7,
+     0.0,
+     5.2,
+     0.0,
+     7.1
+    ],
+    "top_posts": [
+     {
+      "id": "li:7529950205291679744",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_multiple-randomized-trials-of-a-flu-shot-activity-7529950205291679744-0JLI",
+      "created_at": "2026-11-21",
+      "is_repost": false,
+      "text": "Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American cardiology guidelines. But not implemented in medical practice Links: \u2014New Swedish nationwide registry report https://lnkd.in/gmM5e55t \u2014Largest ran",
+      "summary": "Flu vaccine after MI reduces mortality and CV events in RCTs and Swedish registry, yet underimplemented.",
+      "topics": [
+       "other",
+       "lifestyle"
+      ],
+      "trials": [],
+      "stance": "critical",
+      "likes": 523,
+      "reposts": 0,
+      "replies": 65,
+      "engagement": 718,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2tiog4jg22f",
+      "kol": "Eric Topol",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n2tiog4jg22f",
+      "created_at": "2026-11-21",
+      "is_repost": false,
+      "text": "Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American guidelines.\nBut not implemented in practice.",
+      "summary": "Flu vaccination after heart attack is guideline Class 1 and trial-supported but underused in practice.",
+      "topics": [
+       "other",
+       "lifestyle"
+      ],
+      "trials": [],
+      "stance": "critical",
+      "likes": 208,
+      "reposts": 80,
+      "replies": 4,
+      "engagement": 380,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:zltht6islazza773hecdabjl/app.bsky.feed.post/3n2yzkn3ldy24",
+      "kol": "AHA (American Heart Association)",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/ahascience.bsky.social/post/3n2yzkn3ldy24",
+      "created_at": "2026-11-23",
+      "is_repost": false,
+      "text": "Don't miss your chance to save on #EPILifestyle27 registration. \n \nFrom Mar. 1\u20134 in Boston, connect with clinicians and researchers who are advancing cardiovascular health and explore the latest science. \n\n\ud83d\udcc5 Early Bird deadline: Nov. 30 \n\ud83d\udd17 Register today: https://bit.ly/47iKlnC\n\n ",
+      "summary": "Promotes early-bird registration for AHA EPI/Lifestyle 2027 meeting in Boston, March 1-4.",
+      "topics": [
+       "lifestyle",
+       "other"
+      ],
+      "trials": [],
+      "stance": "not_applicable",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": true,
+    "cooling": false
+   },
+   {
+    "id": "womens_equity",
+    "label": "Women's heart & equity",
+    "group": "Populations",
+    "posts": 2,
+    "posts_prev": 4,
+    "kols": [
+     "Eric Topol",
+     "JACC"
+    ],
+    "n_kols": 2,
+    "share": 6.2,
+    "share_prev": 6.6,
+    "delta": -0.4,
+    "history": [
+     13.8,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     4.0,
+     6.6,
+     6.2
+    ],
+    "top_posts": [
+     {
+      "id": "li:7529600311280459776",
+      "kol": "Eric Topol",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_spontaneous-coronary-artery-dissection-implications-activity-7529600311280459776-ZzpI",
+      "created_at": "2026-11-20",
+      "is_repost": false,
+      "text": "What causes heart attacks in ~25% of women under age 50? This. A comprehensive review of spontaneous coronary artery dissection (SCAD) @TheLancet Jacqueline Saw Peter Clemmensen https://lnkd.in/g3hDsANn",
+      "summary": "Topol highlights a Lancet review of spontaneous coronary artery dissection as a cause of MI in young women.",
+      "topics": [
+       "womens_equity",
+       "interventional"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 158,
+      "reposts": 0,
+      "replies": 10,
+      "engagement": 188,
+      "region": "North America",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2p3lvyuih2l",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2p3lvyuih2l",
+      "created_at": "2026-11-19",
+      "is_repost": false,
+      "text": "A special #JACCAdvances issue puts #ACCHealthEquity in focus, examining women\u2019s cardiovascular health, clinical trials, workforce representation, social vulnerability and more. \ud83d\udd17 Explore the full issue at: https://bit.ly/4t7SDsF\n\n #JACCJournals #HealthEquity",
+      "summary": "JACC Advances special issue on health equity: women's CV health, trials, workforce, social vulnerability.",
+      "topics": [
+       "womens_equity",
+       "trial_methods"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "cac_ccta",
+    "label": "CAC, CCTA & plaque",
+    "group": "Imaging",
+    "posts": 3,
+    "posts_prev": 3,
+    "kols": [
+     "JACC",
+     "Salim Virani"
+    ],
+    "n_kols": 2,
+    "share": 5.6,
+    "share_prev": 4.2,
+    "delta": 1.4,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.2,
+     3.2,
+     4.2,
+     5.6
+    ],
+    "top_posts": [
+     {
+      "id": "li:7528715250548961281",
+      "kol": "Salim Virani",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/salim-s-virani_another-important-milestone-for-lifecard-activity-7528715250548961281-2B9d",
+      "created_at": "2026-11-18",
+      "is_repost": false,
+      "text": "Another important milestone for LIFECARD: 1,600 FibroScan assessments completed across our study cohorts! As the study progresses, we are expanding our assessments to look more closely at the interconnected factors that shape cardiovascular-kidney-metabolic health. FibroScan is a quick, painless, non-invasive test that helps assess liver health by measuring liver stiffness and fat. It allows us to",
+      "summary": "LIFECARD reaches 1,600 FibroScan liver assessments in a 4,200-person youth-adult cardiovascular-kidney-metabolic cohort study.",
+      "topics": [
+       "ckm_diabetes",
+       "global_health",
+       "cac_ccta"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 67,
+      "reposts": 0,
+      "replies": 11,
+      "engagement": 100,
+      "region": "Asia-Pacific",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2txiqgsxf2v",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2txiqgsxf2v",
+      "created_at": "2026-11-21",
+      "is_repost": false,
+      "text": "Can stent-retriever thrombectomy help in #STEMI with large thrombus burden? In the NATURE superiority trial (156 pts, \u22648 h from symptom onset), adding it before PCI reduced infarct size on #whyCMR vs PCI alone. #JACC https://bit.ly/4gvTGfY",
+      "summary": "NATURE trial: adding stent-retriever thrombectomy before PCI reduced infarct size in large-thrombus STEMI.",
+      "topics": [
+       "interventional",
+       "cac_ccta"
+      ],
+      "trials": [
+       "NATURE"
+      ],
+      "stance": "supportive",
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 4,
+      "region": "Global",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2pbahb5lj26",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2pbahb5lj26",
+      "created_at": "2026-11-19",
+      "is_repost": false,
+      "text": "Can CT-derived fractional flow reserve reduce low-yield caths? In FUSION (528 adults w/ stable CAD, 50\u201390% stenosis by CT), at 90 days, 18% in FFR-CT group had angiography show no obstructive disease vs 33% with usual care. Any angiography: 39% vs 51%. Better approach? #JACC https://bit.ly/4AD6Jo9",
+      "summary": "FUSION: CT-FFR reduced negative angiography at 90 days in stable CAD, 18% vs 33%.",
+      "topics": [
+       "cac_ccta",
+       "interventional"
+      ],
+      "trials": [
+       "FUSION"
+      ],
+      "stance": "neutral",
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "engagement": 3,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "incretins_obesity",
+    "label": "GLP-1 / obesity",
+    "group": "Cardiometabolic",
+    "posts": 1,
+    "posts_prev": 1,
+    "kols": [
+     "Deepak Bhatt"
+    ],
+    "n_kols": 1,
+    "share": 3.4,
+    "share_prev": 1.3,
+    "delta": 2.1,
+    "history": [
+     14.9,
+     39.8,
+     0.0,
+     33.3,
+     0.0,
+     1.6,
+     1.3,
+     3.4
+    ],
+    "top_posts": [
+     {
+      "id": "li:7529535257889665025",
+      "kol": "Deepak Bhatt",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-prevention-cardiovascular-activity-7529535257889665025-BSui",
+      "created_at": "2026-11-20",
+      "is_repost": false,
+      "text": "Tune in to our broad-ranging discussion on trials from the recent American Heart Association meeting, trends in #cardiology and #prevention , and a variety of other related topics. #cardiovascular #diabetes #obesity",
+      "summary": "Bhatt promotes a discussion of AHA trials, cardiology prevention trends, diabetes and obesity.",
+      "topics": [
+       "incretins_obesity",
+       "ckm_diabetes"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 19,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 19,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "trial_methods",
+    "label": "Evidence & trial critique",
+    "group": "Methods",
+    "posts": 2,
+    "posts_prev": 2,
+    "kols": [
+     "JACC",
+     "Kausik Ray"
+    ],
+    "n_kols": 2,
+    "share": 2.6,
+    "share_prev": 1.2,
+    "delta": 1.4,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     8.1,
+     1.2,
+     2.6
+    ],
+    "top_posts": [
+     {
+      "id": "li:7529837422461988864",
+      "kol": "Kausik Ray",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_the-clinical-relevance-of-lipoproteina-activity-7529837422461988864-2PKy",
+      "created_at": "2026-11-21",
+      "is_repost": false,
+      "text": "Our thoughts published last week on the Horizon trial and implications for other theapies and testing. #EAS statement https://lnkd.in/dWzpesCY",
+      "summary": "Kausik Ray shares EAS statement on Lp(a)HORIZON trial and implications for therapies and testing.",
+      "topics": [
+       "lpa",
+       "trial_methods"
+      ],
+      "trials": [
+       "HORIZON"
+      ],
+      "stance": "neutral",
+      "likes": 52,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 52,
+      "region": "Europe",
+      "industry": false
+     },
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2p3lvyuih2l",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2p3lvyuih2l",
+      "created_at": "2026-11-19",
+      "is_repost": false,
+      "text": "A special #JACCAdvances issue puts #ACCHealthEquity in focus, examining women\u2019s cardiovascular health, clinical trials, workforce representation, social vulnerability and more. \ud83d\udd17 Explore the full issue at: https://bit.ly/4t7SDsF\n\n #JACCJournals #HealthEquity",
+      "summary": "JACC Advances special issue on health equity: women's CV health, trials, workforce, social vulnerability.",
+      "topics": [
+       "womens_equity",
+       "trial_methods"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "global_health",
+    "label": "Global CV health",
+    "group": "Populations",
+    "posts": 1,
+    "posts_prev": 3,
+    "kols": [
+     "Salim Virani"
+    ],
+    "n_kols": 1,
+    "share": 2.4,
+    "share_prev": 5.7,
+    "delta": -3.3,
+    "history": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     3.7,
+     1.7,
+     5.7,
+     2.4
+    ],
+    "top_posts": [
+     {
+      "id": "li:7528715250548961281",
+      "kol": "Salim Virani",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/salim-s-virani_another-important-milestone-for-lifecard-activity-7528715250548961281-2B9d",
+      "created_at": "2026-11-18",
+      "is_repost": false,
+      "text": "Another important milestone for LIFECARD: 1,600 FibroScan assessments completed across our study cohorts! As the study progresses, we are expanding our assessments to look more closely at the interconnected factors that shape cardiovascular-kidney-metabolic health. FibroScan is a quick, painless, non-invasive test that helps assess liver health by measuring liver stiffness and fat. It allows us to",
+      "summary": "LIFECARD reaches 1,600 FibroScan liver assessments in a 4,200-person youth-adult cardiovascular-kidney-metabolic cohort study.",
+      "topics": [
+       "ckm_diabetes",
+       "global_health",
+       "cac_ccta"
+      ],
+      "trials": [],
+      "stance": "supportive",
+      "likes": 67,
+      "reposts": 0,
+      "replies": 11,
+      "engagement": 100,
+      "region": "Asia-Pacific",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": true
+   },
+   {
+    "id": "antithrombotic",
+    "label": "Antithrombotics",
+    "group": "Secondary prevention",
+    "posts": 1,
+    "posts_prev": 5,
+    "kols": [
+     "Deepak Bhatt"
+    ],
+    "n_kols": 1,
+    "share": 1.8,
+    "share_prev": 5.4,
+    "delta": -3.6,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.5,
+     0.9,
+     5.4,
+     1.8
+    ],
+    "top_posts": [
+     {
+      "id": "li:7529152411987533824",
+      "kol": "Deepak Bhatt",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-cardiovascular-shock-activity-7529152411987533824-sYo7",
+      "created_at": "2026-11-19",
+      "is_repost": false,
+      "text": "Beautiful summary of the DAPT-SHOCK-AMI trial, with the main results in The Lancet and the imaging substudy in Circulation. #cardiology #cardiovascular #shock",
+      "summary": "Bhatt praises DAPT-SHOCK-AMI summary; main results in Lancet, imaging substudy in Circulation.",
+      "topics": [
+       "interventional",
+       "antithrombotic"
+      ],
+      "trials": [
+       "DAPT-SHOCK-AMI"
+      ],
+      "stance": "supportive",
+      "likes": 22,
+      "reposts": 0,
+      "replies": 1,
+      "engagement": 25,
+      "region": "North America",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": true
+   },
+   {
+    "id": "ai_digital",
+    "label": "AI & digital health",
+    "group": "Methods",
+    "posts": 1,
+    "posts_prev": 5,
+    "kols": [
+     "JACC"
+    ],
+    "n_kols": 1,
+    "share": 0.4,
+    "share_prev": 12.8,
+    "delta": -12.3,
+    "history": [
+     6.5,
+     5.5,
+     0.0,
+     0.0,
+     0.0,
+     10.1,
+     12.8,
+     0.4
+    ],
+    "top_posts": [
+     {
+      "id": "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2melpndkn2f",
+      "kol": "JACC",
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2melpndkn2f",
+      "created_at": "2026-11-18",
+      "is_repost": false,
+      "text": "New in #JACCAdvances: Updated competencies for general cardiologists address leadership, operations, professional identity & digital skills, including tech literacy & #AI integration into CV care.\n\nRead the update in #JACCAdvances: https://bit.ly/4eKbNi9\n\n#CardioSky ",
+      "summary": "JACC Advances updates competencies for general cardiologists, including leadership, operations, and AI integration.",
+      "topics": [
+       "other",
+       "ai_digital"
+      ],
+      "trials": [],
+      "stance": "neutral",
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "engagement": 0,
+      "region": "Global",
+      "industry": false
+     }
+    ],
+    "trending": false,
+    "cooling": true
+   },
+   {
+    "id": "hypertension",
+    "label": "Hypertension",
+    "group": "Risk factors",
+    "posts": 0,
+    "posts_prev": 1,
+    "kols": [],
+    "n_kols": 0,
+    "share": 0.0,
+    "share_prev": 2.6,
+    "delta": -2.6,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     5.1,
+     2.6,
+     0.0
+    ],
+    "top_posts": [],
+    "trending": false,
+    "cooling": false
+   },
+   {
+    "id": "risk_scores",
+    "label": "Risk prediction",
+    "group": "Prevention strategy",
+    "posts": 0,
+    "posts_prev": 5,
+    "kols": [],
+    "n_kols": 0,
+    "share": 0.0,
+    "share_prev": 10.5,
+    "delta": -10.5,
+    "history": [
+     18.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     10.5,
+     0.0
+    ],
+    "top_posts": [],
+    "trending": false,
+    "cooling": true
+   },
+   {
+    "id": "heart_failure",
+    "label": "Heart failure",
+    "group": "Other cardiology",
+    "posts": 0,
+    "posts_prev": 3,
+    "kols": [],
+    "n_kols": 0,
+    "share": 0.0,
+    "share_prev": 4.4,
+    "delta": -4.4,
+    "history": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.8,
+     4.4,
+     0.0
+    ],
+    "top_posts": [],
+    "trending": false,
+    "cooling": true
+   }
+  ],
+  "region_topic_labels": [
+   "Other",
+   "LDL & non-statins",
+   "Interventional & physiology",
+   "CKM, diabetes & kidney",
+   "Lp(a)",
+   "Lifestyle & nutrition"
+  ],
+  "regions": [
+   {
+    "region": "North America",
+    "posts": 9,
+    "top": [
+     {
+      "label": "Other",
+      "n": 3
+     },
+     {
+      "label": "LDL & non-statins",
+      "n": 2
+     },
+     {
+      "label": "Interventional & physiology",
+      "n": 1
+     }
+    ],
+    "cells": [
+     3,
+     2,
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "region": "Global",
+    "posts": 8,
+    "top": [
+     {
+      "label": "Other",
+      "n": 3
+     },
+     {
+      "label": "Interventional & physiology",
+      "n": 3
+     },
+     {
+      "label": "Women's heart & equity",
+      "n": 1
+     }
+    ],
+    "cells": [
+     3,
+     0,
+     3,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "region": "Europe",
+    "posts": 3,
+    "top": [
+     {
+      "label": "Lp(a)",
+      "n": 2
+     },
+     {
+      "label": "LDL & non-statins",
+      "n": 1
+     }
+    ],
+    "cells": [
+     0,
+     1,
+     0,
+     0,
+     2,
+     0
+    ]
+   },
+   {
+    "region": "Asia-Pacific",
+    "posts": 1,
+    "top": [
+     {
+      "label": "CKM, diabetes & kidney",
+      "n": 1
+     }
+    ],
+    "cells": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "region": "Latin America",
+    "posts": 1,
+    "top": [
+     {
+      "label": "LDL & non-statins",
+      "n": 1
+     }
+    ],
+    "cells": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "trials": [
+   {
+    "name": "HORIZON",
+    "posts": 2,
+    "prev": 2,
+    "kols": [
+     "Kausik Ray"
+    ],
+    "n_kols": 1,
+    "new": false
+   },
+   {
+    "name": "ORION-4",
+    "posts": 2,
+    "prev": 0,
+    "kols": [
+     "Erin Michos",
+     "Kausik Ray"
+    ],
+    "n_kols": 2,
+    "new": true
+   },
+   {
+    "name": "VESALIUS-CV",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "C. Michael Gibson"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
+    "name": "DAPT-SHOCK-AMI",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "Deepak Bhatt"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
+    "name": "FUSION",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "JACC"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
+    "name": "VICTORY",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "JACC"
+    ],
+    "n_kols": 1,
+    "new": true
+   },
+   {
+    "name": "NATURE",
+    "posts": 1,
+    "prev": 0,
+    "kols": [
+     "JACC"
+    ],
+    "n_kols": 1,
+    "new": true
+   }
+  ],
+  "papers": [],
+  "debates": [
+   {
+    "id": "li:7529950205291679744",
+    "kol": "Eric Topol",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_multiple-randomized-trials-of-a-flu-shot-activity-7529950205291679744-0JLI",
+    "created_at": "2026-11-21",
+    "is_repost": false,
+    "text": "Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American cardiology guidelines. But not implemented in medical practice Links: \u2014New Swedish nationwide registry report https://lnkd.in/gmM5e55t \u2014Largest ran",
+    "summary": "Flu vaccine after MI reduces mortality and CV events in RCTs and Swedish registry, yet underimplemented.",
+    "topics": [
+     "other",
+     "lifestyle"
+    ],
+    "trials": [],
+    "stance": "critical",
+    "likes": 523,
+    "reposts": 0,
+    "replies": 65,
+    "engagement": 718,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2tiog4jg22f",
+    "kol": "Eric Topol",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n2tiog4jg22f",
+    "created_at": "2026-11-21",
+    "is_repost": false,
+    "text": "Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American guidelines.\nBut not implemented in practice.",
+    "summary": "Flu vaccination after heart attack is guideline Class 1 and trial-supported but underused in practice.",
+    "topics": [
+     "other",
+     "lifestyle"
+    ],
+    "trials": [],
+    "stance": "critical",
+    "likes": 208,
+    "reposts": 80,
+    "replies": 4,
+    "engagement": 380,
+    "region": "North America",
+    "industry": false
+   }
+  ],
+  "top_posts": [
+   {
+    "id": "li:7529950205291679744",
+    "kol": "Eric Topol",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_multiple-randomized-trials-of-a-flu-shot-activity-7529950205291679744-0JLI",
+    "created_at": "2026-11-21",
+    "is_repost": false,
+    "text": "Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American cardiology guidelines. But not implemented in medical practice Links: \u2014New Swedish nationwide registry report https://lnkd.in/gmM5e55t \u2014Largest ran",
+    "summary": "Flu vaccine after MI reduces mortality and CV events in RCTs and Swedish registry, yet underimplemented.",
+    "topics": [
+     "other",
+     "lifestyle"
+    ],
+    "trials": [],
+    "stance": "critical",
+    "likes": 523,
+    "reposts": 0,
+    "replies": 65,
+    "engagement": 718,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2tiog4jg22f",
+    "kol": "Eric Topol",
+    "platform": "bluesky",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n2tiog4jg22f",
+    "created_at": "2026-11-21",
+    "is_repost": false,
+    "text": "Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American guidelines.\nBut not implemented in practice.",
+    "summary": "Flu vaccination after heart attack is guideline Class 1 and trial-supported but underused in practice.",
+    "topics": [
+     "other",
+     "lifestyle"
+    ],
+    "trials": [],
+    "stance": "critical",
+    "likes": 208,
+    "reposts": 80,
+    "replies": 4,
+    "engagement": 380,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7528916143055523840",
+    "kol": "Eric Topol",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_exciting-to-see-the-continued-success-of-activity-7528916143055523840-TanQ",
+    "created_at": "2026-11-18",
+    "is_repost": false,
+    "text": "Exciting to see the continued success of vaccines to treat many of the most refractory cancers! Phase 3 Success: Improved Survival \u2014Malignant Melanoma \u2014Acute Myeloid Leukemia (AML) Ongoing Clinical Trials With Encouraging Preliminary Results \u2014Pancreatic Cancer \u2014Triple-Negative Breast Cancer (TNBC) \u2014Non-Small Cell Lung Cancer (NSCLC) \u2014Glioblastoma \u2014Renal Cell Carcinoma (Kidney Cancer) \u2014Ovarian Canc",
+    "summary": "Topol highlights cancer vaccine trial successes and ongoing results across multiple tumor types.",
+    "topics": [
+     "other"
+    ],
+    "trials": [],
+    "stance": "supportive",
+    "likes": 245,
+    "reposts": 0,
+    "replies": 20,
+    "engagement": 305,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7530533272913821697",
+    "kol": "Kausik Ray",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_twice-yearly-leqvio-inclisiran-reduced-activity-7530533272913821697-HXs2",
+    "created_at": "2026-11-23",
+    "is_repost": false,
+    "text": "I started working on the inclisiran development programme over a decade ago. I took it through approvals and it\u2019s now in 1.2 million people worldwide The world\u2019s first and only twice yearly therapy for cholesterol lowering It\u2019s with enormous pride to report the Novartis press release The top line for Orion 4 https://lnkd.in/ev6A4C8K",
+    "summary": "Announces ORION-4 top-line results for inclisiran; notes its use in 1.2 million people.",
+    "topics": [
+     "ldl_nonstatin"
+    ],
+    "trials": [
+     "ORION-4"
+    ],
+    "stance": "supportive",
+    "likes": 260,
+    "reposts": 0,
+    "replies": 9,
+    "engagement": 287,
+    "region": "Europe",
+    "industry": false
+   },
+   {
+    "id": "li:7529600311280459776",
+    "kol": "Eric Topol",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_spontaneous-coronary-artery-dissection-implications-activity-7529600311280459776-ZzpI",
+    "created_at": "2026-11-20",
+    "is_repost": false,
+    "text": "What causes heart attacks in ~25% of women under age 50? This. A comprehensive review of spontaneous coronary artery dissection (SCAD) @TheLancet Jacqueline Saw Peter Clemmensen https://lnkd.in/g3hDsANn",
+    "summary": "Topol highlights a Lancet review of spontaneous coronary artery dissection as a cause of MI in young women.",
+    "topics": [
+     "womens_equity",
+     "interventional"
+    ],
+    "trials": [],
+    "stance": "supportive",
+    "likes": 158,
+    "reposts": 0,
+    "replies": 10,
+    "engagement": 188,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7528715250548961281",
+    "kol": "Salim Virani",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/salim-s-virani_another-important-milestone-for-lifecard-activity-7528715250548961281-2B9d",
+    "created_at": "2026-11-18",
+    "is_repost": false,
+    "text": "Another important milestone for LIFECARD: 1,600 FibroScan assessments completed across our study cohorts! As the study progresses, we are expanding our assessments to look more closely at the interconnected factors that shape cardiovascular-kidney-metabolic health. FibroScan is a quick, painless, non-invasive test that helps assess liver health by measuring liver stiffness and fat. It allows us to",
+    "summary": "LIFECARD reaches 1,600 FibroScan liver assessments in a 4,200-person youth-adult cardiovascular-kidney-metabolic cohort study.",
+    "topics": [
+     "ckm_diabetes",
+     "global_health",
+     "cac_ccta"
+    ],
+    "trials": [],
+    "stance": "supportive",
+    "likes": 67,
+    "reposts": 0,
+    "replies": 11,
+    "engagement": 100,
+    "region": "Asia-Pacific",
+    "industry": false
+   },
+   {
+    "id": "li:7529727297571115008",
+    "kol": "Raul Santos",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/raul-santos-0501733_permedfh-familialhypercholesterolaemia-activity-7529727297571115008-gFe9",
+    "created_at": "2026-11-21",
+    "is_repost": false,
+    "text": "I'm honored to discuss the evolution in the Diagnosis, Risk, and Treatment of Familial Hypercholesterolemia at the Permed FH symposium \ud83d\udcc5 3\u20134 December 2026 | Live online from Sintra, Portugal. Please check the program and register at https://lnkd.in/dktQi4tq #PerMedFH #FamilialHypercholesterolaemia #PersonalisedMedicine FH Europe Foundation CardioGen Einstein Hospital Israelita World Heart Federati",
+    "summary": "Raul Santos announces talk on familial hypercholesterolemia at PerMed FH symposium, December 2026.",
+    "topics": [
+     "ldl_nonstatin",
+     "other"
+    ],
+    "trials": [],
+    "stance": "neutral",
+    "likes": 57,
+    "reposts": 0,
+    "replies": 3,
+    "engagement": 66,
+    "region": "Latin America",
+    "industry": false
+   },
+   {
+    "id": "li:7529837422461988864",
+    "kol": "Kausik Ray",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_the-clinical-relevance-of-lipoproteina-activity-7529837422461988864-2PKy",
+    "created_at": "2026-11-21",
+    "is_repost": false,
+    "text": "Our thoughts published last week on the Horizon trial and implications for other theapies and testing. #EAS statement https://lnkd.in/dWzpesCY",
+    "summary": "Kausik Ray shares EAS statement on Lp(a)HORIZON trial and implications for therapies and testing.",
+    "topics": [
+     "lpa",
+     "trial_methods"
+    ],
+    "trials": [
+     "HORIZON"
+    ],
+    "stance": "neutral",
+    "likes": 52,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 52,
+    "region": "Europe",
+    "industry": false
+   },
+   {
+    "id": "li:7530600612342915072",
+    "kol": "Erin Michos",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/erinmichos_twice-yearly-leqvio-inclisiran-reduced-activity-7530600612342915072-bwFY",
+    "created_at": "2026-11-23",
+    "is_repost": false,
+    "text": "Great news! #Inclisiran reduced cardiovascular events in the first dedicated CVOT for inclisiran to read out. Once again, another study confirming the impact of lowering LDL-C. #cvPrev https://lnkd.in/e5ivrPaD",
+    "summary": "Inclisiran reduced cardiovascular events in first dedicated CVOT; confirms benefit of LDL-C lowering.",
+    "topics": [
+     "ldl_nonstatin"
+    ],
+    "trials": [
+     "ORION-4"
+    ],
+    "stance": "supportive",
+    "likes": 42,
+    "reposts": 0,
+    "replies": 1,
+    "engagement": 45,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7529152411987533824",
+    "kol": "Deepak Bhatt",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-cardiovascular-shock-activity-7529152411987533824-sYo7",
+    "created_at": "2026-11-19",
+    "is_repost": false,
+    "text": "Beautiful summary of the DAPT-SHOCK-AMI trial, with the main results in The Lancet and the imaging substudy in Circulation. #cardiology #cardiovascular #shock",
+    "summary": "Bhatt praises DAPT-SHOCK-AMI summary; main results in Lancet, imaging substudy in Circulation.",
+    "topics": [
+     "interventional",
+     "antithrombotic"
+    ],
+    "trials": [
+     "DAPT-SHOCK-AMI"
+    ],
+    "stance": "supportive",
+    "likes": 22,
+    "reposts": 0,
+    "replies": 1,
+    "engagement": 25,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "id": "li:7530687031656615936",
+    "kol": "Kausik Ray",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_my-thoughts-on-the-horizon-trial-and-lp-activity-7530687031656615936-UV1S",
+    "created_at": "2026-11-23",
+    "is_repost": false,
+    "text": "My thoughts on the Horizon trial and Lp (a)",
+    "summary": "Shares own thoughts on the HORIZON trial and lipoprotein(a); no details given in post.",
+    "topics": [
+     "lpa"
+    ],
+    "trials": [
+     "HORIZON"
+    ],
+    "stance": "neutral",
+    "likes": 20,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 20,
+    "region": "Europe",
+    "industry": false
+   },
+   {
+    "id": "li:7529535257889665025",
+    "kol": "Deepak Bhatt",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-prevention-cardiovascular-activity-7529535257889665025-BSui",
+    "created_at": "2026-11-20",
+    "is_repost": false,
+    "text": "Tune in to our broad-ranging discussion on trials from the recent American Heart Association meeting, trends in #cardiology and #prevention , and a variety of other related topics. #cardiovascular #diabetes #obesity",
+    "summary": "Bhatt promotes a discussion of AHA trials, cardiology prevention trends, diabetes and obesity.",
+    "topics": [
+     "incretins_obesity",
+     "ckm_diabetes"
+    ],
+    "trials": [],
+    "stance": "neutral",
+    "likes": 19,
+    "reposts": 0,
+    "replies": 0,
+    "engagement": 19,
+    "region": "North America",
+    "industry": false
+   }
+  ],
+  "active_kols": [
+   {
+    "name": "JACC",
+    "posts": 8,
+    "engagement": 12,
+    "region": "Global",
+    "industry": false
+   },
+   {
+    "name": "Eric Topol",
+    "posts": 4,
+    "engagement": 1591,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "Kausik Ray",
+    "posts": 3,
+    "engagement": 359,
+    "region": "Europe",
+    "industry": false
+   },
+   {
+    "name": "Deepak Bhatt",
+    "posts": 2,
+    "engagement": 44,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "Salim Virani",
+    "posts": 1,
+    "engagement": 100,
+    "region": "Asia-Pacific",
+    "industry": false
+   },
+   {
+    "name": "C. Michael Gibson",
+    "posts": 1,
+    "engagement": 13,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "Raul Santos",
+    "posts": 1,
+    "engagement": 66,
+    "region": "Latin America",
+    "industry": false
+   },
+   {
+    "name": "Erin Michos",
+    "posts": 1,
+    "engagement": 45,
+    "region": "North America",
+    "industry": false
+   },
+   {
+    "name": "AHA (American Heart Association)",
+    "posts": 1,
+    "engagement": 0,
+    "region": "North America",
+    "industry": false
+   }
+  ],
+  "coverage": {
+   "kols_total": 91,
+   "kols_bluesky": 20,
+   "kols_linkedin": 58,
+   "kols_active": 9,
+   "posts_total": 40,
+   "posts_relevant": 22,
+   "posts_prev": 38,
+   "by_platform": {
+    "bluesky": 17,
+    "linkedin": 23
+   }
+  },
+  "post_links": {
+   "li:7529950205291679744": {
+    "kol": "Eric Topol",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_multiple-randomized-trials-of-a-flu-shot-activity-7529950205291679744-0JLI"
+   },
+   "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2tiog4jg22f": {
+    "kol": "Eric Topol",
+    "url": "https://bsky.app/profile/erictopol.bsky.social/post/3n2tiog4jg22f"
+   },
+   "li:7530533272913821697": {
+    "kol": "Kausik Ray",
+    "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_twice-yearly-leqvio-inclisiran-reduced-activity-7530533272913821697-HXs2"
+   },
+   "li:7529600311280459776": {
+    "kol": "Eric Topol",
+    "url": "https://www.linkedin.com/posts/eric-topol-md-b83a7317_spontaneous-coronary-artery-dissection-implications-activity-7529600311280459776-ZzpI"
+   },
+   "li:7528715250548961281": {
+    "kol": "Salim Virani",
+    "url": "https://www.linkedin.com/posts/salim-s-virani_another-important-milestone-for-lifecard-activity-7528715250548961281-2B9d"
+   },
+   "li:7529837422461988864": {
+    "kol": "Kausik Ray",
+    "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_the-clinical-relevance-of-lipoproteina-activity-7529837422461988864-2PKy"
+   },
+   "li:7530600612342915072": {
+    "kol": "Erin Michos",
+    "url": "https://www.linkedin.com/posts/erinmichos_twice-yearly-leqvio-inclisiran-reduced-activity-7530600612342915072-bwFY"
+   },
+   "li:7529152411987533824": {
+    "kol": "Deepak Bhatt",
+    "url": "https://www.linkedin.com/posts/dlbhattmd_cardiology-cardiovascular-shock-activity-7529152411987533824-sYo7"
+   },
+   "li:7530687031656615936": {
+    "kol": "Kausik Ray",
+    "url": "https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_my-thoughts-on-the-horizon-trial-and-lp-activity-7530687031656615936-UV1S"
+   },
+   "li:7528932882275450880": {
+    "kol": "C. Michael Gibson",
+    "url": "https://www.linkedin.com/posts/cmichaelgibson_intensive-ldl-c-lowering-reduces-cardiovascular-activity-7528932882275450880-cMuS"
+   },
+   "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2txiqgsxf2v": {
+    "kol": "JACC",
+    "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2txiqgsxf2v"
+   },
+   "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2pbahb5lj26": {
+    "kol": "JACC",
+    "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2pbahb5lj26"
+   },
+   "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2rfn7hwtr25": {
+    "kol": "JACC",
+    "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2rfn7hwtr25"
+   },
+   "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2yqqau2nv2c": {
+    "kol": "JACC",
+    "url": "https://bsky.app/profile/jaccjournals.bsky.social/post/3n2yqqau2nv2c"
+   }
+  }
+ },
+ "digest": {
+  "headline": "Novartis' topline press release says ORION-4, the first dedicated inclisiran CVOT to read out, reduced cardiovascular events. Kausik Ray and Erin Michos reacted to it.",
+  "key_points": [
+   {
+    "title": "ORION-4 topline drives LDL conversation",
+    "body": "Erin Michos called it the first dedicated inclisiran CVOT to read out. She said it reduced CV events and again confirmed the value of lowering LDL-C. Kausik Ray shared the Novartis press release on the topline. He said he began working on inclisiran development over a decade ago and that it is now used by 1.2 million people. Treat his post as industry-adjacent, even though he is not flagged as industry. No effect sizes were shared.",
+    "post_ids": [
+     "li:7530600612342915072",
+     "li:7530533272913821697"
+    ]
+   },
+   {
+    "title": "Topol: post-MI flu vaccine is Class 1A but underused",
+    "body": "Eric Topol posted on LinkedIn and Bluesky that several randomized trials show a flu shot after MI reduces mortality and other adverse CV outcomes. He added that a new Swedish nationwide registry report backs this up. He noted the shot is Class 1, Level A in the European and American guidelines but is not implemented in practice. The posts were the week's most engaged, at 718 on LinkedIn and 380 on Bluesky.",
+    "post_ids": [
+     "li:7529950205291679744",
+     "bsky:at://did:plc:6vwezbhj7wwowu4sbur5npjk/app.bsky.feed.post/3n2tiog4jg22f"
+    ]
+   },
+   {
+    "title": "VESALIUS-CV: evolocumab benefit in reduced eGFR",
+    "body": "C. Michael Gibson shared a video discussion with Jan Cornel on VESALIUS-CV. In patients with reduced eGFR, evolocumab lowered 3-point MACE by 39% and 4-point MACE by 23%, with NNTs of 20\u201325. Gibson framed the result as intensive LDL-C lowering reducing risk in impaired kidney function.",
+    "post_ids": [
+     "li:7528932882275450880"
+    ]
+   },
+   {
+    "title": "Interventional trial flow, mostly via JACC",
+    "body": "JACC posts covered four interventional/imaging items. NATURE (156 pts) found stent-retriever thrombectomy before PCI reduced infarct size on CMR in STEMI with large thrombus burden. In FUSION (528 pts), FFR-CT led to fewer angiographies showing no obstructive disease, 18% vs 33%. VICTORY found super-high-pressure noncompliant balloons noninferior to intravascular lithotripsy for stent expansion. A meta-analysis of 28 RCTs (24,634 pts) found IVUS/OCT beat angiography for target lesion failure, MI, stent thrombosis and mortality. Deepak Bhatt also highlighted DAPT-SHOCK-AMI, with the main results in The Lancet and an imaging substudy in Circulation.",
+    "post_ids": [
+     "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2txiqgsxf2v",
+     "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2pbahb5lj26",
+     "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2rfn7hwtr25",
+     "bsky:at://did:plc:4ishw7rkrolkkkvqvkdcdgvl/app.bsky.feed.post/3n2yqqau2nv2c",
+     "li:7529152411987533824"
+    ]
+   },
+   {
+    "title": "Ray on HORIZON and Lp(a)",
+    "body": "Kausik Ray posted twice on the HORIZON trial. He pointed to an EAS statement published the previous week on the trial and its implications for other therapies and testing. He also posted his own thoughts on HORIZON and Lp(a). The posts gave no data. Both drew low engagement (52 and 20).",
+    "post_ids": [
+     "li:7529837422461988864",
+     "li:7530687031656615936"
+    ]
+   },
+   {
+    "title": "SCAD review and LIFECARD CKM milestone",
+    "body": "Eric Topol highlighted a Lancet review of spontaneous coronary artery dissection (SCAD), by Jacqueline Saw and Peter Clemmensen. He said it causes heart attacks in about 25% of women under 50. Salim Virani reported that LIFECARD had completed 1,600 FibroScan assessments. The study is expanding its cardiovascular-kidney-metabolic health assessments.",
+    "post_ids": [
+     "li:7529600311280459776",
+     "li:7528715250548961281"
+    ]
+   }
+  ],
+  "debates": [],
+  "regional": [
+   {
+    "region": "North America",
+    "note": "9 posts. Topics were LDL/non-statins (Michos on ORION-4, Gibson on VESALIUS-CV), Topol's flu-vaccine implementation gap, and Bhatt on DAPT-SHOCK-AMI."
+   },
+   {
+    "region": "Europe",
+    "note": "3 posts, all from Kausik Ray: ORION-4 plus two on HORIZON and Lp(a), including the EAS statement."
+   },
+   {
+    "region": "Global",
+    "note": "8 posts, mostly from JACC. Interventional and physiology trials led (NATURE, FUSION, VICTORY, intracoronary-imaging meta-analysis). JACC also posted on women's health equity and RV dysfunction imaging."
+   },
+   {
+    "region": "Asia-Pacific",
+    "note": "Salim Virani's LIFECARD update on 1,600 FibroScan assessments for CKM health."
+   },
+   {
+    "region": "Latin America",
+    "note": "Raul Santos announced he will speak on familial hypercholesterolemia diagnosis, risk and treatment at the Permed FH symposium."
+   }
+  ],
+  "watch_next": [
+   "Permed FH symposium, Dec 3\u20134, 2026, live online from Sintra, Portugal (Raul Santos speaking).",
+   "Full ORION-4 results, which KOLs have so far discussed only from the topline press release.",
+   "EPI Lifestyle 2027, Mar 1\u20134 in Boston (AHA); early-bird registration closes Nov 30."
+  ],
+  "generated_by": "claude-sonnet-5-5"
+ }
+}

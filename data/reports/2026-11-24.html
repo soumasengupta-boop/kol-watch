@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Cardiology KOL Watch · Nov 17 – Nov 24, 2026</title>
+<style>
+:root{
+  --bg:#f7f6f3; --card:#fff; --ink:#1b1b1f; --muted:#6b6b73; --line:#e6e4df;
+  --accent:#b4232a; --up:#0f7b4f; --down:#9a5a00; --chip:#f0eee9; --link:#1c4f9c;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#111214; --card:#1a1b1f; --ink:#ececf0; --muted:#9a9aa5; --line:#2a2b31;
+         --accent:#ff6b6b; --up:#4fd19a; --down:#f0b25a; --chip:#24252b; --link:#8fb6ff; }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  padding:env(safe-area-inset-top) 0 40px}
+a{color:var(--link);text-decoration:none}
+.wrap{max-width:760px;margin:0 auto;padding:0 14px}
+header{padding:22px 2px 10px}
+.kicker{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700}
+h1{font-size:24px;line-height:1.2;margin:4px 0 6px;letter-spacing:-.01em}
+.meta{color:var(--muted);font-size:13px}
+nav.toc{display:flex;gap:6px;overflow-x:auto;padding:10px 0 4px;margin:0 -14px;padding-left:14px;
+  scrollbar-width:none;position:sticky;top:0;background:var(--bg);z-index:2}
+nav.toc::-webkit-scrollbar{display:none}
+nav.toc a{flex:none;font-size:13px;padding:6px 11px;border-radius:999px;background:var(--chip);color:var(--ink)}
+section{margin-top:18px}
+h2{font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:0 2px 8px;font-weight:700}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 15px}
+.card + .card{margin-top:10px}
+.headline{font-size:18px;line-height:1.35;font-weight:650;margin:0 0 4px}
+.kp{padding:10px 0;border-top:1px solid var(--line)}
+.kp:first-of-type{border-top:0;padding-top:4px}
+.kp b{display:block;font-size:15px;margin-bottom:2px}
+.kp p{margin:0;color:var(--ink)}
+.refs{margin-top:4px;font-size:12px}
+.refs a{margin-right:8px}
+ul.plain{margin:0;padding-left:18px}
+ul.plain li{margin:4px 0}
+.topic{display:grid;grid-template-columns:1fr auto;gap:2px 10px;align-items:center;padding:11px 0;border-top:1px solid var(--line)}
+.topic:first-child{border-top:0;padding-top:2px}
+.tname{font-weight:600}
+.tsub{grid-column:1/2;color:var(--muted);font-size:12.5px}
+.tright{grid-row:1/3;grid-column:2;text-align:right;color:var(--muted)}
+.share{font-variant-numeric:tabular-nums;font-weight:700;color:var(--ink);font-size:15px}
+.delta{font-size:12px;font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)}
+.spark{display:block;margin-left:auto;color:var(--muted)}
+.topic.hot .spark{color:var(--accent)}
+.badge{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  padding:1px 6px;border-radius:5px;margin-left:6px;vertical-align:2px}
+.b-hot{background:var(--accent);color:#fff}
+.b-cool{background:var(--chip);color:var(--down)}
+.b-new{background:var(--chip);color:var(--up)}
+.b-ind{background:var(--chip);color:var(--down)}
+details{margin-top:6px}
+details summary{cursor:pointer;color:var(--link);font-size:13px;list-style:none}
+details summary::-webkit-details-marker{display:none}
+.post{padding:10px 0;border-top:1px solid var(--line)}
+.post:first-child{border-top:0}
+.who{font-weight:600;font-size:14px}
+.when{color:var(--muted);font-size:12px;margin-left:6px}
+.ptext{margin:3px 0 4px;font-size:14px;white-space:pre-wrap;word-wrap:break-word}
+.pfoot{font-size:12px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+.chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:4px}
+.chip{font-size:11.5px;background:var(--chip);border-radius:6px;padding:1px 7px;color:var(--muted)}
+.row{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row .l{min-width:0}
+.row .r{flex:none;color:var(--muted);font-variant-numeric:tabular-nums;font-size:13px;text-align:right}
+.small{font-size:12.5px;color:var(--muted)}
+.trunc{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block}
+table.grid{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-numeric:tabular-nums}
+table.grid th{font-weight:600;color:var(--muted);text-align:center;padding:4px 2px;vertical-align:bottom}
+table.grid th:first-child,table.grid td:first-child{text-align:left}
+table.grid td{padding:6px 2px;text-align:center;border-top:1px solid var(--line)}
+.heat{display:inline-block;min-width:22px;border-radius:5px;padding:1px 4px}
+.scroll-x{overflow-x:auto}
+footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:9px 10px}
+.stat .n{font-size:19px;font-weight:700;font-variant-numeric:tabular-nums}
+.stat .k{font-size:11.5px;color:var(--muted)}
+@media (max-width:420px){.stats{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="kicker">Cardiology KOL Watch</div>
+  <h1>Nov 17 – Nov 24, 2026</h1>
+  <div class="meta">Generated Tue Nov 24, 01:08 · digest: claude-sonnet-5-5 · <a href="#archive">Archive</a></div>
+  <div class="stats">
+    <div class="stat"><div class="n">22</div><div class="k">relevant posts</div></div>
+    <div class="stat"><div class="n">9</div><div class="k">active of 91 tracked</div></div>
+    <div class="stat"><div class="n">7</div><div class="k">trials discussed</div></div>
+    <div class="stat"><div class="n">-42%</div><div class="k">volume vs prior wk</div></div>
+  </div>
+</header>
+
+<nav class="toc">
+  <a href="#digest">Digest</a><a href="#topics">Topics</a><a href="#trials">Trials</a>
+  <a href="#papers">Papers</a><a href="#debates">Debates</a><a href="#top">Top posts</a>
+  <a href="#regions">Regions</a><a href="#kols">KOLs</a>
+</nav>
+
+
+
+<section id="digest">
+  <h2>This week</h2>
+  <div class="card">
+    <p class="headline">Novartis&#39; topline press release says ORION-4, the first dedicated inclisiran CVOT to read out, reduced cardiovascular events. Kausik Ray and Erin Michos reacted to it.</p>
+    
+    <div class="kp"><b>ORION-4 topline drives LDL conversation</b><p>Erin Michos called it the first dedicated inclisiran CVOT to read out. She said it reduced CV events and again confirmed the value of lowering LDL-C. Kausik Ray shared the Novartis press release on the topline. He said he began working on inclisiran development over a decade ago and that it is now used by 1.2 million people. Treat his post as industry-adjacent, even though he is not flagged as industry. No effect sizes were shared.</p>
+      <div class="refs"><a href="https://www.linkedin.com/posts/erinmichos_twice-yearly-leqvio-inclisiran-reduced-activity-7530600612342915072-bwFY">Michos ↗</a><a href="https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_twice-yearly-leqvio-inclisiran-reduced-activity-7530533272913821697-HXs2">Ray ↗</a></div>
+    </div>
+    
+    <div class="kp"><b>Topol: post-MI flu vaccine is Class 1A but underused</b><p>Eric Topol posted on LinkedIn and Bluesky that several randomized trials show a flu shot after MI reduces mortality and other adverse CV outcomes. He added that a new Swedish nationwide registry report backs this up. He noted the shot is Class 1, Level A in the European and American guidelines but is not implemented in practice. The posts were the week&#39;s most engaged, at 718 on LinkedIn and 380 on Bluesky.</p>
+      <div class="refs"><a href="https://www.linkedin.com/posts/eric-topol-md-b83a7317_multiple-randomized-trials-of-a-flu-shot-activity-7529950205291679744-0JLI">Topol ↗</a><a href="https://bsky.app/profile/erictopol.bsky.social/post/3n2tiog4jg22f">Topol ↗</a></div>
+    </div>
+    
+    <div class="kp"><b>VESALIUS-CV: evolocumab benefit in reduced eGFR</b><p>C. Michael Gibson shared a video discussion with Jan Cornel on VESALIUS-CV. In patients with reduced eGFR, evolocumab lowered 3-point MACE by 39% and 4-point MACE by 23%, with NNTs of 20–25. Gibson framed the result as intensive LDL-C lowering reducing risk in impaired kidney function.</p>
+      <div class="refs"><a href="https://www.linkedin.com/posts/cmichaelgibson_intensive-ldl-c-lowering-reduces-cardiovascular-activity-7528932882275450880-cMuS">Gibson ↗</a></div>
+    </div>
+    
+    <div class="kp"><b>Interventional trial flow, mostly via JACC</b><p>JACC posts covered four interventional/imaging items. NATURE (156 pts) found stent-retriever thrombectomy before PCI reduced infarct size on CMR in STEMI with large thrombus burden. In FUSION (528 pts), FFR-CT led to fewer angiographies showing no obstructive disease, 18% vs 33%. VICTORY found super-high-pressure noncompliant balloons noninferior to intravascular lithotripsy for stent expansion. A meta-analysis of 28 RCTs (24,634 pts) found IVUS/OCT beat angiography for target lesion failure, MI, stent thrombosis and mortality. Deepak Bhatt also highlighted DAPT-SHOCK-AMI, with the main results in The Lancet and an imaging substudy in Circulation.</p>
+      <div class="refs"><a href="https://bsky.app/profile/jaccjournals.bsky.social/post/3n2txiqgsxf2v">JACC ↗</a><a href="https://bsky.app/profile/jaccjournals.bsky.social/post/3n2pbahb5lj26">JACC ↗</a><a href="https://bsky.app/profile/jaccjournals.bsky.social/post/3n2rfn7hwtr25">JACC ↗</a><a href="https://bsky.app/profile/jaccjournals.bsky.social/post/3n2yqqau2nv2c">JACC ↗</a></div>
+    </div>
+    
+    <div class="kp"><b>Ray on HORIZON and Lp(a)</b><p>Kausik Ray posted twice on the HORIZON trial. He pointed to an EAS statement published the previous week on the trial and its implications for other therapies and testing. He also posted his own thoughts on HORIZON and Lp(a). The posts gave no data. Both drew low engagement (52 and 20).</p>
+      <div class="refs"><a href="https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_the-clinical-relevance-of-lipoproteina-activity-7529837422461988864-2PKy">Ray ↗</a><a href="https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_my-thoughts-on-the-horizon-trial-and-lp-activity-7530687031656615936-UV1S">Ray ↗</a></div>
+    </div>
+    
+    <div class="kp"><b>SCAD review and LIFECARD CKM milestone</b><p>Eric Topol highlighted a Lancet review of spontaneous coronary artery dissection (SCAD), by Jacqueline Saw and Peter Clemmensen. He said it causes heart attacks in about 25% of women under 50. Salim Virani reported that LIFECARD had completed 1,600 FibroScan assessments. The study is expanding its cardiovascular-kidney-metabolic health assessments.</p>
+      <div class="refs"><a href="https://www.linkedin.com/posts/eric-topol-md-b83a7317_spontaneous-coronary-artery-dissection-implications-activity-7529600311280459776-ZzpI">Topol ↗</a><a href="https://www.linkedin.com/posts/salim-s-virani_another-important-milestone-for-lifecard-activity-7528715250548961281-2B9d">Virani ↗</a></div>
+    </div>
+    
+  </div>
+  
+  <div class="card"><b>Around the world</b>
+    <ul class="plain"><li><b>North America:</b> 9 posts. Topics were LDL/non-statins (Michos on ORION-4, Gibson on VESALIUS-CV), Topol&#39;s flu-vaccine implementation gap, and Bhatt on DAPT-SHOCK-AMI.</li><li><b>Europe:</b> 3 posts, all from Kausik Ray: ORION-4 plus two on HORIZON and Lp(a), including the EAS statement.</li><li><b>Global:</b> 8 posts, mostly from JACC. Interventional and physiology trials led (NATURE, FUSION, VICTORY, intracoronary-imaging meta-analysis). JACC also posted on women&#39;s health equity and RV dysfunction imaging.</li><li><b>Asia-Pacific:</b> Salim Virani&#39;s LIFECARD update on 1,600 FibroScan assessments for CKM health.</li><li><b>Latin America:</b> Raul Santos announced he will speak on familial hypercholesterolemia diagnosis, risk and treatment at the Permed FH symposium.</li></ul></div>
+  
+  
+  <div class="card"><b>Watch next</b><ul class="plain"><li>Permed FH symposium, Dec 3–4, 2026, live online from Sintra, Portugal (Raul Santos speaking).</li><li>Full ORION-4 results, which KOLs have so far discussed only from the topline press release.</li><li>EPI Lifestyle 2027, Mar 1–4 in Boston (AHA); early-bird registration closes Nov 30.</li></ul></div>
+  
+</section>
+
+<section id="topics">
+  <h2>Topic share · 8-week trend</h2>
+  <div class="card">
+  
+    <div class="topic">
+      <div class="tname">Other<span class="badge b-cool">cooling</span></div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,14.4 L13.7,9.1 L27.4,24.0 L41.1,24.0 L54.9,2.0 L68.6,15.4 L82.3,14.2 L96.0,15.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="15.6" r="2.4" fill="currentColor"/></svg>
+        <span class="share">26.0%</span>
+        <span class="delta down">-4.4</span></div>
+      <div class="tsub">9 posts · 4 KOLs · AHA, Topol, JACC +1</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/eric-topol-md-b83a7317_multiple-randomized-trials-of-a-flu-shot-activity-7529950205291679744-0JLI">Eric Topol</a><span class="when">linkedin · 2026-11-21</span></div>
+  <div class="ptext">Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American cardiology guidelines. But not implemented in medical practice...</div>
+  <div class="pfoot"><span>♥ 523</span><span>↻ 0</span><span>💬 65</span><span class="down">critical</span></div>
+  <div class="chips"><span class="chip">Other</span><span class="chip">Lifestyle &amp; nutrition</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://bsky.app/profile/erictopol.bsky.social/post/3n2tiog4jg22f">Eric Topol</a><span class="when">bluesky · 2026-11-21</span></div>
+  <div class="ptext">Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American guidelines.
+But not implemented in practice.</div>
+  <div class="pfoot"><span>♥ 208</span><span>↻ 80</span><span>💬 4</span><span class="down">critical</span></div>
+  <div class="chips"><span class="chip">Other</span><span class="chip">Lifestyle &amp; nutrition</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/eric-topol-md-b83a7317_exciting-to-see-the-continued-success-of-activity-7528916143055523840-TanQ">Eric Topol</a><span class="when">linkedin · 2026-11-18</span></div>
+  <div class="ptext">Exciting to see the continued success of vaccines to treat many of the most refractory cancers! Phase 3 Success: Improved Survival —Malignant Melanoma —Acute Myeloid Leukemia (AML) Ongoing Clinical Trials With Encouraging Preliminary Results —Pancreatic Cancer —Triple-Negative Breast Cancer (TNBC) —Non-Small Cell...</div>
+  <div class="pfoot"><span>♥ 245</span><span>↻ 0</span><span>💬 20</span></div>
+  <div class="chips"><span class="chip">Other</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic hot">
+      <div class="tname">LDL &amp; non-statins<span class="badge b-hot">rising</span></div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,24.0 L13.7,24.0 L27.4,24.0 L41.1,24.0 L54.9,8.3 L68.6,14.3 L82.3,18.7 L96.0,2.0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="2.0" r="2.4" fill="currentColor"/></svg>
+        <span class="share">17.4%</span>
+        <span class="delta up">+13.2</span></div>
+      <div class="tsub">4 posts · 4 KOLs · Gibson, Michos, Ray +1</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_twice-yearly-leqvio-inclisiran-reduced-activity-7530533272913821697-HXs2">Kausik Ray</a><span class="when">linkedin · 2026-11-23</span></div>
+  <div class="ptext">I started working on the inclisiran development programme over a decade ago. I took it through approvals and it’s now in 1.2 million people worldwide The world’s first and only twice yearly therapy for cholesterol lowering It’s with enormous pride to report the Novartis press release The top line for Orion 4...</div>
+  <div class="pfoot"><span>♥ 260</span><span>↻ 0</span><span>💬 9</span></div>
+  <div class="chips"><span class="chip">ORION-4</span><span class="chip">LDL &amp; non-statins</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/raul-santos-0501733_permedfh-familialhypercholesterolaemia-activity-7529727297571115008-gFe9">Raul Santos</a><span class="when">linkedin · 2026-11-21</span></div>
+  <div class="ptext">I&#39;m honored to discuss the evolution in the Diagnosis, Risk, and Treatment of Familial Hypercholesterolemia at the Permed FH symposium 📅 3–4 December 2026 | Live online from Sintra, Portugal. Please check the program and register at https://lnkd.in/dktQi4tq #PerMedFH #FamilialHypercholesterolaemia...</div>
+  <div class="pfoot"><span>♥ 57</span><span>↻ 0</span><span>💬 3</span></div>
+  <div class="chips"><span class="chip">LDL &amp; non-statins</span><span class="chip">Other</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/erinmichos_twice-yearly-leqvio-inclisiran-reduced-activity-7530600612342915072-bwFY">Erin Michos</a><span class="when">linkedin · 2026-11-23</span></div>
+  <div class="ptext">Great news! #Inclisiran reduced cardiovascular events in the first dedicated CVOT for inclisiran to read out. Once again, another study confirming the impact of lowering LDL-C. #cvPrev https://lnkd.in/e5ivrPaD</div>
+  <div class="pfoot"><span>♥ 42</span><span>↻ 0</span><span>💬 1</span></div>
+  <div class="chips"><span class="chip">ORION-4</span><span class="chip">LDL &amp; non-statins</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic hot">
+      <div class="tname">Interventional &amp; physiology<span class="badge b-hot">rising</span></div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,24.0 L13.7,13.7 L27.4,24.0 L41.1,24.0 L54.9,2.0 L68.6,9.5 L82.3,15.2 L96.0,2.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="2.8" r="2.4" fill="currentColor"/></svg>
+        <span class="share">11.3%</span>
+        <span class="delta up">+6.6</span></div>
+      <div class="tsub">6 posts · 3 KOLs · Bhatt, Topol, JACC</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/eric-topol-md-b83a7317_spontaneous-coronary-artery-dissection-implications-activity-7529600311280459776-ZzpI">Eric Topol</a><span class="when">linkedin · 2026-11-20</span></div>
+  <div class="ptext">What causes heart attacks in ~25% of women under age 50? This. A comprehensive review of spontaneous coronary artery dissection (SCAD) @TheLancet Jacqueline Saw Peter Clemmensen https://lnkd.in/g3hDsANn</div>
+  <div class="pfoot"><span>♥ 158</span><span>↻ 0</span><span>💬 10</span></div>
+  <div class="chips"><span class="chip">Women&#39;s heart &amp; equity</span><span class="chip">Interventional &amp; physiology</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/dlbhattmd_cardiology-cardiovascular-shock-activity-7529152411987533824-sYo7">Deepak Bhatt</a><span class="when">linkedin · 2026-11-19</span></div>
+  <div class="ptext">Beautiful summary of the DAPT-SHOCK-AMI trial, with the main results in The Lancet and the imaging substudy in Circulation. #cardiology #cardiovascular #shock</div>
+  <div class="pfoot"><span>♥ 22</span><span>↻ 0</span><span>💬 1</span></div>
+  <div class="chips"><span class="chip">DAPT-SHOCK-AMI</span><span class="chip">Interventional &amp; physiology</span><span class="chip">Antithrombotics</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://bsky.app/profile/jaccjournals.bsky.social/post/3n2txiqgsxf2v">JACC</a><span class="when">bluesky · 2026-11-21</span></div>
+  <div class="ptext">Can stent-retriever thrombectomy help in #STEMI with large thrombus burden? In the NATURE superiority trial (156 pts, ≤8 h from symptom onset), adding it before PCI reduced infarct size on #whyCMR vs PCI alone. #JACC https://bit.ly/4gvTGfY</div>
+  <div class="pfoot"><span>♥ 2</span><span>↻ 1</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">NATURE</span><span class="chip">Interventional &amp; physiology</span><span class="chip">CAC, CCTA &amp; plaque</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic hot">
+      <div class="tname">CKM, diabetes &amp; kidney<span class="badge b-hot">rising</span></div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,24.0 L13.7,16.7 L27.4,24.0 L41.1,24.0 L54.9,24.0 L68.6,19.7 L82.3,19.4 L96.0,2.0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="2.0" r="2.4" fill="currentColor"/></svg>
+        <span class="share">8.1%</span>
+        <span class="delta up">+6.4</span></div>
+      <div class="tsub">3 posts · 3 KOLs · Gibson, Bhatt, Virani</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/salim-s-virani_another-important-milestone-for-lifecard-activity-7528715250548961281-2B9d">Salim Virani</a><span class="when">linkedin · 2026-11-18</span></div>
+  <div class="ptext">Another important milestone for LIFECARD: 1,600 FibroScan assessments completed across our study cohorts! As the study progresses, we are expanding our assessments to look more closely at the interconnected factors that shape cardiovascular-kidney-metabolic health. FibroScan is a quick, painless, non-invasive test...</div>
+  <div class="pfoot"><span>♥ 67</span><span>↻ 0</span><span>💬 11</span></div>
+  <div class="chips"><span class="chip">CKM, diabetes &amp; kidney</span><span class="chip">Global CV health</span><span class="chip">CAC, CCTA &amp; plaque</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/dlbhattmd_cardiology-prevention-cardiovascular-activity-7529535257889665025-BSui">Deepak Bhatt</a><span class="when">linkedin · 2026-11-20</span></div>
+  <div class="ptext">Tune in to our broad-ranging discussion on trials from the recent American Heart Association meeting, trends in #cardiology and #prevention , and a variety of other related topics. #cardiovascular #diabetes #obesity</div>
+  <div class="pfoot"><span>♥ 19</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">GLP-1 / obesity</span><span class="chip">CKM, diabetes &amp; kidney</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/cmichaelgibson_intensive-ldl-c-lowering-reduces-cardiovascular-activity-7528932882275450880-cMuS">C. Michael Gibson</a><span class="when">linkedin · 2026-11-18</span></div>
+  <div class="ptext">Intensive LDL-C lowering reduces cardiovascular risk in patients with impaired kidney function: Evolocumab reduced the risk of 3-point MACE by 39% and 4-point MACE by 23% in patients with reduced eGFR with NNTs of 20-25 in the Vesalius CV trial. Dr. Jan Cornel and I discuss the findings. Watch video here:...</div>
+  <div class="pfoot"><span>♥ 13</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">VESALIUS-CV</span><span class="chip">LDL &amp; non-statins</span><span class="chip">CKM, diabetes &amp; kidney</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic">
+      <div class="tname">Lp(a)</div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,24.0 L13.7,24.0 L27.4,24.0 L41.1,24.0 L54.9,24.0 L68.6,2.0 L82.3,14.1 L96.0,6.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="6.4" r="2.4" fill="currentColor"/></svg>
+        <span class="share">7.7%</span>
+        <span class="delta up">+3.4</span></div>
+      <div class="tsub">2 posts · 1 KOLs · Ray</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_the-clinical-relevance-of-lipoproteina-activity-7529837422461988864-2PKy">Kausik Ray</a><span class="when">linkedin · 2026-11-21</span></div>
+  <div class="ptext">Our thoughts published last week on the Horizon trial and implications for other theapies and testing. #EAS statement https://lnkd.in/dWzpesCY</div>
+  <div class="pfoot"><span>♥ 52</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">HORIZON</span><span class="chip">Lp(a)</span><span class="chip">Evidence &amp; trial critique</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_my-thoughts-on-the-horizon-trial-and-lp-activity-7530687031656615936-UV1S">Kausik Ray</a><span class="when">linkedin · 2026-11-23</span></div>
+  <div class="ptext">My thoughts on the Horizon trial and Lp (a)</div>
+  <div class="pfoot"><span>♥ 20</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">HORIZON</span><span class="chip">Lp(a)</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic hot">
+      <div class="tname">Lifestyle &amp; nutrition<span class="badge b-hot">rising</span></div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,18.8 L13.7,24.0 L27.4,24.0 L41.1,2.0 L54.9,24.0 L68.6,22.3 L82.3,24.0 L96.0,21.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="21.7" r="2.4" fill="currentColor"/></svg>
+        <span class="share">7.1%</span>
+        <span class="delta up">+7.1</span></div>
+      <div class="tsub">3 posts · 2 KOLs · AHA, Topol</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/eric-topol-md-b83a7317_multiple-randomized-trials-of-a-flu-shot-activity-7529950205291679744-0JLI">Eric Topol</a><span class="when">linkedin · 2026-11-21</span></div>
+  <div class="ptext">Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American cardiology guidelines. But not implemented in medical practice...</div>
+  <div class="pfoot"><span>♥ 523</span><span>↻ 0</span><span>💬 65</span><span class="down">critical</span></div>
+  <div class="chips"><span class="chip">Other</span><span class="chip">Lifestyle &amp; nutrition</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://bsky.app/profile/erictopol.bsky.social/post/3n2tiog4jg22f">Eric Topol</a><span class="when">bluesky · 2026-11-21</span></div>
+  <div class="ptext">Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American guidelines.
+But not implemented in practice.</div>
+  <div class="pfoot"><span>♥ 208</span><span>↻ 80</span><span>💬 4</span><span class="down">critical</span></div>
+  <div class="chips"><span class="chip">Other</span><span class="chip">Lifestyle &amp; nutrition</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://bsky.app/profile/ahascience.bsky.social/post/3n2yzkn3ldy24">AHA (American Heart Association)</a><span class="when">bluesky · 2026-11-23</span></div>
+  <div class="ptext">Don&#39;t miss your chance to save on #EPILifestyle27 registration. 
+ 
+From Mar. 1–4 in Boston, connect with clinicians and researchers who are advancing cardiovascular health and explore the latest science. 
+
+📅 Early Bird deadline: Nov. 30 
+🔗 Register today: https://bit.ly/47iKlnC
+
+ </div>
+  <div class="pfoot"><span>♥ 0</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">Lifestyle &amp; nutrition</span><span class="chip">Other</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic">
+      <div class="tname">Women&#39;s heart &amp; equity</div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,2.0 L13.7,24.0 L27.4,24.0 L41.1,24.0 L54.9,24.0 L68.6,17.6 L82.3,13.5 L96.0,14.1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="14.1" r="2.4" fill="currentColor"/></svg>
+        <span class="share">6.2%</span>
+        <span class="delta down">-0.4</span></div>
+      <div class="tsub">2 posts · 2 KOLs · Topol, JACC</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/eric-topol-md-b83a7317_spontaneous-coronary-artery-dissection-implications-activity-7529600311280459776-ZzpI">Eric Topol</a><span class="when">linkedin · 2026-11-20</span></div>
+  <div class="ptext">What causes heart attacks in ~25% of women under age 50? This. A comprehensive review of spontaneous coronary artery dissection (SCAD) @TheLancet Jacqueline Saw Peter Clemmensen https://lnkd.in/g3hDsANn</div>
+  <div class="pfoot"><span>♥ 158</span><span>↻ 0</span><span>💬 10</span></div>
+  <div class="chips"><span class="chip">Women&#39;s heart &amp; equity</span><span class="chip">Interventional &amp; physiology</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://bsky.app/profile/jaccjournals.bsky.social/post/3n2p3lvyuih2l">JACC</a><span class="when">bluesky · 2026-11-19</span></div>
+  <div class="ptext">A special #JACCAdvances issue puts #ACCHealthEquity in focus, examining women’s cardiovascular health, clinical trials, workforce representation, social vulnerability and more. 🔗 Explore the full issue at: https://bit.ly/4t7SDsF
+
+ #JACCJournals #HealthEquity</div>
+  <div class="pfoot"><span>♥ 0</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">Women&#39;s heart &amp; equity</span><span class="chip">Evidence &amp; trial critique</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic">
+      <div class="tname">CAC, CCTA &amp; plaque</div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,24.0 L13.7,24.0 L27.4,24.0 L41.1,24.0 L54.9,19.3 L68.6,11.4 L82.3,7.5 L96.0,2.0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="2.0" r="2.4" fill="currentColor"/></svg>
+        <span class="share">5.6%</span>
+        <span class="delta up">+1.4</span></div>
+      <div class="tsub">3 posts · 2 KOLs · JACC, Virani</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/salim-s-virani_another-important-milestone-for-lifecard-activity-7528715250548961281-2B9d">Salim Virani</a><span class="when">linkedin · 2026-11-18</span></div>
+  <div class="ptext">Another important milestone for LIFECARD: 1,600 FibroScan assessments completed across our study cohorts! As the study progresses, we are expanding our assessments to look more closely at the interconnected factors that shape cardiovascular-kidney-metabolic health. FibroScan is a quick, painless, non-invasive test...</div>
+  <div class="pfoot"><span>♥ 67</span><span>↻ 0</span><span>💬 11</span></div>
+  <div class="chips"><span class="chip">CKM, diabetes &amp; kidney</span><span class="chip">Global CV health</span><span class="chip">CAC, CCTA &amp; plaque</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://bsky.app/profile/jaccjournals.bsky.social/post/3n2txiqgsxf2v">JACC</a><span class="when">bluesky · 2026-11-21</span></div>
+  <div class="ptext">Can stent-retriever thrombectomy help in #STEMI with large thrombus burden? In the NATURE superiority trial (156 pts, ≤8 h from symptom onset), adding it before PCI reduced infarct size on #whyCMR vs PCI alone. #JACC https://bit.ly/4gvTGfY</div>
+  <div class="pfoot"><span>♥ 2</span><span>↻ 1</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">NATURE</span><span class="chip">Interventional &amp; physiology</span><span class="chip">CAC, CCTA &amp; plaque</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://bsky.app/profile/jaccjournals.bsky.social/post/3n2pbahb5lj26">JACC</a><span class="when">bluesky · 2026-11-19</span></div>
+  <div class="ptext">Can CT-derived fractional flow reserve reduce low-yield caths? In FUSION (528 adults w/ stable CAD, 50–90% stenosis by CT), at 90 days, 18% in FFR-CT group had angiography show no obstructive disease vs 33% with usual care. Any angiography: 39% vs 51%. Better approach? #JACC https://bit.ly/4AD6Jo9</div>
+  <div class="pfoot"><span>♥ 1</span><span>↻ 1</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">FUSION</span><span class="chip">CAC, CCTA &amp; plaque</span><span class="chip">Interventional &amp; physiology</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic">
+      <div class="tname">GLP-1 / obesity</div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,15.8 L13.7,2.0 L27.4,24.0 L41.1,5.6 L54.9,24.0 L68.6,23.1 L82.3,23.3 L96.0,22.1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="22.1" r="2.4" fill="currentColor"/></svg>
+        <span class="share">3.4%</span>
+        <span class="delta up">+2.1</span></div>
+      <div class="tsub">1 posts · 1 KOLs · Bhatt</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/dlbhattmd_cardiology-prevention-cardiovascular-activity-7529535257889665025-BSui">Deepak Bhatt</a><span class="when">linkedin · 2026-11-20</span></div>
+  <div class="ptext">Tune in to our broad-ranging discussion on trials from the recent American Heart Association meeting, trends in #cardiology and #prevention , and a variety of other related topics. #cardiovascular #diabetes #obesity</div>
+  <div class="pfoot"><span>♥ 19</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">GLP-1 / obesity</span><span class="chip">CKM, diabetes &amp; kidney</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic">
+      <div class="tname">Evidence &amp; trial critique</div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,24.0 L13.7,24.0 L27.4,24.0 L41.1,24.0 L54.9,24.0 L68.6,2.0 L82.3,20.7 L96.0,16.9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="16.9" r="2.4" fill="currentColor"/></svg>
+        <span class="share">2.6%</span>
+        <span class="delta up">+1.4</span></div>
+      <div class="tsub">2 posts · 2 KOLs · JACC, Ray</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_the-clinical-relevance-of-lipoproteina-activity-7529837422461988864-2PKy">Kausik Ray</a><span class="when">linkedin · 2026-11-21</span></div>
+  <div class="ptext">Our thoughts published last week on the Horizon trial and implications for other theapies and testing. #EAS statement https://lnkd.in/dWzpesCY</div>
+  <div class="pfoot"><span>♥ 52</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">HORIZON</span><span class="chip">Lp(a)</span><span class="chip">Evidence &amp; trial critique</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://bsky.app/profile/jaccjournals.bsky.social/post/3n2p3lvyuih2l">JACC</a><span class="when">bluesky · 2026-11-19</span></div>
+  <div class="ptext">A special #JACCAdvances issue puts #ACCHealthEquity in focus, examining women’s cardiovascular health, clinical trials, workforce representation, social vulnerability and more. 🔗 Explore the full issue at: https://bit.ly/4t7SDsF
+
+ #JACCJournals #HealthEquity</div>
+  <div class="pfoot"><span>♥ 0</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">Women&#39;s heart &amp; equity</span><span class="chip">Evidence &amp; trial critique</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic">
+      <div class="tname">Global CV health<span class="badge b-cool">cooling</span></div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,20.1 L13.7,24.0 L27.4,24.0 L41.1,24.0 L54.9,9.7 L68.6,17.4 L82.3,2.0 L96.0,14.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="14.7" r="2.4" fill="currentColor"/></svg>
+        <span class="share">2.4%</span>
+        <span class="delta down">-3.3</span></div>
+      <div class="tsub">1 posts · 1 KOLs · Virani</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/salim-s-virani_another-important-milestone-for-lifecard-activity-7528715250548961281-2B9d">Salim Virani</a><span class="when">linkedin · 2026-11-18</span></div>
+  <div class="ptext">Another important milestone for LIFECARD: 1,600 FibroScan assessments completed across our study cohorts! As the study progresses, we are expanding our assessments to look more closely at the interconnected factors that shape cardiovascular-kidney-metabolic health. FibroScan is a quick, painless, non-invasive test...</div>
+  <div class="pfoot"><span>♥ 67</span><span>↻ 0</span><span>💬 11</span></div>
+  <div class="chips"><span class="chip">CKM, diabetes &amp; kidney</span><span class="chip">Global CV health</span><span class="chip">CAC, CCTA &amp; plaque</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic">
+      <div class="tname">Antithrombotics<span class="badge b-cool">cooling</span></div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,24.0 L13.7,24.0 L27.4,24.0 L41.1,24.0 L54.9,13.8 L68.6,20.3 L82.3,2.0 L96.0,16.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="16.7" r="2.4" fill="currentColor"/></svg>
+        <span class="share">1.8%</span>
+        <span class="delta down">-3.6</span></div>
+      <div class="tsub">1 posts · 1 KOLs · Bhatt</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/dlbhattmd_cardiology-cardiovascular-shock-activity-7529152411987533824-sYo7">Deepak Bhatt</a><span class="when">linkedin · 2026-11-19</span></div>
+  <div class="ptext">Beautiful summary of the DAPT-SHOCK-AMI trial, with the main results in The Lancet and the imaging substudy in Circulation. #cardiology #cardiovascular #shock</div>
+  <div class="pfoot"><span>♥ 22</span><span>↻ 0</span><span>💬 1</span></div>
+  <div class="chips"><span class="chip">DAPT-SHOCK-AMI</span><span class="chip">Interventional &amp; physiology</span><span class="chip">Antithrombotics</span></div>
+</div></details>
+    </div>
+  
+    <div class="topic">
+      <div class="tname">AI &amp; digital health<span class="badge b-cool">cooling</span></div>
+      <div class="tright"><svg class="spark" viewBox="0 0 96 26" width="96" height="26" aria-hidden="true"><path d="M0.0,12.8 L13.7,14.5 L27.4,24.0 L41.1,24.0 L54.9,24.0 L68.6,6.6 L82.3,2.0 L96.0,23.3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><circle cx="96.0" cy="23.3" r="2.4" fill="currentColor"/></svg>
+        <span class="share">0.4%</span>
+        <span class="delta down">-12.3</span></div>
+      <div class="tsub">1 posts · 1 KOLs · JACC</div>
+      <details style="grid-column:1/3"><summary>Top posts ›</summary><div class="post">
+  <div><a class="who" href="https://bsky.app/profile/jaccjournals.bsky.social/post/3n2melpndkn2f">JACC</a><span class="when">bluesky · 2026-11-18</span></div>
+  <div class="ptext">New in #JACCAdvances: Updated competencies for general cardiologists address leadership, operations, professional identity &amp; digital skills, including tech literacy &amp; #AI integration into CV care.
+
+Read the update in #JACCAdvances: https://bit.ly/4eKbNi9
+
+#CardioSky </div>
+  <div class="pfoot"><span>♥ 0</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">Other</span><span class="chip">AI &amp; digital health</span></div>
+</div></details>
+    </div>
+  
+  </div>
+  <div class="small" style="margin:6px 4px">Share = engagement-weighted fraction of the week's relevant posts. Δ in percentage points vs prior week.</div>
+</section>
+
+<section id="trials">
+  <h2>Trials in the conversation</h2>
+  <div class="card">
+  
+    <div class="row"><div class="l"><b>HORIZON</b>
+      <span class="small trunc">Ray</span></div>
+      <div class="r">2 posts<br>1 KOLs</div></div>
+  
+    <div class="row"><div class="l"><b>ORION-4</b><span class="badge b-new">new</span>
+      <span class="small trunc">Michos, Ray</span></div>
+      <div class="r">2 posts<br>2 KOLs</div></div>
+  
+    <div class="row"><div class="l"><b>VESALIUS-CV</b><span class="badge b-new">new</span>
+      <span class="small trunc">Gibson</span></div>
+      <div class="r">1 posts<br>1 KOLs</div></div>
+  
+    <div class="row"><div class="l"><b>DAPT-SHOCK-AMI</b><span class="badge b-new">new</span>
+      <span class="small trunc">Bhatt</span></div>
+      <div class="r">1 posts<br>1 KOLs</div></div>
+  
+    <div class="row"><div class="l"><b>FUSION</b><span class="badge b-new">new</span>
+      <span class="small trunc">JACC</span></div>
+      <div class="r">1 posts<br>1 KOLs</div></div>
+  
+    <div class="row"><div class="l"><b>VICTORY</b><span class="badge b-new">new</span>
+      <span class="small trunc">JACC</span></div>
+      <div class="r">1 posts<br>1 KOLs</div></div>
+  
+    <div class="row"><div class="l"><b>NATURE</b><span class="badge b-new">new</span>
+      <span class="small trunc">JACC</span></div>
+      <div class="r">1 posts<br>1 KOLs</div></div>
+  
+  </div>
+</section>
+
+<section id="papers">
+  <h2>Most-shared papers & sources</h2>
+  <div class="card">
+  <div class="small">No journal links shared this week.</div>
+  </div>
+</section>
+
+<section id="debates">
+  <h2>Debates & pushback</h2>
+  
+  <div class="card"><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/eric-topol-md-b83a7317_multiple-randomized-trials-of-a-flu-shot-activity-7529950205291679744-0JLI">Eric Topol</a><span class="when">linkedin · 2026-11-21</span></div>
+  <div class="ptext">Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American cardiology guidelines. But not implemented in medical practice...</div>
+  <div class="pfoot"><span>♥ 523</span><span>↻ 0</span><span>💬 65</span><span class="down">critical</span></div>
+  <div class="chips"><span class="chip">Other</span><span class="chip">Lifestyle &amp; nutrition</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://bsky.app/profile/erictopol.bsky.social/post/3n2tiog4jg22f">Eric Topol</a><span class="when">bluesky · 2026-11-21</span></div>
+  <div class="ptext">Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American guidelines.
+But not implemented in practice.</div>
+  <div class="pfoot"><span>♥ 208</span><span>↻ 80</span><span>💬 4</span><span class="down">critical</span></div>
+  <div class="chips"><span class="chip">Other</span><span class="chip">Lifestyle &amp; nutrition</span></div>
+</div></div>
+</section>
+
+<section id="top">
+  <h2>Highest-engagement posts</h2>
+  <div class="card"><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/eric-topol-md-b83a7317_multiple-randomized-trials-of-a-flu-shot-activity-7529950205291679744-0JLI">Eric Topol</a><span class="when">linkedin · 2026-11-21</span></div>
+  <div class="ptext">Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American cardiology guidelines. But not implemented in medical practice...</div>
+  <div class="pfoot"><span>♥ 523</span><span>↻ 0</span><span>💬 65</span><span class="down">critical</span></div>
+  <div class="chips"><span class="chip">Other</span><span class="chip">Lifestyle &amp; nutrition</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://bsky.app/profile/erictopol.bsky.social/post/3n2tiog4jg22f">Eric Topol</a><span class="when">bluesky · 2026-11-21</span></div>
+  <div class="ptext">Multiple randomized trials of a flu shot vs placebo after a heart attack show reduction of mortality and other adverse CV outcomes. Backed up by new results of a Swedish nationwide registry. And recommended Class 1, Level A in the European and American guidelines.
+But not implemented in practice.</div>
+  <div class="pfoot"><span>♥ 208</span><span>↻ 80</span><span>💬 4</span><span class="down">critical</span></div>
+  <div class="chips"><span class="chip">Other</span><span class="chip">Lifestyle &amp; nutrition</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/eric-topol-md-b83a7317_exciting-to-see-the-continued-success-of-activity-7528916143055523840-TanQ">Eric Topol</a><span class="when">linkedin · 2026-11-18</span></div>
+  <div class="ptext">Exciting to see the continued success of vaccines to treat many of the most refractory cancers! Phase 3 Success: Improved Survival —Malignant Melanoma —Acute Myeloid Leukemia (AML) Ongoing Clinical Trials With Encouraging Preliminary Results —Pancreatic Cancer —Triple-Negative Breast Cancer (TNBC) —Non-Small Cell...</div>
+  <div class="pfoot"><span>♥ 245</span><span>↻ 0</span><span>💬 20</span></div>
+  <div class="chips"><span class="chip">Other</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_twice-yearly-leqvio-inclisiran-reduced-activity-7530533272913821697-HXs2">Kausik Ray</a><span class="when">linkedin · 2026-11-23</span></div>
+  <div class="ptext">I started working on the inclisiran development programme over a decade ago. I took it through approvals and it’s now in 1.2 million people worldwide The world’s first and only twice yearly therapy for cholesterol lowering It’s with enormous pride to report the Novartis press release The top line for Orion 4...</div>
+  <div class="pfoot"><span>♥ 260</span><span>↻ 0</span><span>💬 9</span></div>
+  <div class="chips"><span class="chip">ORION-4</span><span class="chip">LDL &amp; non-statins</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/eric-topol-md-b83a7317_spontaneous-coronary-artery-dissection-implications-activity-7529600311280459776-ZzpI">Eric Topol</a><span class="when">linkedin · 2026-11-20</span></div>
+  <div class="ptext">What causes heart attacks in ~25% of women under age 50? This. A comprehensive review of spontaneous coronary artery dissection (SCAD) @TheLancet Jacqueline Saw Peter Clemmensen https://lnkd.in/g3hDsANn</div>
+  <div class="pfoot"><span>♥ 158</span><span>↻ 0</span><span>💬 10</span></div>
+  <div class="chips"><span class="chip">Women&#39;s heart &amp; equity</span><span class="chip">Interventional &amp; physiology</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/salim-s-virani_another-important-milestone-for-lifecard-activity-7528715250548961281-2B9d">Salim Virani</a><span class="when">linkedin · 2026-11-18</span></div>
+  <div class="ptext">Another important milestone for LIFECARD: 1,600 FibroScan assessments completed across our study cohorts! As the study progresses, we are expanding our assessments to look more closely at the interconnected factors that shape cardiovascular-kidney-metabolic health. FibroScan is a quick, painless, non-invasive test...</div>
+  <div class="pfoot"><span>♥ 67</span><span>↻ 0</span><span>💬 11</span></div>
+  <div class="chips"><span class="chip">CKM, diabetes &amp; kidney</span><span class="chip">Global CV health</span><span class="chip">CAC, CCTA &amp; plaque</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/raul-santos-0501733_permedfh-familialhypercholesterolaemia-activity-7529727297571115008-gFe9">Raul Santos</a><span class="when">linkedin · 2026-11-21</span></div>
+  <div class="ptext">I&#39;m honored to discuss the evolution in the Diagnosis, Risk, and Treatment of Familial Hypercholesterolemia at the Permed FH symposium 📅 3–4 December 2026 | Live online from Sintra, Portugal. Please check the program and register at https://lnkd.in/dktQi4tq #PerMedFH #FamilialHypercholesterolaemia...</div>
+  <div class="pfoot"><span>♥ 57</span><span>↻ 0</span><span>💬 3</span></div>
+  <div class="chips"><span class="chip">LDL &amp; non-statins</span><span class="chip">Other</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_the-clinical-relevance-of-lipoproteina-activity-7529837422461988864-2PKy">Kausik Ray</a><span class="when">linkedin · 2026-11-21</span></div>
+  <div class="ptext">Our thoughts published last week on the Horizon trial and implications for other theapies and testing. #EAS statement https://lnkd.in/dWzpesCY</div>
+  <div class="pfoot"><span>♥ 52</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">HORIZON</span><span class="chip">Lp(a)</span><span class="chip">Evidence &amp; trial critique</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/erinmichos_twice-yearly-leqvio-inclisiran-reduced-activity-7530600612342915072-bwFY">Erin Michos</a><span class="when">linkedin · 2026-11-23</span></div>
+  <div class="ptext">Great news! #Inclisiran reduced cardiovascular events in the first dedicated CVOT for inclisiran to read out. Once again, another study confirming the impact of lowering LDL-C. #cvPrev https://lnkd.in/e5ivrPaD</div>
+  <div class="pfoot"><span>♥ 42</span><span>↻ 0</span><span>💬 1</span></div>
+  <div class="chips"><span class="chip">ORION-4</span><span class="chip">LDL &amp; non-statins</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/dlbhattmd_cardiology-cardiovascular-shock-activity-7529152411987533824-sYo7">Deepak Bhatt</a><span class="when">linkedin · 2026-11-19</span></div>
+  <div class="ptext">Beautiful summary of the DAPT-SHOCK-AMI trial, with the main results in The Lancet and the imaging substudy in Circulation. #cardiology #cardiovascular #shock</div>
+  <div class="pfoot"><span>♥ 22</span><span>↻ 0</span><span>💬 1</span></div>
+  <div class="chips"><span class="chip">DAPT-SHOCK-AMI</span><span class="chip">Interventional &amp; physiology</span><span class="chip">Antithrombotics</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/kausik-ray-md-fmedsci-19033118_my-thoughts-on-the-horizon-trial-and-lp-activity-7530687031656615936-UV1S">Kausik Ray</a><span class="when">linkedin · 2026-11-23</span></div>
+  <div class="ptext">My thoughts on the Horizon trial and Lp (a)</div>
+  <div class="pfoot"><span>♥ 20</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">HORIZON</span><span class="chip">Lp(a)</span></div>
+</div><div class="post">
+  <div><a class="who" href="https://www.linkedin.com/posts/dlbhattmd_cardiology-prevention-cardiovascular-activity-7529535257889665025-BSui">Deepak Bhatt</a><span class="when">linkedin · 2026-11-20</span></div>
+  <div class="ptext">Tune in to our broad-ranging discussion on trials from the recent American Heart Association meeting, trends in #cardiology and #prevention , and a variety of other related topics. #cardiovascular #diabetes #obesity</div>
+  <div class="pfoot"><span>♥ 19</span><span>↻ 0</span><span>💬 0</span></div>
+  <div class="chips"><span class="chip">GLP-1 / obesity</span><span class="chip">CKM, diabetes &amp; kidney</span></div>
+</div></div>
+</section>
+
+<section id="regions">
+  <h2>By region</h2>
+  <div class="card scroll-x">
+    <table class="grid"><tr><th>Region</th><th>Other</th><th>LDL &amp; non-statins</th><th>Interventional &amp; physiology</th><th>CKM, diabetes &amp; kidney</th><th>Lp(a)</th><th>Lifestyle &amp; nutrition</th><th>All</th></tr>
+    <tr><td>North America</td><td><span class="heat" style="background:color-mix(in srgb, var(--accent) 66%, transparent)">3</span></td><td><span class="heat" style="background:color-mix(in srgb, var(--accent) 44%, transparent)">2</span></td><td><span class="heat" style="background:color-mix(in srgb, var(--accent) 22%, transparent)">1</span></td><td>·</td><td>·</td><td><span class="heat" style="background:color-mix(in srgb, var(--accent) 22%, transparent)">1</span></td><td><b>9</b></td></tr><tr><td>Global</td><td><span class="heat" style="background:color-mix(in srgb, var(--accent) 70%, transparent)">3</span></td><td>·</td><td><span class="heat" style="background:color-mix(in srgb, var(--accent) 70%, transparent)">3</span></td><td>·</td><td>·</td><td>·</td><td><b>8</b></td></tr><tr><td>Europe</td><td>·</td><td><span class="heat" style="background:color-mix(in srgb, var(--accent) 66%, transparent)">1</span></td><td>·</td><td>·</td><td><span class="heat" style="background:color-mix(in srgb, var(--accent) 70%, transparent)">2</span></td><td>·</td><td><b>3</b></td></tr><tr><td>Asia-Pacific</td><td>·</td><td>·</td><td>·</td><td><span class="heat" style="background:color-mix(in srgb, var(--accent) 70%, transparent)">1</span></td><td>·</td><td>·</td><td><b>1</b></td></tr><tr><td>Latin America</td><td>·</td><td><span class="heat" style="background:color-mix(in srgb, var(--accent) 70%, transparent)">1</span></td><td>·</td><td>·</td><td>·</td><td>·</td><td><b>1</b></td></tr>
+    </table>
+    <div class="small" style="margin-top:6px">Primary topic of each post. Cell shading = share of that region's posts.</div>
+  </div>
+</section>
+
+<section id="kols">
+  <h2>Most active KOLs</h2>
+  <div class="card">
+    <div class="row"><div class="l"><b>JACC</b><br><span class="small">Global</span></div>
+    <div class="r">8 posts · 12 eng.</div></div>
+    <div class="row"><div class="l"><b>Eric Topol</b><br><span class="small">North America</span></div>
+    <div class="r">4 posts · 1591 eng.</div></div>
+    <div class="row"><div class="l"><b>Kausik Ray</b><br><span class="small">Europe</span></div>
+    <div class="r">3 posts · 359 eng.</div></div>
+    <div class="row"><div class="l"><b>Deepak Bhatt</b><br><span class="small">North America</span></div>
+    <div class="r">2 posts · 44 eng.</div></div>
+    <div class="row"><div class="l"><b>Salim Virani</b><br><span class="small">Asia-Pacific</span></div>
+    <div class="r">1 posts · 100 eng.</div></div>
+    <div class="row"><div class="l"><b>C. Michael Gibson</b><br><span class="small">North America</span></div>
+    <div class="r">1 posts · 13 eng.</div></div>
+    <div class="row"><div class="l"><b>Raul Santos</b><br><span class="small">Latin America</span></div>
+    <div class="r">1 posts · 66 eng.</div></div>
+    <div class="row"><div class="l"><b>Erin Michos</b><br><span class="small">North America</span></div>
+    <div class="r">1 posts · 45 eng.</div></div>
+    <div class="row"><div class="l"><b>AHA (American Heart Association)</b><br><span class="small">North America</span></div>
+    <div class="r">1 posts · 0 eng.</div></div>
+  </div>
+  <div class="small" style="margin:6px 4px">Coverage: 20 KOLs on Bluesky, 58 on LinkedIn ·
+    17 bluesky posts, 23 linkedin posts.</div>
+</section>
+
+
+<section id="archive">
+  <h2>Archive</h2>
+  <div class="card"><div class="row"><a href="/archive/2026-11-24.html">Nov 17 – Nov 24, 2026</a><span class="r">22 posts</span></div><div class="row"><a href="/archive/2026-11-16.html">Nov 09 – Nov 16, 2026</a><span class="r">38 posts</span></div><div class="row"><a href="/archive/2026-11-09.html">Nov 02 – Nov 09, 2026</a><span class="r">82 posts</span></div></div>
+</section>
+
+
+<footer>Personal research dashboard · public posts only · tags and digest are AI-generated, check sources before relying on them.</footer>
+</div>
+</body>
+</html>

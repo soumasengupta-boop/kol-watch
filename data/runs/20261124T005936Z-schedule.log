@@ -1,0 +1,67 @@
+ANTHROPIC_API_KEY: set
+BRIGHTDATA_API_KEY: set
+RESEND_API_KEY: set
+REPORT_EMAIL_TO: set
+00:59:37 INFO Bluesky: 20 of 91 KOLs have handles
+00:59:37 INFO   Seth Martin                    0 posts
+00:59:37 INFO   Erin Michos                    0 posts
+00:59:37 INFO   Roger Blumenthal               0 posts
+00:59:38 INFO   Martha Gulati                  0 posts
+00:59:38 INFO   Michael Shapiro                0 posts
+00:59:38 INFO   Amit Khera                     0 posts
+00:59:38 INFO   Rohan Khera                    0 posts
+00:59:38 INFO   Eric Topol                     9 posts
+00:59:39 INFO   Harlan Krumholz                0 posts
+00:59:39 INFO   Deepak Bhatt                   0 posts
+00:59:39 INFO   David Maron                    0 posts
+00:59:39 INFO   Gabriel Steg                   0 posts
+00:59:39 INFO   Fausto Pinto                   0 posts
+00:59:39 INFO   Clara Chow                     0 posts
+00:59:39 INFO   Raul Santos                    0 posts
+00:59:40 INFO   AHA (American Heart Association)   1 posts
+00:59:40 INFO   National Lipid Association     0 posts
+00:59:40 INFO   European Atherosclerosis Society   0 posts
+00:59:40 INFO   World Heart Federation         0 posts
+00:59:40 INFO   JACC                           9 posts
+00:59:40 INFO LinkedIn: 58 of 91 KOLs have profile URLs
+00:59:41 INFO   triggered snapshot sd_mwtzm3ck1d7drt3hez
+00:59:41 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:00:01 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:00:22 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:00:42 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:01:02 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:01:22 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:01:42 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:02:03 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:02:23 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:02:43 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:03:03 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:03:23 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:03:43 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:04:04 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:04:24 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:04:44 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:05:04 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:05:24 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:05:45 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:06:05 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:06:25 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:06:45 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:07:06 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:07:26 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:07:46 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: running
+01:08:06 INFO   Bright Data snapshot sd_mwtzm3ck1d7drt3hez: ready
+01:08:08 INFO   188 raw records -> 32 posts in window
+01:08:08 INFO Stored posts: 41 new, 9 updated (engagement refresh)
+01:08:08 INFO Tagging: 261 posts, 195 cached, 66 to tag
+01:08:22 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:08:22 INFO   tagged 25/66
+01:08:33 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:08:33 INFO   tagged 50/66
+01:08:40 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:08:40 INFO   tagged 66/66
+01:08:40 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+01:08:40 INFO Model rejected forced tool_choice; retrying with auto
+01:08:58 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+01:08:58 INFO Report: /home/runner/work/kol-watch/kol-watch/site/index.html  (22 relevant posts, 16 topics)
+01:08:59 INFO Emailed report to souma.sengupta@gmail.com via Resend (id 01a20b19-558a-7117-83f3-affecc570cbe)
